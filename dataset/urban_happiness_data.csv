@@ -1,0 +1,2761 @@
+City,Month,Year,Decibel_Level,Traffic_Density,Green_Space_Area,Air_Quality_Index,Happiness_Score,Cost_of_Living_Index,Healthcare_Index
+Auckland,January,2014,85,Low,45,61,7.2,63,94
+Auckland,February,2014,50,Medium,14,33,7.18,79,92
+Auckland,March,2014,83,Low,35,121,6.94,119,86
+Auckland,April,2014,59,Medium,45,133,8.48,70,87
+Auckland,May,2014,66,Medium,37,127,6.47,61,84
+Auckland,June,2014,51,Medium,54,107,7.78,55,89
+Auckland,July,2014,79,Low,58,40,9.31,130,99
+Auckland,August,2014,68,Medium,18,35,8.46,87,65
+Auckland,September,2014,59,Very High,58,65,9.11,96,70
+Auckland,October,2014,68,Medium,44,119,8.65,59,98
+Auckland,November,2014,85,Low,41,50,7.98,84,100
+Auckland,December,2014,80,Low,51,137,7.7,57,74
+Auckland,January,2015,47,High,61,64,8.45,122,80
+Auckland,February,2015,58,High,60,143,9.04,108,69
+Auckland,March,2015,61,Low,81,98,8.74,124,87
+Auckland,April,2015,82,Medium,38,47,8.15,61,63
+Auckland,May,2015,52,Low,30,131,7.56,126,64
+Auckland,June,2015,69,Medium,69,97,8.0,120,60
+Auckland,July,2015,52,High,78,126,8.34,93,67
+Auckland,August,2015,63,Medium,68,30,10.0,83,92
+Auckland,September,2015,56,Medium,23,141,6.8,114,98
+Auckland,October,2015,57,Low,30,99,8.87,117,60
+Auckland,November,2015,83,Medium,12,44,8.4,89,75
+Auckland,December,2015,48,Low,82,40,9.8,112,64
+Auckland,January,2016,79,High,26,114,6.32,120,70
+Auckland,February,2016,61,Medium,64,57,10.0,75,79
+Auckland,March,2016,70,Very High,57,86,9.66,107,67
+Auckland,April,2016,60,Low,53,32,9.94,79,97
+Auckland,May,2016,59,Low,17,59,6.43,54,81
+Auckland,June,2016,49,Medium,45,115,7.99,119,68
+Auckland,July,2016,81,Medium,41,130,6.53,102,72
+Auckland,August,2016,51,Low,65,75,9.34,109,63
+Auckland,September,2016,51,Low,53,132,9.04,81,72
+Auckland,October,2016,57,Medium,27,84,6.74,109,75
+Auckland,November,2016,49,Medium,80,42,9.54,119,60
+Auckland,December,2016,50,Very High,40,51,8.8,111,73
+Auckland,January,2017,70,Very High,31,78,6.09,99,76
+Auckland,February,2017,74,Medium,81,114,9.4,69,72
+Auckland,March,2017,63,Low,17,104,7.42,57,80
+Auckland,April,2017,48,Low,71,94,10.0,117,70
+Auckland,May,2017,48,Very High,20,138,5.66,126,64
+Auckland,June,2017,60,Medium,82,61,10.0,55,99
+Auckland,July,2017,50,Medium,84,102,9.89,83,73
+Auckland,August,2017,65,Low,60,46,10.0,88,89
+Auckland,September,2017,65,Very High,19,31,8.06,122,66
+Auckland,October,2017,49,Medium,74,63,9.13,94,64
+Auckland,November,2017,60,Medium,30,86,8.68,88,99
+Auckland,December,2017,78,Low,80,68,10.0,63,68
+Auckland,January,2018,61,Low,23,125,6.75,84,78
+Auckland,February,2018,83,Low,53,56,9.07,83,92
+Auckland,March,2018,76,Medium,16,41,7.94,85,62
+Auckland,April,2018,45,Medium,26,111,8.91,70,88
+Auckland,May,2018,80,High,81,31,9.06,69,94
+Auckland,June,2018,47,High,84,100,8.89,66,62
+Auckland,July,2018,64,Medium,15,145,5.35,81,66
+Auckland,August,2018,67,High,62,109,9.04,80,70
+Auckland,September,2018,56,Very High,13,52,8.51,92,86
+Auckland,October,2018,60,Medium,23,78,8.68,110,74
+Auckland,November,2018,57,High,68,74,8.95,79,74
+Auckland,December,2018,46,High,61,72,8.96,58,77
+Auckland,January,2019,67,High,61,116,9.55,118,81
+Auckland,February,2019,46,Low,43,52,9.54,83,62
+Auckland,March,2019,51,Medium,54,123,9.03,105,98
+Auckland,April,2019,77,Low,83,54,9.19,105,60
+Auckland,May,2019,78,Very High,78,117,9.1,75,83
+Auckland,June,2019,72,Low,52,109,7.18,65,79
+Auckland,July,2019,77,Medium,62,71,8.46,87,95
+Auckland,August,2019,53,Low,58,116,9.15,72,99
+Auckland,September,2019,81,Medium,80,136,6.55,86,73
+Auckland,October,2019,72,High,51,89,7.93,77,92
+Auckland,November,2019,75,High,31,114,5.46,115,100
+Auckland,December,2019,84,Medium,40,116,6.19,75,69
+Auckland,January,2020,46,Low,70,108,10.0,59,89
+Auckland,February,2020,71,Very High,83,54,10.0,99,91
+Auckland,March,2020,70,Low,10,144,6.17,63,87
+Auckland,April,2020,59,Low,76,89,8.14,81,67
+Auckland,May,2020,74,Low,69,115,8.33,121,98
+Auckland,June,2020,65,Very High,66,108,9.48,114,87
+Auckland,July,2020,80,Medium,30,125,7.38,107,76
+Auckland,August,2020,60,High,45,128,8.27,112,100
+Auckland,September,2020,60,Medium,19,121,5.9,84,81
+Auckland,October,2020,65,Very High,20,47,6.86,99,69
+Auckland,November,2020,58,Low,62,72,9.43,103,63
+Auckland,December,2020,58,High,59,145,8.53,52,96
+Auckland,January,2021,69,Medium,55,68,9.53,103,94
+Auckland,February,2021,79,High,38,92,6.47,105,91
+Auckland,March,2021,46,Medium,61,122,7.62,109,68
+Auckland,April,2021,84,Medium,60,105,7.97,53,65
+Auckland,May,2021,72,Low,69,53,8.19,98,80
+Auckland,June,2021,58,Medium,53,127,8.98,85,86
+Auckland,July,2021,61,High,70,32,10.0,56,82
+Auckland,August,2021,59,High,15,126,4.9,81,72
+Auckland,September,2021,46,High,40,46,9.22,64,96
+Auckland,October,2021,58,Medium,42,128,6.99,127,98
+Auckland,November,2021,52,High,30,69,7.08,53,79
+Auckland,December,2021,81,High,58,80,9.61,75,64
+Auckland,January,2022,82,High,41,43,8.91,88,98
+Auckland,February,2022,52,High,82,130,7.74,118,87
+Auckland,March,2022,68,Low,53,31,10.0,112,66
+Auckland,April,2022,72,Very High,68,120,7.12,72,93
+Auckland,May,2022,62,High,78,129,8.63,105,97
+Auckland,June,2022,62,Medium,41,136,8.36,85,88
+Auckland,July,2022,60,High,82,108,9.82,93,61
+Auckland,August,2022,76,Very High,33,92,6.34,83,81
+Auckland,September,2022,62,Very High,45,101,6.45,74,65
+Auckland,October,2022,60,High,72,101,9.83,110,91
+Auckland,November,2022,73,High,21,67,6.47,81,79
+Auckland,December,2022,82,Medium,80,97,8.33,120,81
+Auckland,January,2023,67,High,44,69,7.62,65,72
+Auckland,February,2023,65,Low,78,127,9.2,74,73
+Auckland,March,2023,75,Medium,85,127,8.68,86,66
+Auckland,April,2023,57,Medium,56,52,8.9,118,68
+Auckland,May,2023,62,Low,16,100,6.16,66,100
+Auckland,June,2023,76,Low,11,103,5.45,111,88
+Auckland,July,2023,66,Low,16,62,8.74,111,67
+Auckland,August,2023,49,Medium,19,103,7.62,56,69
+Auckland,September,2023,54,High,48,40,10.0,65,95
+Auckland,October,2023,71,High,38,129,6.88,107,88
+Auckland,November,2023,64,Very High,64,69,9.47,57,99
+Auckland,December,2023,51,Very High,36,110,6.84,60,70
+Barcelona,January,2014,60,Low,19,50,6.47,107,98
+Barcelona,February,2014,75,Medium,39,66,8.61,108,64
+Barcelona,March,2014,59,Very High,85,114,10.0,75,87
+Barcelona,April,2014,52,Medium,29,146,5.98,68,64
+Barcelona,May,2014,48,Low,49,106,9.15,122,78
+Barcelona,June,2014,73,Low,48,119,7.06,84,92
+Barcelona,July,2014,79,Medium,20,106,4.93,105,80
+Barcelona,August,2014,83,Medium,21,59,8.56,123,97
+Barcelona,September,2014,46,Very High,44,103,6.94,72,90
+Barcelona,October,2014,78,High,45,53,9.89,105,100
+Barcelona,November,2014,76,Very High,70,74,8.77,91,66
+Barcelona,December,2014,55,Medium,73,66,10.0,101,95
+Barcelona,January,2015,47,Medium,50,62,8.82,101,92
+Barcelona,February,2015,45,High,79,89,9.77,74,93
+Barcelona,March,2015,68,High,73,110,8.51,56,73
+Barcelona,April,2015,62,Medium,46,86,9.4,112,67
+Barcelona,May,2015,46,Very High,40,120,6.8,120,60
+Barcelona,June,2015,80,Medium,38,137,7.62,109,67
+Barcelona,July,2015,54,Medium,47,95,8.98,103,90
+Barcelona,August,2015,75,Low,80,48,9.64,126,92
+Barcelona,September,2015,53,Very High,45,128,8.52,103,81
+Barcelona,October,2015,77,Medium,10,66,7.45,125,97
+Barcelona,November,2015,76,Very High,67,98,8.39,92,95
+Barcelona,December,2015,79,Medium,51,141,5.92,80,96
+Barcelona,January,2016,69,Low,62,35,9.16,110,84
+Barcelona,February,2016,69,Very High,29,93,8.62,66,92
+Barcelona,March,2016,82,Medium,22,141,6.64,62,93
+Barcelona,April,2016,74,Low,28,82,8.37,69,64
+Barcelona,May,2016,75,High,43,73,8.38,100,65
+Barcelona,June,2016,66,Very High,78,78,10.0,130,91
+Barcelona,July,2016,79,Low,18,60,7.54,86,74
+Barcelona,August,2016,50,Medium,22,127,7.24,62,88
+Barcelona,September,2016,55,High,13,35,7.64,57,78
+Barcelona,October,2016,67,Medium,28,61,7.98,122,71
+Barcelona,November,2016,55,Low,58,109,9.04,113,97
+Barcelona,December,2016,54,Low,42,88,7.57,51,89
+Barcelona,January,2017,63,High,30,39,8.36,94,97
+Barcelona,February,2017,64,High,64,118,7.53,88,72
+Barcelona,March,2017,69,Very High,23,60,7.29,95,96
+Barcelona,April,2017,63,Very High,47,32,10.0,100,77
+Barcelona,May,2017,45,Medium,16,146,6.69,113,78
+Barcelona,June,2017,59,High,55,58,9.68,129,76
+Barcelona,July,2017,53,High,15,69,8.5,54,97
+Barcelona,August,2017,68,High,21,146,5.27,103,71
+Barcelona,September,2017,57,Low,79,142,10.0,117,92
+Barcelona,October,2017,62,High,42,146,7.87,111,78
+Barcelona,November,2017,66,High,69,39,8.92,78,85
+Barcelona,December,2017,80,Medium,60,31,8.67,65,89
+Barcelona,January,2018,68,High,43,104,7.24,97,66
+Barcelona,February,2018,59,Medium,81,71,10.0,78,64
+Barcelona,March,2018,85,High,48,113,6.83,67,62
+Barcelona,April,2018,47,Medium,73,44,9.42,118,68
+Barcelona,May,2018,69,Medium,79,83,9.69,69,86
+Barcelona,June,2018,51,High,62,150,9.3,54,83
+Barcelona,July,2018,58,Medium,40,139,6.67,97,94
+Barcelona,August,2018,67,Low,45,54,10.0,108,65
+Barcelona,September,2018,58,High,12,36,8.88,81,68
+Barcelona,October,2018,81,Low,80,56,9.91,79,81
+Barcelona,November,2018,54,High,10,65,8.56,68,68
+Barcelona,December,2018,79,Medium,32,44,8.51,53,68
+Barcelona,January,2019,45,Medium,40,105,7.62,72,76
+Barcelona,February,2019,48,Low,63,97,7.98,58,90
+Barcelona,March,2019,73,High,75,105,7.54,114,74
+Barcelona,April,2019,84,Low,76,68,9.03,53,63
+Barcelona,May,2019,75,High,64,117,6.79,106,64
+Barcelona,June,2019,50,Medium,28,38,7.74,129,100
+Barcelona,July,2019,82,Medium,51,78,9.5,117,78
+Barcelona,August,2019,74,Medium,65,42,10.0,64,95
+Barcelona,September,2019,58,Medium,39,82,7.7,108,85
+Barcelona,October,2019,71,High,50,84,7.63,82,83
+Barcelona,November,2019,54,High,70,38,9.19,60,65
+Barcelona,December,2019,72,Low,57,133,6.35,57,97
+Barcelona,January,2020,80,Medium,25,82,6.52,104,63
+Barcelona,February,2020,63,High,55,43,9.68,77,69
+Barcelona,March,2020,75,Low,23,74,8.23,97,67
+Barcelona,April,2020,62,Medium,64,138,8.12,129,99
+Barcelona,May,2020,80,Low,44,33,7.74,89,81
+Barcelona,June,2020,67,Low,28,102,7.54,58,69
+Barcelona,July,2020,85,Very High,21,125,5.88,98,86
+Barcelona,August,2020,74,Medium,57,69,9.34,122,98
+Barcelona,September,2020,50,Very High,29,50,9.42,56,65
+Barcelona,October,2020,62,Medium,64,92,9.18,103,77
+Barcelona,November,2020,58,High,24,74,7.53,86,97
+Barcelona,December,2020,76,Medium,49,35,8.14,126,63
+Barcelona,January,2021,45,Low,37,128,6.48,82,78
+Barcelona,February,2021,65,Low,73,125,8.26,66,84
+Barcelona,March,2021,79,High,74,101,9.57,95,64
+Barcelona,April,2021,70,Very High,15,85,5.36,59,80
+Barcelona,May,2021,81,Medium,61,120,8.03,87,67
+Barcelona,June,2021,70,Low,51,51,9.82,129,89
+Barcelona,July,2021,68,Low,23,61,7.47,101,93
+Barcelona,August,2021,50,Medium,49,125,7.48,92,70
+Barcelona,September,2021,49,Medium,24,97,7.58,94,82
+Barcelona,October,2021,54,Low,28,62,7.35,127,69
+Barcelona,November,2021,49,Low,73,89,10.0,124,88
+Barcelona,December,2021,81,High,51,140,8.22,90,69
+Barcelona,January,2022,73,Low,66,110,7.66,85,97
+Barcelona,February,2022,48,Medium,19,69,7.83,54,63
+Barcelona,March,2022,68,High,19,112,7.57,61,99
+Barcelona,April,2022,83,Medium,69,104,8.35,55,88
+Barcelona,May,2022,81,High,51,107,7.4,69,63
+Barcelona,June,2022,73,Low,53,121,6.26,72,62
+Barcelona,July,2022,60,High,66,97,8.97,70,83
+Barcelona,August,2022,68,Very High,59,82,9.5,126,63
+Barcelona,September,2022,85,High,18,72,5.51,99,78
+Barcelona,October,2022,61,High,29,72,6.63,68,82
+Barcelona,November,2022,64,Very High,60,46,9.85,60,79
+Barcelona,December,2022,80,Medium,52,134,5.88,117,65
+Barcelona,January,2023,72,Medium,12,76,6.23,77,81
+Barcelona,February,2023,76,Low,27,49,6.55,62,92
+Barcelona,March,2023,79,High,77,34,10.0,129,68
+Barcelona,April,2023,83,Medium,30,53,8.64,129,70
+Barcelona,May,2023,73,Low,56,116,8.39,106,99
+Barcelona,June,2023,63,High,67,59,9.71,89,90
+Barcelona,July,2023,57,Medium,83,86,9.78,86,84
+Barcelona,August,2023,77,Medium,30,134,5.31,127,68
+Barcelona,September,2023,61,Low,71,141,7.8,63,93
+Barcelona,October,2023,52,Medium,30,64,8.21,115,69
+Barcelona,November,2023,72,Low,38,134,6.53,94,61
+Barcelona,December,2023,71,Low,74,77,8.5,60,83
+Berlin,January,2014,59,Low,22,137,7.01,92,69
+Berlin,February,2014,53,Low,70,119,9.82,110,88
+Berlin,March,2014,84,Low,20,32,6.91,69,95
+Berlin,April,2014,83,Medium,24,129,5.25,88,67
+Berlin,May,2014,48,Low,68,38,9.35,113,98
+Berlin,June,2014,79,Low,75,103,7.8,68,78
+Berlin,July,2014,72,Low,55,60,9.05,73,65
+Berlin,August,2014,78,Very High,18,97,6.57,114,95
+Berlin,September,2014,46,Medium,70,35,10.0,97,76
+Berlin,October,2014,46,Medium,18,74,7.08,130,66
+Berlin,November,2014,82,High,52,47,7.31,119,81
+Berlin,December,2014,56,High,69,119,8.64,73,68
+Berlin,January,2015,49,High,68,34,9.95,55,72
+Berlin,February,2015,47,Medium,49,95,8.34,119,90
+Berlin,March,2015,61,Low,34,66,7.78,56,81
+Berlin,April,2015,62,Low,57,85,9.89,106,84
+Berlin,May,2015,66,Very High,73,118,8.57,116,77
+Berlin,June,2015,50,High,20,85,7.91,73,94
+Berlin,July,2015,63,Medium,20,71,7.97,89,88
+Berlin,August,2015,83,High,31,118,6.22,107,62
+Berlin,September,2015,67,High,65,65,9.71,57,64
+Berlin,October,2015,85,Medium,75,132,8.56,70,61
+Berlin,November,2015,54,High,66,34,9.22,80,83
+Berlin,December,2015,68,Medium,82,34,10.0,107,83
+Berlin,January,2016,68,Medium,19,103,5.57,96,85
+Berlin,February,2016,65,High,41,44,7.39,73,91
+Berlin,March,2016,78,Medium,81,45,9.29,83,88
+Berlin,April,2016,58,Very High,46,118,8.99,112,72
+Berlin,May,2016,52,Low,19,87,6.48,106,65
+Berlin,June,2016,65,High,18,100,6.9,88,70
+Berlin,July,2016,85,Low,56,95,6.96,75,68
+Berlin,August,2016,60,High,13,76,7.36,97,89
+Berlin,September,2016,80,Low,21,38,7.11,111,93
+Berlin,October,2016,71,High,83,39,9.29,90,64
+Berlin,November,2016,73,Medium,76,74,8.26,120,100
+Berlin,December,2016,82,Low,26,85,6.89,57,67
+Berlin,January,2017,78,Low,31,50,7.37,78,82
+Berlin,February,2017,78,Very High,20,62,6.31,120,77
+Berlin,March,2017,53,High,78,41,10.0,71,97
+Berlin,April,2017,82,Low,53,137,8.19,55,61
+Berlin,May,2017,50,Low,83,63,10.0,123,86
+Berlin,June,2017,84,High,73,143,7.92,87,79
+Berlin,July,2017,75,Low,61,68,8.69,57,70
+Berlin,August,2017,73,Medium,69,56,8.97,68,80
+Berlin,September,2017,65,High,54,81,7.48,97,92
+Berlin,October,2017,80,Low,40,89,6.29,107,75
+Berlin,November,2017,54,Low,47,79,9.77,103,75
+Berlin,December,2017,55,High,83,122,8.67,70,91
+Berlin,January,2018,77,Medium,49,93,6.36,100,92
+Berlin,February,2018,74,Very High,37,104,6.74,56,78
+Berlin,March,2018,76,Medium,70,66,9.31,63,87
+Berlin,April,2018,53,Very High,56,127,7.82,55,85
+Berlin,May,2018,48,Medium,34,76,8.56,59,84
+Berlin,June,2018,77,Medium,80,65,10.0,129,99
+Berlin,July,2018,52,Low,22,80,7.34,93,95
+Berlin,August,2018,68,High,35,107,7.25,114,62
+Berlin,September,2018,47,Low,52,132,7.95,108,69
+Berlin,October,2018,83,Very High,27,71,8.46,90,70
+Berlin,November,2018,70,Very High,48,105,7.23,115,94
+Berlin,December,2018,76,High,48,90,8.79,97,81
+Berlin,January,2019,52,Very High,84,69,10.0,130,61
+Berlin,February,2019,83,Medium,84,103,7.99,56,97
+Berlin,March,2019,75,Low,58,48,10.0,81,62
+Berlin,April,2019,81,Very High,24,54,6.01,90,86
+Berlin,May,2019,54,Medium,36,82,8.19,128,90
+Berlin,June,2019,48,High,76,56,10.0,111,93
+Berlin,July,2019,69,Medium,32,88,8.69,93,94
+Berlin,August,2019,67,High,43,108,7.5,81,77
+Berlin,September,2019,80,Medium,48,128,6.33,76,91
+Berlin,October,2019,65,Medium,81,149,9.61,85,78
+Berlin,November,2019,52,Medium,79,78,10.0,100,82
+Berlin,December,2019,54,Medium,46,121,6.54,106,76
+Berlin,January,2020,75,Low,78,64,10.0,84,68
+Berlin,February,2020,51,High,85,60,9.9,117,74
+Berlin,March,2020,85,Low,22,82,6.18,110,66
+Berlin,April,2020,53,Low,80,148,7.62,110,90
+Berlin,May,2020,57,High,46,71,8.07,57,65
+Berlin,June,2020,81,Low,14,146,6.47,103,71
+Berlin,July,2020,47,Very High,60,130,8.38,87,62
+Berlin,August,2020,45,Medium,23,148,8.06,86,89
+Berlin,September,2020,79,Medium,27,138,5.96,84,72
+Berlin,October,2020,52,Medium,68,112,8.19,73,60
+Berlin,November,2020,66,High,82,116,9.75,72,99
+Berlin,December,2020,85,Very High,64,95,7.59,101,66
+Berlin,January,2021,56,Very High,71,71,10.0,50,76
+Berlin,February,2021,69,Low,44,72,7.66,123,60
+Berlin,March,2021,61,High,40,37,9.53,109,79
+Berlin,April,2021,55,Medium,74,148,9.54,89,67
+Berlin,May,2021,85,Very High,47,77,8.13,78,68
+Berlin,June,2021,75,Low,57,83,8.98,110,94
+Berlin,July,2021,58,High,20,97,6.96,96,64
+Berlin,August,2021,81,Low,80,145,7.89,123,94
+Berlin,September,2021,54,Low,76,86,8.55,76,97
+Berlin,October,2021,76,Low,75,87,9.91,108,68
+Berlin,November,2021,77,Medium,82,37,10.0,89,61
+Berlin,December,2021,70,Medium,10,125,4.95,59,62
+Berlin,January,2022,72,Medium,18,99,8.06,58,90
+Berlin,February,2022,47,Medium,33,128,6.26,103,83
+Berlin,March,2022,69,Medium,58,78,7.43,119,68
+Berlin,April,2022,67,Low,78,80,9.6,78,60
+Berlin,May,2022,46,Very High,69,116,9.72,104,94
+Berlin,June,2022,69,High,41,88,7.35,85,72
+Berlin,July,2022,52,Low,63,108,9.6,52,75
+Berlin,August,2022,58,Low,14,87,7.37,56,75
+Berlin,September,2022,47,Medium,39,99,7.32,57,68
+Berlin,October,2022,77,Very High,39,134,7.82,123,80
+Berlin,November,2022,81,Medium,51,60,7.82,68,93
+Berlin,December,2022,59,Medium,45,37,9.46,125,71
+Berlin,January,2023,85,High,81,93,7.47,94,84
+Berlin,February,2023,78,Medium,63,82,7.49,98,71
+Berlin,March,2023,79,Medium,38,68,8.86,68,89
+Berlin,April,2023,48,Medium,63,101,9.15,99,75
+Berlin,May,2023,61,Low,20,148,5.86,97,65
+Berlin,June,2023,79,High,34,36,7.58,127,98
+Berlin,July,2023,47,Very High,34,132,8.1,121,73
+Berlin,August,2023,75,Low,52,68,9.84,51,73
+Berlin,September,2023,57,Very High,25,125,8.29,111,75
+Berlin,October,2023,83,High,60,147,6.19,91,78
+Berlin,November,2023,69,Medium,55,69,8.03,115,91
+Berlin,December,2023,74,Low,70,127,9.06,76,83
+Copenhagen,January,2014,65,Medium,82,140,7.69,68,61
+Copenhagen,February,2014,61,Medium,84,104,10.0,87,69
+Copenhagen,March,2014,57,Medium,58,102,9.57,113,95
+Copenhagen,April,2014,66,Medium,72,122,8.89,112,89
+Copenhagen,May,2014,55,High,55,51,8.45,119,91
+Copenhagen,June,2014,56,Very High,79,112,10.0,117,62
+Copenhagen,July,2014,49,Very High,16,127,5.15,67,100
+Copenhagen,August,2014,59,Low,29,31,7.93,108,83
+Copenhagen,September,2014,48,High,71,114,9.08,50,94
+Copenhagen,October,2014,80,Medium,12,97,6.81,118,78
+Copenhagen,November,2014,46,Medium,65,133,9.88,72,66
+Copenhagen,December,2014,51,Medium,40,54,9.35,82,82
+Copenhagen,January,2015,62,High,20,77,8.78,108,96
+Copenhagen,February,2015,60,Very High,38,68,8.91,60,62
+Copenhagen,March,2015,50,Medium,58,100,8.75,51,70
+Copenhagen,April,2015,50,Medium,65,112,9.71,122,66
+Copenhagen,May,2015,78,Very High,39,57,9.28,122,90
+Copenhagen,June,2015,62,Low,19,117,7.84,119,96
+Copenhagen,July,2015,47,Low,50,32,10.0,125,69
+Copenhagen,August,2015,70,Very High,48,50,9.01,122,84
+Copenhagen,September,2015,79,Medium,27,131,7.56,60,92
+Copenhagen,October,2015,67,Low,65,59,10.0,93,98
+Copenhagen,November,2015,84,Very High,60,129,6.78,84,88
+Copenhagen,December,2015,76,Low,80,150,7.55,73,97
+Copenhagen,January,2016,69,Low,47,132,6.41,59,65
+Copenhagen,February,2016,62,Low,29,124,6.49,96,66
+Copenhagen,March,2016,50,Low,49,86,8.32,84,66
+Copenhagen,April,2016,53,Low,65,87,9.44,115,86
+Copenhagen,May,2016,51,Low,55,100,7.45,126,80
+Copenhagen,June,2016,69,Low,62,79,9.67,121,75
+Copenhagen,July,2016,81,Medium,58,51,7.79,88,77
+Copenhagen,August,2016,76,Low,31,85,6.59,88,90
+Copenhagen,September,2016,49,Medium,41,122,8.11,126,99
+Copenhagen,October,2016,57,Medium,27,68,6.53,100,81
+Copenhagen,November,2016,84,Medium,52,86,7.34,126,68
+Copenhagen,December,2016,64,Medium,35,91,7.1,100,80
+Copenhagen,January,2017,63,High,72,103,9.78,91,84
+Copenhagen,February,2017,62,High,60,76,7.86,122,72
+Copenhagen,March,2017,82,Very High,33,117,7.32,53,89
+Copenhagen,April,2017,58,Medium,47,136,8.0,102,91
+Copenhagen,May,2017,53,High,40,62,9.25,104,84
+Copenhagen,June,2017,49,Medium,71,104,8.99,114,86
+Copenhagen,July,2017,79,Low,56,119,8.68,118,98
+Copenhagen,August,2017,85,Very High,23,128,5.05,95,70
+Copenhagen,September,2017,84,Low,61,126,6.89,105,66
+Copenhagen,October,2017,45,Low,38,95,9.01,121,97
+Copenhagen,November,2017,81,Low,57,80,8.14,125,92
+Copenhagen,December,2017,54,Medium,13,91,5.89,103,65
+Copenhagen,January,2018,52,High,28,74,7.52,108,73
+Copenhagen,February,2018,78,Medium,70,42,9.43,107,80
+Copenhagen,March,2018,49,Medium,24,32,9.9,63,70
+Copenhagen,April,2018,60,Medium,80,50,9.89,104,89
+Copenhagen,May,2018,59,High,33,53,8.91,105,85
+Copenhagen,June,2018,46,High,35,87,8.56,99,60
+Copenhagen,July,2018,58,Low,18,103,5.73,118,71
+Copenhagen,August,2018,68,Medium,68,44,9.09,112,93
+Copenhagen,September,2018,85,Medium,59,108,7.33,64,82
+Copenhagen,October,2018,67,High,32,134,7.11,88,99
+Copenhagen,November,2018,82,Low,27,70,6.07,89,67
+Copenhagen,December,2018,56,Medium,28,95,7.21,126,68
+Copenhagen,January,2019,81,Medium,33,92,7.46,72,95
+Copenhagen,February,2019,55,Medium,27,53,7.81,107,99
+Copenhagen,March,2019,48,Very High,11,92,6.07,99,95
+Copenhagen,April,2019,77,High,62,117,7.81,106,91
+Copenhagen,May,2019,55,Low,13,131,7.03,87,62
+Copenhagen,June,2019,62,Low,46,51,9.8,122,91
+Copenhagen,July,2019,80,Medium,83,44,9.34,119,83
+Copenhagen,August,2019,79,High,15,127,6.35,119,73
+Copenhagen,September,2019,72,Low,41,68,9.24,54,88
+Copenhagen,October,2019,61,Medium,21,86,8.39,65,75
+Copenhagen,November,2019,58,High,85,118,8.85,128,100
+Copenhagen,December,2019,72,Low,27,130,5.44,76,63
+Copenhagen,January,2020,81,Medium,45,106,7.37,91,78
+Copenhagen,February,2020,63,Medium,75,145,8.75,62,68
+Copenhagen,March,2020,71,Very High,45,140,7.34,66,75
+Copenhagen,April,2020,54,High,41,127,8.51,100,91
+Copenhagen,May,2020,54,Medium,44,110,7.68,107,64
+Copenhagen,June,2020,85,High,21,81,6.72,85,83
+Copenhagen,July,2020,74,Very High,51,104,6.25,61,89
+Copenhagen,August,2020,85,High,55,138,5.58,118,85
+Copenhagen,September,2020,58,Very High,37,93,7.19,86,81
+Copenhagen,October,2020,80,Medium,82,139,8.06,93,63
+Copenhagen,November,2020,47,Low,68,32,9.54,70,88
+Copenhagen,December,2020,74,Low,64,55,10.0,66,79
+Copenhagen,January,2021,55,Very High,45,41,9.79,82,65
+Copenhagen,February,2021,68,High,31,36,8.17,89,74
+Copenhagen,March,2021,72,High,22,30,7.26,59,68
+Copenhagen,April,2021,82,Low,66,31,8.08,93,67
+Copenhagen,May,2021,72,High,71,39,9.09,61,66
+Copenhagen,June,2021,51,Medium,48,47,9.1,67,69
+Copenhagen,July,2021,49,Medium,11,108,7.26,106,82
+Copenhagen,August,2021,58,High,29,147,6.22,106,73
+Copenhagen,September,2021,50,Very High,27,126,5.93,99,82
+Copenhagen,October,2021,72,Medium,27,61,7.03,60,75
+Copenhagen,November,2021,80,High,46,129,8.18,53,79
+Copenhagen,December,2021,58,Medium,75,54,10.0,87,63
+Copenhagen,January,2022,60,Medium,24,60,7.96,126,64
+Copenhagen,February,2022,78,Very High,11,76,7.88,66,84
+Copenhagen,March,2022,81,Medium,79,117,7.41,110,64
+Copenhagen,April,2022,46,Medium,11,63,6.95,57,85
+Copenhagen,May,2022,77,Medium,74,128,7.84,101,65
+Copenhagen,June,2022,85,Medium,29,65,6.06,60,92
+Copenhagen,July,2022,58,Very High,29,98,6.94,125,100
+Copenhagen,August,2022,49,Medium,65,123,10.0,80,63
+Copenhagen,September,2022,60,Low,65,44,9.78,127,63
+Copenhagen,October,2022,64,High,32,45,7.0,67,60
+Copenhagen,November,2022,55,Medium,54,96,8.64,83,70
+Copenhagen,December,2022,68,Low,44,123,8.42,53,81
+Copenhagen,January,2023,72,Medium,18,63,7.94,123,100
+Copenhagen,February,2023,49,Medium,75,76,8.68,122,70
+Copenhagen,March,2023,68,Low,23,144,6.22,64,74
+Copenhagen,April,2023,77,Low,11,61,5.55,96,84
+Copenhagen,May,2023,54,Low,14,100,7.85,103,74
+Copenhagen,June,2023,65,Low,50,64,9.75,123,83
+Copenhagen,July,2023,52,Medium,16,52,7.21,116,62
+Copenhagen,August,2023,70,Low,69,140,7.21,89,80
+Copenhagen,September,2023,50,Medium,11,77,6.5,122,79
+Copenhagen,October,2023,84,Low,57,105,9.08,75,94
+Copenhagen,November,2023,60,Low,62,33,9.22,94,100
+Copenhagen,December,2023,45,Very High,10,127,6.98,89,66
+Dublin,January,2014,58,Medium,40,83,8.18,57,69
+Dublin,February,2014,62,Low,39,144,7.86,102,83
+Dublin,March,2014,74,Very High,20,104,5.29,67,100
+Dublin,April,2014,70,Low,82,37,10.0,66,75
+Dublin,May,2014,63,Medium,50,148,8.05,91,80
+Dublin,June,2014,73,Medium,19,150,4.68,124,66
+Dublin,July,2014,54,Low,67,89,8.72,65,94
+Dublin,August,2014,67,Very High,36,87,7.11,83,67
+Dublin,September,2014,50,Low,48,135,8.33,127,62
+Dublin,October,2014,58,High,51,48,8.11,81,82
+Dublin,November,2014,70,Medium,48,63,9.52,72,61
+Dublin,December,2014,70,Very High,81,125,8.79,62,89
+Dublin,January,2015,51,High,27,45,7.19,78,68
+Dublin,February,2015,57,High,57,117,8.62,60,97
+Dublin,March,2015,82,Medium,19,32,9.15,75,88
+Dublin,April,2015,53,Low,52,45,8.22,109,63
+Dublin,May,2015,55,Very High,65,135,8.92,113,61
+Dublin,June,2015,69,High,32,75,6.85,73,77
+Dublin,July,2015,62,Medium,29,34,8.96,128,75
+Dublin,August,2015,63,Medium,80,91,8.17,85,84
+Dublin,September,2015,53,Medium,77,61,10.0,119,61
+Dublin,October,2015,69,High,55,91,8.44,112,82
+Dublin,November,2015,81,Medium,59,64,7.69,90,98
+Dublin,December,2015,59,Low,45,37,10.0,110,93
+Dublin,January,2016,67,High,39,50,7.35,80,77
+Dublin,February,2016,79,High,17,127,7.26,78,96
+Dublin,March,2016,69,Medium,32,52,7.38,90,82
+Dublin,April,2016,82,Low,55,102,7.89,122,72
+Dublin,May,2016,76,Medium,32,92,5.77,57,74
+Dublin,June,2016,83,Low,77,91,7.27,128,72
+Dublin,July,2016,53,Medium,32,147,7.66,91,63
+Dublin,August,2016,46,Low,28,129,5.99,117,83
+Dublin,September,2016,49,Medium,60,105,7.63,88,80
+Dublin,October,2016,53,Very High,65,131,8.81,112,80
+Dublin,November,2016,56,High,81,118,10.0,128,82
+Dublin,December,2016,59,High,32,78,7.37,87,68
+Dublin,January,2017,56,High,83,80,10.0,122,62
+Dublin,February,2017,56,High,38,111,7.82,113,69
+Dublin,March,2017,66,High,40,74,9.59,71,100
+Dublin,April,2017,50,High,52,87,7.37,76,75
+Dublin,May,2017,49,Medium,23,122,5.51,99,88
+Dublin,June,2017,71,Very High,62,93,9.64,94,94
+Dublin,July,2017,69,Low,71,130,9.26,78,70
+Dublin,August,2017,73,Low,14,67,5.59,83,66
+Dublin,September,2017,49,Medium,58,50,10.0,120,65
+Dublin,October,2017,66,Medium,71,120,7.05,71,98
+Dublin,November,2017,72,Low,22,72,6.4,74,86
+Dublin,December,2017,80,High,79,63,9.98,88,75
+Dublin,January,2018,51,Low,83,100,10.0,69,63
+Dublin,February,2018,68,Low,21,67,8.43,130,98
+Dublin,March,2018,75,Low,13,56,6.16,87,65
+Dublin,April,2018,75,High,49,130,6.8,112,76
+Dublin,May,2018,50,High,59,53,9.41,98,83
+Dublin,June,2018,56,Medium,43,86,8.22,78,77
+Dublin,July,2018,81,Low,22,40,8.15,119,86
+Dublin,August,2018,82,Low,17,137,5.14,116,86
+Dublin,September,2018,79,High,70,103,9.51,110,79
+Dublin,October,2018,50,Medium,14,94,7.39,116,96
+Dublin,November,2018,84,Low,67,52,10.0,71,73
+Dublin,December,2018,57,Low,64,40,10.0,105,72
+Dublin,January,2019,85,Low,43,70,9.0,58,65
+Dublin,February,2019,69,Medium,80,71,10.0,116,89
+Dublin,March,2019,45,High,85,96,10.0,64,86
+Dublin,April,2019,54,Low,85,104,10.0,62,66
+Dublin,May,2019,81,High,46,141,6.7,94,86
+Dublin,June,2019,61,Medium,72,103,9.32,54,71
+Dublin,July,2019,62,Medium,61,34,9.59,92,75
+Dublin,August,2019,48,High,44,144,7.06,93,79
+Dublin,September,2019,64,Medium,72,139,8.77,62,74
+Dublin,October,2019,53,Medium,66,129,9.45,84,86
+Dublin,November,2019,83,High,34,86,6.28,102,91
+Dublin,December,2019,78,Very High,17,95,7.31,58,79
+Dublin,January,2020,77,Medium,77,142,8.14,72,72
+Dublin,February,2020,57,High,41,34,9.12,96,72
+Dublin,March,2020,62,Medium,69,94,8.71,65,61
+Dublin,April,2020,60,Medium,67,52,10.0,110,97
+Dublin,May,2020,80,Medium,30,137,7.24,61,78
+Dublin,June,2020,46,Medium,30,139,7.26,77,74
+Dublin,July,2020,59,High,44,113,7.46,52,60
+Dublin,August,2020,75,Very High,32,106,7.81,78,76
+Dublin,September,2020,83,High,49,121,8.45,85,87
+Dublin,October,2020,69,Very High,68,62,8.56,88,93
+Dublin,November,2020,84,Medium,23,30,7.83,97,95
+Dublin,December,2020,83,High,48,117,5.91,58,81
+Dublin,January,2021,62,High,45,63,9.15,88,72
+Dublin,February,2021,54,Medium,40,145,5.75,126,85
+Dublin,March,2021,65,High,13,113,6.3,87,76
+Dublin,April,2021,71,Medium,14,104,6.97,123,72
+Dublin,May,2021,66,High,38,117,7.3,110,82
+Dublin,June,2021,77,Medium,31,137,6.66,121,71
+Dublin,July,2021,63,Low,26,124,5.95,121,71
+Dublin,August,2021,66,High,38,75,7.21,89,86
+Dublin,September,2021,66,Medium,84,67,9.93,65,90
+Dublin,October,2021,48,Very High,84,104,10.0,59,90
+Dublin,November,2021,57,Medium,58,97,8.07,56,69
+Dublin,December,2021,53,Very High,53,82,10.0,108,69
+Dublin,January,2022,65,Very High,33,129,5.53,92,100
+Dublin,February,2022,56,Medium,17,30,8.26,76,70
+Dublin,March,2022,81,High,72,130,8.64,61,68
+Dublin,April,2022,84,Medium,64,81,8.21,111,84
+Dublin,May,2022,45,Low,35,123,7.21,51,80
+Dublin,June,2022,78,Low,10,110,6.56,78,82
+Dublin,July,2022,64,Low,59,94,8.83,71,64
+Dublin,August,2022,47,Medium,47,88,9.39,126,93
+Dublin,September,2022,66,Medium,27,73,9.13,112,82
+Dublin,October,2022,57,Low,61,32,9.28,66,73
+Dublin,November,2022,46,Medium,31,45,8.56,54,84
+Dublin,December,2022,85,Medium,78,109,7.04,56,66
+Dublin,January,2023,46,Low,24,83,7.75,65,95
+Dublin,February,2023,61,Medium,29,56,8.8,130,60
+Dublin,March,2023,64,Medium,22,114,6.74,129,98
+Dublin,April,2023,53,Medium,23,95,8.09,65,78
+Dublin,May,2023,52,High,73,55,10.0,83,93
+Dublin,June,2023,57,Medium,62,67,8.41,120,91
+Dublin,July,2023,58,High,71,72,8.86,51,65
+Dublin,August,2023,52,High,73,49,10.0,115,64
+Dublin,September,2023,51,Very High,39,88,9.74,87,76
+Dublin,October,2023,74,Low,32,141,4.86,87,83
+Dublin,November,2023,65,Medium,24,42,9.22,55,60
+Dublin,December,2023,53,High,31,72,7.78,106,99
+Helsinki,January,2014,62,Very High,21,77,8.38,73,67
+Helsinki,February,2014,70,Medium,68,64,10.0,111,86
+Helsinki,March,2014,55,Low,17,150,7.06,63,86
+Helsinki,April,2014,82,Medium,82,116,8.31,128,84
+Helsinki,May,2014,67,High,26,91,8.47,64,86
+Helsinki,June,2014,73,Low,43,113,6.71,117,96
+Helsinki,July,2014,81,Low,53,96,7.84,129,66
+Helsinki,August,2014,72,High,41,91,7.2,99,69
+Helsinki,September,2014,80,Very High,16,31,8.05,70,92
+Helsinki,October,2014,75,Very High,31,39,8.96,91,75
+Helsinki,November,2014,66,Very High,16,94,5.95,98,85
+Helsinki,December,2014,60,Low,66,132,8.42,61,91
+Helsinki,January,2015,73,Medium,73,125,8.69,63,85
+Helsinki,February,2015,71,Low,80,30,10.0,127,99
+Helsinki,March,2015,85,Medium,75,101,7.55,108,81
+Helsinki,April,2015,68,High,38,138,6.58,121,99
+Helsinki,May,2015,83,Medium,56,121,7.19,62,74
+Helsinki,June,2015,45,Medium,47,100,8.6,63,62
+Helsinki,July,2015,55,Medium,62,43,9.23,75,72
+Helsinki,August,2015,52,Very High,60,57,9.57,74,81
+Helsinki,September,2015,51,High,15,148,6.51,125,67
+Helsinki,October,2015,73,Medium,85,94,8.23,113,60
+Helsinki,November,2015,78,High,80,149,7.68,124,90
+Helsinki,December,2015,77,High,32,118,6.85,66,66
+Helsinki,January,2016,69,High,51,94,9.23,103,98
+Helsinki,February,2016,60,Medium,53,67,8.84,67,68
+Helsinki,March,2016,71,High,75,68,10.0,120,80
+Helsinki,April,2016,80,High,35,56,8.25,87,82
+Helsinki,May,2016,53,Very High,32,94,7.94,91,67
+Helsinki,June,2016,67,Medium,84,103,10.0,103,94
+Helsinki,July,2016,63,Very High,64,133,6.55,63,61
+Helsinki,August,2016,69,Low,17,55,6.81,70,78
+Helsinki,September,2016,61,Low,17,118,7.34,76,94
+Helsinki,October,2016,47,Medium,67,43,10.0,121,74
+Helsinki,November,2016,80,Medium,75,130,8.89,86,63
+Helsinki,December,2016,69,Medium,50,100,6.59,82,72
+Helsinki,January,2017,84,Very High,66,136,6.58,97,97
+Helsinki,February,2017,79,High,35,129,7.12,74,78
+Helsinki,March,2017,73,Low,19,53,8.9,115,67
+Helsinki,April,2017,69,Low,45,101,7.0,70,97
+Helsinki,May,2017,61,Low,69,120,9.84,55,69
+Helsinki,June,2017,65,Medium,48,92,9.0,120,82
+Helsinki,July,2017,49,High,50,97,7.75,73,93
+Helsinki,August,2017,49,High,30,83,8.2,101,65
+Helsinki,September,2017,67,Low,37,114,6.69,96,78
+Helsinki,October,2017,58,Very High,77,90,10.0,51,67
+Helsinki,November,2017,67,Medium,41,35,9.48,91,84
+Helsinki,December,2017,52,Medium,79,122,8.51,116,83
+Helsinki,January,2018,77,High,67,92,7.16,74,80
+Helsinki,February,2018,77,Low,22,51,8.96,118,94
+Helsinki,March,2018,45,High,36,115,8.18,77,87
+Helsinki,April,2018,51,Low,65,112,9.78,59,69
+Helsinki,May,2018,46,Medium,52,34,8.78,56,71
+Helsinki,June,2018,61,Medium,83,135,7.97,83,86
+Helsinki,July,2018,69,Medium,61,85,8.12,99,67
+Helsinki,August,2018,79,Low,18,126,6.57,55,64
+Helsinki,September,2018,67,Very High,23,67,8.43,88,98
+Helsinki,October,2018,50,Medium,66,78,9.27,53,90
+Helsinki,November,2018,55,Medium,27,125,6.6,119,78
+Helsinki,December,2018,85,Low,57,31,9.27,121,69
+Helsinki,January,2019,52,Low,83,106,9.32,120,65
+Helsinki,February,2019,64,Low,54,57,8.84,115,69
+Helsinki,March,2019,55,Low,42,54,7.79,122,63
+Helsinki,April,2019,80,Medium,80,39,9.39,58,76
+Helsinki,May,2019,51,Low,84,92,10.0,95,68
+Helsinki,June,2019,60,Low,18,145,5.1,112,88
+Helsinki,July,2019,66,High,49,118,7.87,122,96
+Helsinki,August,2019,68,High,64,51,8.01,81,74
+Helsinki,September,2019,72,Medium,56,47,9.68,92,90
+Helsinki,October,2019,74,Medium,49,92,8.06,72,98
+Helsinki,November,2019,50,High,27,144,6.82,83,100
+Helsinki,December,2019,49,High,12,138,6.27,53,97
+Helsinki,January,2020,82,Medium,85,57,10.0,120,76
+Helsinki,February,2020,79,Very High,79,90,9.45,69,83
+Helsinki,March,2020,70,Low,85,123,9.91,67,89
+Helsinki,April,2020,77,Medium,60,76,8.58,80,99
+Helsinki,May,2020,55,High,27,87,6.67,122,96
+Helsinki,June,2020,54,High,71,150,7.8,78,91
+Helsinki,July,2020,59,Low,57,59,7.96,76,93
+Helsinki,August,2020,68,Medium,68,142,6.48,91,66
+Helsinki,September,2020,78,High,45,136,7.47,124,94
+Helsinki,October,2020,81,Low,58,76,8.63,59,93
+Helsinki,November,2020,61,Medium,38,96,7.49,94,91
+Helsinki,December,2020,75,Very High,10,94,7.42,106,70
+Helsinki,January,2021,59,Low,45,57,7.84,70,83
+Helsinki,February,2021,83,High,25,114,5.42,92,67
+Helsinki,March,2021,75,High,71,56,9.74,102,61
+Helsinki,April,2021,60,Low,83,105,8.4,130,92
+Helsinki,May,2021,47,Very High,28,37,7.97,73,93
+Helsinki,June,2021,70,Medium,82,111,7.52,86,65
+Helsinki,July,2021,58,Medium,70,141,8.19,78,86
+Helsinki,August,2021,83,Low,84,135,8.97,129,92
+Helsinki,September,2021,61,Low,53,148,7.19,125,64
+Helsinki,October,2021,59,Medium,26,43,6.96,116,92
+Helsinki,November,2021,71,High,22,52,7.64,128,98
+Helsinki,December,2021,47,Very High,78,94,10.0,61,90
+Helsinki,January,2022,53,Very High,79,135,7.37,105,93
+Helsinki,February,2022,71,Medium,15,119,6.18,79,90
+Helsinki,March,2022,69,Medium,83,42,10.0,82,90
+Helsinki,April,2022,59,Very High,20,66,8.0,119,86
+Helsinki,May,2022,61,Low,10,103,6.58,116,60
+Helsinki,June,2022,69,High,50,82,7.88,69,87
+Helsinki,July,2022,82,Medium,78,84,9.17,128,77
+Helsinki,August,2022,70,High,62,100,9.23,111,71
+Helsinki,September,2022,68,Medium,71,62,10.0,123,82
+Helsinki,October,2022,70,High,25,125,5.59,70,66
+Helsinki,November,2022,58,Medium,53,132,7.89,56,70
+Helsinki,December,2022,69,Very High,10,132,4.46,68,90
+Helsinki,January,2023,83,Medium,18,63,6.14,60,98
+Helsinki,February,2023,47,High,61,108,9.34,86,98
+Helsinki,March,2023,48,Very High,32,111,7.6,51,72
+Helsinki,April,2023,78,Medium,14,130,5.92,116,74
+Helsinki,May,2023,84,Low,14,76,5.74,50,70
+Helsinki,June,2023,50,Very High,61,75,9.95,101,97
+Helsinki,July,2023,57,Medium,18,147,4.84,86,95
+Helsinki,August,2023,82,Medium,45,58,8.5,74,89
+Helsinki,September,2023,70,Medium,43,52,8.3,63,95
+Helsinki,October,2023,49,Medium,53,44,10.0,82,94
+Helsinki,November,2023,81,Medium,66,78,8.84,81,81
+Helsinki,December,2023,74,High,85,140,6.96,64,76
+Lisbon,January,2014,49,Medium,38,116,8.33,90,86
+Lisbon,February,2014,67,Medium,11,119,7.05,81,78
+Lisbon,March,2014,50,Medium,53,39,10.0,72,90
+Lisbon,April,2014,65,Medium,83,64,9.14,74,91
+Lisbon,May,2014,57,Low,40,141,6.37,79,72
+Lisbon,June,2014,60,High,55,49,10.0,65,65
+Lisbon,July,2014,76,High,79,35,10.0,97,99
+Lisbon,August,2014,65,Medium,83,141,7.87,73,92
+Lisbon,September,2014,62,Medium,83,46,9.2,104,90
+Lisbon,October,2014,79,Low,54,80,9.27,72,89
+Lisbon,November,2014,52,High,68,70,10.0,51,73
+Lisbon,December,2014,69,Medium,51,76,8.79,83,71
+Lisbon,January,2015,80,Medium,44,90,8.94,93,83
+Lisbon,February,2015,56,Medium,36,83,8.7,97,83
+Lisbon,March,2015,70,Medium,33,103,6.05,123,74
+Lisbon,April,2015,51,High,40,101,7.85,98,72
+Lisbon,May,2015,54,High,29,90,8.66,72,86
+Lisbon,June,2015,76,Low,76,98,9.46,112,79
+Lisbon,July,2015,61,Medium,82,36,10.0,70,63
+Lisbon,August,2015,58,High,70,137,8.71,107,81
+Lisbon,September,2015,61,Medium,81,101,10.0,82,82
+Lisbon,October,2015,46,Medium,54,141,8.5,127,72
+Lisbon,November,2015,81,Medium,78,52,10.0,86,82
+Lisbon,December,2015,65,High,72,129,9.06,60,84
+Lisbon,January,2016,84,Medium,28,141,4.78,93,86
+Lisbon,February,2016,85,High,61,138,8.35,60,70
+Lisbon,March,2016,66,Low,50,113,7.13,84,98
+Lisbon,April,2016,70,Medium,66,129,9.05,96,97
+Lisbon,May,2016,78,Very High,62,51,8.17,52,68
+Lisbon,June,2016,60,High,20,56,6.88,63,66
+Lisbon,July,2016,49,Very High,70,100,7.99,100,93
+Lisbon,August,2016,50,Low,29,40,9.32,99,79
+Lisbon,September,2016,59,Low,46,86,8.73,66,93
+Lisbon,October,2016,55,Low,55,140,9.0,110,89
+Lisbon,November,2016,79,Very High,80,86,8.02,119,71
+Lisbon,December,2016,82,Medium,82,85,9.19,118,79
+Lisbon,January,2017,67,Medium,39,133,5.66,89,83
+Lisbon,February,2017,71,Medium,48,31,7.67,67,82
+Lisbon,March,2017,63,Medium,11,118,7.46,111,79
+Lisbon,April,2017,45,High,47,106,7.6,50,95
+Lisbon,May,2017,68,Low,81,85,9.18,70,84
+Lisbon,June,2017,69,Low,20,84,7.43,116,99
+Lisbon,July,2017,62,Medium,78,133,7.91,74,64
+Lisbon,August,2017,56,Low,24,111,6.93,107,77
+Lisbon,September,2017,84,Medium,51,32,7.84,118,61
+Lisbon,October,2017,56,Very High,46,64,7.76,106,60
+Lisbon,November,2017,59,Low,11,93,5.96,103,79
+Lisbon,December,2017,76,Very High,69,119,8.97,92,65
+Lisbon,January,2018,54,Low,60,39,10.0,73,72
+Lisbon,February,2018,61,High,11,45,9.13,81,84
+Lisbon,March,2018,73,Low,14,55,7.15,62,93
+Lisbon,April,2018,58,Medium,49,149,6.71,130,62
+Lisbon,May,2018,80,Medium,42,91,7.88,75,83
+Lisbon,June,2018,48,Very High,37,44,8.37,105,80
+Lisbon,July,2018,45,Low,45,104,7.23,81,60
+Lisbon,August,2018,47,Medium,70,118,9.32,97,65
+Lisbon,September,2018,60,Low,21,117,7.06,130,63
+Lisbon,October,2018,48,Medium,29,119,7.45,63,68
+Lisbon,November,2018,76,Low,81,130,8.79,94,88
+Lisbon,December,2018,57,Low,58,75,9.78,82,62
+Lisbon,January,2019,76,High,81,67,9.75,112,72
+Lisbon,February,2019,81,Low,54,71,9.01,85,98
+Lisbon,March,2019,80,Low,77,49,9.55,83,94
+Lisbon,April,2019,68,Medium,74,78,10.0,52,99
+Lisbon,May,2019,68,High,40,71,8.8,118,84
+Lisbon,June,2019,57,Medium,73,128,8.8,128,78
+Lisbon,July,2019,65,Medium,51,44,8.0,58,62
+Lisbon,August,2019,53,Low,14,55,6.69,74,66
+Lisbon,September,2019,47,Medium,59,114,8.64,129,97
+Lisbon,October,2019,61,Low,38,107,8.2,51,73
+Lisbon,November,2019,76,Very High,20,89,7.64,57,83
+Lisbon,December,2019,80,High,63,135,7.03,57,99
+Lisbon,January,2020,62,Medium,19,136,5.59,77,93
+Lisbon,February,2020,51,Low,39,98,7.73,74,93
+Lisbon,March,2020,60,Medium,32,101,8.21,103,66
+Lisbon,April,2020,85,Medium,68,119,8.29,63,70
+Lisbon,May,2020,56,Medium,74,73,10.0,118,98
+Lisbon,June,2020,73,Very High,50,100,9.28,91,83
+Lisbon,July,2020,71,High,65,135,8.45,127,75
+Lisbon,August,2020,81,Medium,58,128,7.48,82,83
+Lisbon,September,2020,73,Medium,60,30,10.0,86,98
+Lisbon,October,2020,46,Medium,48,30,9.34,78,73
+Lisbon,November,2020,65,Low,45,147,7.07,121,96
+Lisbon,December,2020,81,Low,14,88,5.94,67,76
+Lisbon,January,2021,68,Very High,41,59,7.69,88,65
+Lisbon,February,2021,81,Medium,37,123,5.32,91,90
+Lisbon,March,2021,56,Medium,83,134,10.0,126,79
+Lisbon,April,2021,47,High,83,78,9.09,57,81
+Lisbon,May,2021,67,Very High,65,83,10.0,65,74
+Lisbon,June,2021,83,Very High,58,36,8.52,55,80
+Lisbon,July,2021,79,Medium,51,94,8.38,69,63
+Lisbon,August,2021,70,Very High,83,94,8.11,105,78
+Lisbon,September,2021,70,Low,53,40,9.15,56,95
+Lisbon,October,2021,70,Medium,61,94,8.26,66,68
+Lisbon,November,2021,75,Medium,72,80,9.49,75,95
+Lisbon,December,2021,84,Very High,77,61,8.57,84,87
+Lisbon,January,2022,65,High,83,41,9.39,102,87
+Lisbon,February,2022,68,Medium,51,74,8.8,53,79
+Lisbon,March,2022,55,Very High,66,109,7.75,55,74
+Lisbon,April,2022,57,High,29,126,7.62,60,67
+Lisbon,May,2022,48,Low,28,141,7.86,86,60
+Lisbon,June,2022,66,High,24,69,7.45,52,81
+Lisbon,July,2022,58,High,37,56,8.76,83,95
+Lisbon,August,2022,75,High,28,118,7.11,52,84
+Lisbon,September,2022,82,Very High,77,35,9.19,57,78
+Lisbon,October,2022,57,High,44,36,9.22,51,64
+Lisbon,November,2022,69,High,56,140,6.19,87,84
+Lisbon,December,2022,59,Very High,75,120,7.63,90,91
+Lisbon,January,2023,83,Medium,33,55,7.73,108,95
+Lisbon,February,2023,46,Low,77,69,9.82,100,70
+Lisbon,March,2023,46,Medium,55,75,9.7,80,92
+Lisbon,April,2023,62,High,42,142,6.64,53,95
+Lisbon,May,2023,62,Low,53,144,7.06,67,65
+Lisbon,June,2023,69,Medium,39,83,7.05,69,87
+Lisbon,July,2023,64,Very High,52,87,8.55,76,68
+Lisbon,August,2023,82,Medium,35,140,5.05,117,68
+Lisbon,September,2023,72,Very High,28,113,8.0,70,80
+Lisbon,October,2023,49,Medium,25,53,7.92,68,61
+Lisbon,November,2023,65,Very High,62,82,8.3,85,69
+Lisbon,December,2023,57,Low,33,33,9.74,128,99
+London,January,2014,62,High,39,106,6.78,53,82
+London,February,2014,50,High,71,47,10.0,127,90
+London,March,2014,68,Low,59,92,8.4,70,72
+London,April,2014,59,Low,11,148,5.02,102,74
+London,May,2014,57,High,18,52,9.25,106,99
+London,June,2014,76,High,68,143,6.82,101,62
+London,July,2014,83,High,58,122,6.83,128,96
+London,August,2014,83,Medium,14,96,4.98,108,62
+London,September,2014,60,Medium,60,124,6.74,99,93
+London,October,2014,85,Very High,34,67,7.29,88,78
+London,November,2014,74,Low,47,108,8.76,116,69
+London,December,2014,74,High,67,41,10.0,64,71
+London,January,2015,82,Very High,79,47,9.44,91,88
+London,February,2015,46,Low,85,144,9.78,75,89
+London,March,2015,50,Medium,30,121,7.98,61,67
+London,April,2015,73,High,20,97,7.29,115,99
+London,May,2015,55,Medium,58,35,10.0,92,96
+London,June,2015,54,Low,28,52,9.27,56,86
+London,July,2015,64,Medium,67,66,9.82,65,68
+London,August,2015,57,Low,42,31,9.23,113,94
+London,September,2015,45,High,73,60,9.52,110,89
+London,October,2015,71,Medium,10,61,8.2,85,99
+London,November,2015,85,Medium,36,36,7.22,57,82
+London,December,2015,47,Low,14,115,7.08,127,79
+London,January,2016,66,Very High,16,43,7.55,72,70
+London,February,2016,63,High,83,130,9.02,108,97
+London,March,2016,68,Very High,21,128,5.64,97,84
+London,April,2016,49,High,80,38,10.0,67,67
+London,May,2016,62,Medium,62,97,7.81,76,99
+London,June,2016,48,Low,77,41,10.0,127,78
+London,July,2016,72,High,50,63,8.66,129,82
+London,August,2016,53,High,73,96,10.0,113,91
+London,September,2016,56,Very High,39,120,6.85,74,60
+London,October,2016,52,Low,25,124,8.0,128,86
+London,November,2016,71,Low,54,101,8.93,77,60
+London,December,2016,85,Low,46,62,8.92,89,79
+London,January,2017,77,Medium,10,44,7.77,93,85
+London,February,2017,81,High,13,136,4.4,92,81
+London,March,2017,75,Very High,14,112,4.98,69,100
+London,April,2017,74,Very High,78,144,7.53,102,63
+London,May,2017,78,Medium,50,101,7.75,76,96
+London,June,2017,66,High,55,38,10.0,85,61
+London,July,2017,66,Very High,78,137,7.4,127,84
+London,August,2017,56,Medium,49,120,8.95,54,77
+London,September,2017,71,Low,40,77,7.79,88,73
+London,October,2017,78,Medium,24,77,7.93,75,65
+London,November,2017,73,Medium,71,145,7.75,74,81
+London,December,2017,75,High,77,69,10.0,68,66
+London,January,2018,78,High,26,56,8.25,108,84
+London,February,2018,78,Low,49,149,5.27,126,65
+London,March,2018,66,Medium,15,43,7.82,89,61
+London,April,2018,81,High,36,71,6.69,86,77
+London,May,2018,79,Medium,66,115,6.82,69,70
+London,June,2018,62,Low,81,95,8.29,119,82
+London,July,2018,80,Medium,28,150,6.33,86,96
+London,August,2018,60,Low,49,108,9.18,119,88
+London,September,2018,48,Low,70,145,8.99,63,84
+London,October,2018,48,Low,60,52,10.0,125,100
+London,November,2018,73,High,49,72,9.28,118,65
+London,December,2018,74,Medium,21,134,6.85,109,66
+London,January,2019,74,Medium,69,90,7.94,78,69
+London,February,2019,84,Medium,56,80,7.17,92,80
+London,March,2019,74,Medium,18,90,5.54,111,89
+London,April,2019,55,Medium,54,107,8.59,115,66
+London,May,2019,70,High,23,71,7.57,59,79
+London,June,2019,79,Medium,85,82,8.61,81,95
+London,July,2019,55,Very High,59,38,9.47,125,87
+London,August,2019,72,Medium,53,99,8.56,72,64
+London,September,2019,81,High,24,105,6.72,91,95
+London,October,2019,51,High,32,69,9.74,58,98
+London,November,2019,51,High,58,71,9.35,57,65
+London,December,2019,58,High,84,145,9.48,50,69
+London,January,2020,54,Medium,47,79,9.03,107,72
+London,February,2020,58,High,50,68,9.11,88,87
+London,March,2020,67,Very High,84,31,10.0,115,85
+London,April,2020,53,Very High,17,77,8.75,56,60
+London,May,2020,80,High,55,44,10.0,53,75
+London,June,2020,72,High,60,110,7.49,98,85
+London,July,2020,69,Medium,37,114,6.15,67,72
+London,August,2020,80,Medium,56,137,6.85,86,68
+London,September,2020,53,Low,12,48,8.59,112,87
+London,October,2020,53,Low,63,140,8.0,127,87
+London,November,2020,84,Low,75,84,8.96,107,84
+London,December,2020,67,Low,64,107,6.93,113,75
+London,January,2021,77,Medium,79,103,8.39,54,96
+London,February,2021,75,High,24,104,6.57,60,69
+London,March,2021,78,Very High,45,89,7.73,116,99
+London,April,2021,50,Low,19,117,7.32,124,79
+London,May,2021,84,Low,53,98,8.48,110,89
+London,June,2021,77,Very High,83,123,8.04,95,78
+London,July,2021,63,Low,48,123,8.43,83,63
+London,August,2021,85,Medium,31,103,5.28,87,99
+London,September,2021,46,Medium,20,46,8.52,85,76
+London,October,2021,53,High,45,139,6.7,64,98
+London,November,2021,56,Very High,29,114,7.04,72,76
+London,December,2021,60,Medium,77,140,7.08,60,69
+London,January,2022,83,Very High,29,137,5.92,102,84
+London,February,2022,60,High,31,56,8.55,94,63
+London,March,2022,61,High,24,36,7.41,101,90
+London,April,2022,64,Medium,78,59,9.66,99,90
+London,May,2022,61,Low,65,31,9.52,107,84
+London,June,2022,65,Very High,15,42,9.06,95,87
+London,July,2022,84,Very High,44,72,7.11,62,76
+London,August,2022,82,Medium,40,123,7.2,74,93
+London,September,2022,66,High,33,70,8.08,51,64
+London,October,2022,45,Medium,77,43,10.0,94,74
+London,November,2022,63,Medium,14,33,8.37,57,98
+London,December,2022,58,Very High,25,120,8.23,61,98
+London,January,2023,53,Medium,82,132,10.0,64,71
+London,February,2023,61,Medium,19,111,6.57,85,87
+London,March,2023,65,Medium,19,65,8.34,98,84
+London,April,2023,66,Very High,43,134,6.35,106,64
+London,May,2023,76,Very High,35,108,6.64,112,66
+London,June,2023,54,Medium,65,57,10.0,63,88
+London,July,2023,61,Low,19,39,8.36,82,88
+London,August,2023,46,Very High,29,113,7.94,54,84
+London,September,2023,62,Low,52,145,6.99,50,92
+London,October,2023,76,Medium,61,138,8.08,58,94
+London,November,2023,59,Low,71,45,10.0,95,81
+London,December,2023,64,Medium,21,76,7.5,93,65
+Melbourne,January,2014,74,High,47,112,6.53,120,62
+Melbourne,February,2014,69,High,48,119,7.14,63,100
+Melbourne,March,2014,67,Medium,66,124,7.22,54,72
+Melbourne,April,2014,46,High,85,60,10.0,58,94
+Melbourne,May,2014,64,Medium,67,32,8.73,57,81
+Melbourne,June,2014,47,Medium,37,133,7.87,116,89
+Melbourne,July,2014,79,Low,84,59,10.0,54,69
+Melbourne,August,2014,76,High,70,146,8.85,55,75
+Melbourne,September,2014,53,Low,16,145,5.57,62,89
+Melbourne,October,2014,84,Low,85,38,10.0,63,67
+Melbourne,November,2014,76,Medium,38,38,9.39,104,81
+Melbourne,December,2014,70,Medium,83,99,8.15,77,62
+Melbourne,January,2015,82,Low,18,45,6.68,103,70
+Melbourne,February,2015,68,Medium,66,61,10.0,55,68
+Melbourne,March,2015,51,High,58,129,7.18,112,65
+Melbourne,April,2015,45,Low,21,120,7.55,86,86
+Melbourne,May,2015,75,High,36,48,8.65,116,88
+Melbourne,June,2015,71,Low,32,108,7.57,126,71
+Melbourne,July,2015,76,High,21,110,7.34,88,82
+Melbourne,August,2015,71,Low,40,54,7.24,117,66
+Melbourne,September,2015,84,Medium,79,94,7.92,130,73
+Melbourne,October,2015,62,Low,24,131,5.43,110,91
+Melbourne,November,2015,56,Low,15,36,8.63,86,73
+Melbourne,December,2015,72,Medium,68,35,8.67,56,94
+Melbourne,January,2016,56,Low,13,92,7.04,59,75
+Melbourne,February,2016,73,Medium,51,83,7.29,91,74
+Melbourne,March,2016,52,Medium,22,60,8.83,75,84
+Melbourne,April,2016,59,Low,84,92,8.41,105,69
+Melbourne,May,2016,58,Very High,68,52,9.6,67,89
+Melbourne,June,2016,57,High,44,55,8.46,54,96
+Melbourne,July,2016,48,Medium,24,139,6.64,103,70
+Melbourne,August,2016,66,Low,47,107,6.73,128,70
+Melbourne,September,2016,81,Very High,39,41,8.05,116,91
+Melbourne,October,2016,58,Medium,69,65,8.26,104,75
+Melbourne,November,2016,60,Medium,84,58,10.0,125,69
+Melbourne,December,2016,81,Very High,63,35,8.01,110,92
+Melbourne,January,2017,47,Medium,60,91,10.0,62,88
+Melbourne,February,2017,76,Low,81,126,6.98,102,73
+Melbourne,March,2017,53,Medium,40,112,9.27,52,90
+Melbourne,April,2017,64,Low,68,139,8.23,124,61
+Melbourne,May,2017,74,Medium,27,141,6.65,73,83
+Melbourne,June,2017,85,Medium,10,140,5.43,99,81
+Melbourne,July,2017,78,Low,64,126,7.01,128,94
+Melbourne,August,2017,81,High,20,109,7.33,57,92
+Melbourne,September,2017,68,Very High,24,79,6.94,129,62
+Melbourne,October,2017,68,Medium,81,120,7.5,76,68
+Melbourne,November,2017,66,Low,24,113,6.66,124,73
+Melbourne,December,2017,59,Medium,44,94,8.65,85,63
+Melbourne,January,2018,49,Medium,67,92,9.37,65,90
+Melbourne,February,2018,79,High,78,145,7.23,129,83
+Melbourne,March,2018,49,Low,68,41,9.17,72,78
+Melbourne,April,2018,49,Low,45,44,10.0,113,69
+Melbourne,May,2018,58,Medium,12,67,7.15,119,68
+Melbourne,June,2018,75,Medium,66,124,8.34,87,72
+Melbourne,July,2018,49,Low,39,136,8.71,92,86
+Melbourne,August,2018,82,Medium,51,92,8.02,117,95
+Melbourne,September,2018,73,Medium,82,46,10.0,89,70
+Melbourne,October,2018,61,Low,57,66,9.94,56,69
+Melbourne,November,2018,67,Medium,31,109,8.32,118,78
+Melbourne,December,2018,56,Very High,29,50,7.69,55,80
+Melbourne,January,2019,81,Low,43,77,6.8,121,62
+Melbourne,February,2019,65,Very High,28,77,7.48,70,94
+Melbourne,March,2019,64,Low,13,81,8.27,68,89
+Melbourne,April,2019,65,Low,79,94,8.82,87,90
+Melbourne,May,2019,63,Very High,83,115,8.07,122,88
+Melbourne,June,2019,66,High,71,145,6.58,120,67
+Melbourne,July,2019,64,Low,38,87,7.43,91,63
+Melbourne,August,2019,83,High,84,97,8.1,85,72
+Melbourne,September,2019,46,Low,67,116,9.49,61,92
+Melbourne,October,2019,70,Low,50,107,8.08,57,83
+Melbourne,November,2019,70,Low,64,77,8.58,51,78
+Melbourne,December,2019,67,Medium,67,141,8.03,77,88
+Melbourne,January,2020,71,High,46,50,9.63,104,86
+Melbourne,February,2020,53,High,21,48,7.41,110,93
+Melbourne,March,2020,66,Low,85,126,8.53,50,86
+Melbourne,April,2020,85,Very High,63,52,9.1,122,68
+Melbourne,May,2020,57,Low,58,67,9.43,55,79
+Melbourne,June,2020,82,Medium,81,124,8.19,53,60
+Melbourne,July,2020,54,Medium,70,45,10.0,86,86
+Melbourne,August,2020,56,Medium,41,33,8.16,85,91
+Melbourne,September,2020,49,Medium,56,104,8.63,105,76
+Melbourne,October,2020,85,High,25,77,6.95,123,61
+Melbourne,November,2020,61,Low,17,48,7.35,67,82
+Melbourne,December,2020,55,Low,56,83,9.34,95,63
+Melbourne,January,2021,63,Medium,19,95,6.05,130,71
+Melbourne,February,2021,51,Medium,31,99,7.2,90,79
+Melbourne,March,2021,62,High,56,42,9.64,95,69
+Melbourne,April,2021,45,Low,46,77,9.79,102,81
+Melbourne,May,2021,55,Low,29,94,6.79,74,95
+Melbourne,June,2021,84,High,77,138,7.9,120,67
+Melbourne,July,2021,71,Medium,19,44,8.71,52,90
+Melbourne,August,2021,67,Medium,56,47,10.0,126,93
+Melbourne,September,2021,66,Low,48,33,10.0,65,74
+Melbourne,October,2021,53,Very High,28,118,6.35,66,73
+Melbourne,November,2021,53,Very High,64,118,9.4,64,64
+Melbourne,December,2021,46,High,65,35,9.61,54,92
+Melbourne,January,2022,82,Low,25,146,4.88,58,79
+Melbourne,February,2022,45,High,25,147,7.02,125,72
+Melbourne,March,2022,56,High,13,41,6.96,85,97
+Melbourne,April,2022,67,Medium,74,129,9.06,80,92
+Melbourne,May,2022,81,Low,84,127,6.93,77,72
+Melbourne,June,2022,63,Low,78,30,10.0,62,73
+Melbourne,July,2022,77,Very High,70,76,9.56,73,88
+Melbourne,August,2022,51,Low,55,78,8.88,115,74
+Melbourne,September,2022,71,Low,50,45,8.87,116,68
+Melbourne,October,2022,76,High,46,101,8.21,60,80
+Melbourne,November,2022,76,Low,46,88,8.1,89,88
+Melbourne,December,2022,59,Medium,47,139,7.11,58,90
+Melbourne,January,2023,68,Low,72,116,7.34,106,93
+Melbourne,February,2023,50,Low,60,81,9.87,63,70
+Melbourne,March,2023,49,Medium,35,73,7.57,101,67
+Melbourne,April,2023,59,High,73,65,10.0,124,97
+Melbourne,May,2023,62,High,61,75,9.01,127,85
+Melbourne,June,2023,76,Medium,28,128,6.14,65,76
+Melbourne,July,2023,76,Medium,27,33,6.94,56,64
+Melbourne,August,2023,76,High,32,78,7.75,91,69
+Melbourne,September,2023,64,High,22,127,5.15,116,91
+Melbourne,October,2023,74,Low,73,92,8.87,119,81
+Melbourne,November,2023,79,Medium,14,85,7.63,65,84
+Melbourne,December,2023,73,Medium,58,86,8.29,54,71
+Montreal,January,2014,80,High,48,143,7.28,112,87
+Montreal,February,2014,53,Medium,59,92,9.72,122,91
+Montreal,March,2014,80,High,83,90,9.05,70,92
+Montreal,April,2014,48,Medium,73,105,10.0,128,82
+Montreal,May,2014,63,Medium,13,105,5.17,96,82
+Montreal,June,2014,82,Low,53,78,6.89,94,82
+Montreal,July,2014,71,Medium,41,61,7.49,89,97
+Montreal,August,2014,50,Very High,18,141,5.81,93,70
+Montreal,September,2014,46,Medium,14,88,7.89,104,96
+Montreal,October,2014,77,Very High,44,32,9.4,125,61
+Montreal,November,2014,65,Medium,59,71,9.21,112,66
+Montreal,December,2014,58,Medium,74,133,9.35,93,70
+Montreal,January,2015,84,Medium,65,55,8.97,59,94
+Montreal,February,2015,58,Medium,16,68,9.03,101,74
+Montreal,March,2015,84,High,21,121,6.93,62,97
+Montreal,April,2015,66,Medium,82,132,8.75,104,73
+Montreal,May,2015,67,High,48,94,8.94,105,94
+Montreal,June,2015,65,Low,61,62,9.62,108,95
+Montreal,July,2015,56,Very High,76,140,7.62,113,73
+Montreal,August,2015,74,Medium,78,133,8.58,105,96
+Montreal,September,2015,85,Low,35,76,7.22,80,69
+Montreal,October,2015,64,High,62,70,10.0,58,100
+Montreal,November,2015,58,High,44,135,6.68,70,76
+Montreal,December,2015,83,Low,40,44,7.18,53,75
+Montreal,January,2016,64,Medium,81,85,9.39,54,72
+Montreal,February,2016,55,Medium,13,63,8.48,85,95
+Montreal,March,2016,56,High,15,122,6.44,52,63
+Montreal,April,2016,50,Medium,48,140,6.31,102,83
+Montreal,May,2016,50,Medium,27,60,7.22,114,67
+Montreal,June,2016,78,High,84,129,9.73,82,91
+Montreal,July,2016,50,Low,25,128,7.86,92,97
+Montreal,August,2016,69,High,40,149,6.32,68,66
+Montreal,September,2016,56,Low,45,86,8.13,125,63
+Montreal,October,2016,76,Medium,24,70,7.42,110,75
+Montreal,November,2016,62,Very High,28,76,7.67,97,79
+Montreal,December,2016,46,High,14,137,7.16,56,75
+Montreal,January,2017,61,Medium,49,111,9.29,96,67
+Montreal,February,2017,79,Very High,66,79,7.21,100,76
+Montreal,March,2017,64,Low,40,68,7.45,70,88
+Montreal,April,2017,85,Medium,62,131,5.91,60,91
+Montreal,May,2017,75,High,52,121,7.18,62,70
+Montreal,June,2017,61,Medium,55,83,9.02,120,80
+Montreal,July,2017,74,High,16,112,6.6,130,88
+Montreal,August,2017,53,Low,35,110,7.03,123,65
+Montreal,September,2017,52,Low,76,121,10.0,66,98
+Montreal,October,2017,71,High,50,87,8.07,67,76
+Montreal,November,2017,56,High,51,132,7.07,60,86
+Montreal,December,2017,68,Low,58,150,8.28,123,74
+Montreal,January,2018,46,Very High,81,112,9.96,79,65
+Montreal,February,2018,74,Low,31,36,8.0,104,98
+Montreal,March,2018,61,Low,57,51,10.0,65,60
+Montreal,April,2018,78,Medium,68,135,8.2,65,74
+Montreal,May,2018,58,Low,44,66,9.44,98,68
+Montreal,June,2018,72,Very High,37,135,5.97,74,86
+Montreal,July,2018,56,Medium,28,33,8.15,83,75
+Montreal,August,2018,84,Medium,41,77,7.83,108,65
+Montreal,September,2018,45,Medium,51,118,8.02,77,84
+Montreal,October,2018,72,High,42,39,7.53,57,63
+Montreal,November,2018,66,Very High,70,146,7.46,127,98
+Montreal,December,2018,47,Low,74,109,9.01,100,83
+Montreal,January,2019,53,Very High,81,35,10.0,83,70
+Montreal,February,2019,77,Medium,53,142,6.87,61,80
+Montreal,March,2019,78,Medium,43,44,7.94,66,91
+Montreal,April,2019,62,High,65,66,10.0,83,99
+Montreal,May,2019,61,Medium,65,144,6.88,112,69
+Montreal,June,2019,80,Very High,66,36,8.59,56,74
+Montreal,July,2019,56,Low,43,50,9.66,105,67
+Montreal,August,2019,76,Low,55,120,7.7,108,91
+Montreal,September,2019,52,High,28,45,8.21,76,78
+Montreal,October,2019,56,High,75,135,7.94,124,73
+Montreal,November,2019,82,Very High,10,97,6.8,73,86
+Montreal,December,2019,49,Low,73,116,7.91,92,61
+Montreal,January,2020,63,High,25,80,7.13,63,80
+Montreal,February,2020,54,Low,68,136,9.0,111,89
+Montreal,March,2020,85,Very High,10,72,7.82,129,88
+Montreal,April,2020,65,Very High,82,46,9.54,56,78
+Montreal,May,2020,65,High,19,100,8.17,98,65
+Montreal,June,2020,70,Medium,40,128,8.04,61,61
+Montreal,July,2020,58,Low,61,66,9.82,69,67
+Montreal,August,2020,64,Medium,65,124,9.12,89,98
+Montreal,September,2020,53,Medium,22,136,6.17,75,91
+Montreal,October,2020,73,Very High,70,64,9.52,104,65
+Montreal,November,2020,72,High,33,85,7.85,61,62
+Montreal,December,2020,77,Medium,69,116,7.3,69,91
+Montreal,January,2021,78,High,77,40,9.31,105,65
+Montreal,February,2021,75,Medium,26,117,7.66,81,93
+Montreal,March,2021,72,Medium,16,100,5.21,55,92
+Montreal,April,2021,51,Medium,62,42,10.0,122,76
+Montreal,May,2021,67,Medium,20,128,6.24,64,89
+Montreal,June,2021,56,High,60,35,8.77,88,80
+Montreal,July,2021,82,High,67,109,8.96,93,71
+Montreal,August,2021,58,Low,43,141,7.68,105,94
+Montreal,September,2021,46,Low,24,31,7.98,111,89
+Montreal,October,2021,70,Very High,72,68,9.78,128,83
+Montreal,November,2021,70,High,21,46,6.73,74,67
+Montreal,December,2021,46,High,34,139,5.78,111,69
+Montreal,January,2022,60,Medium,78,54,9.0,109,69
+Montreal,February,2022,75,Medium,24,51,8.9,106,91
+Montreal,March,2022,75,Low,67,104,7.58,87,96
+Montreal,April,2022,70,Low,11,43,7.87,105,86
+Montreal,May,2022,76,High,80,67,8.19,101,91
+Montreal,June,2022,77,Medium,72,59,10.0,117,61
+Montreal,July,2022,72,Medium,80,38,9.58,103,90
+Montreal,August,2022,52,Medium,54,87,9.45,52,70
+Montreal,September,2022,63,High,70,74,9.24,114,74
+Montreal,October,2022,82,Very High,53,147,7.03,109,68
+Montreal,November,2022,63,High,59,83,9.81,96,90
+Montreal,December,2022,55,High,46,118,8.58,111,68
+Montreal,January,2023,56,Low,72,42,10.0,113,79
+Montreal,February,2023,60,Low,16,32,7.78,83,82
+Montreal,March,2023,55,Low,74,34,10.0,93,87
+Montreal,April,2023,52,High,25,101,6.59,83,81
+Montreal,May,2023,67,High,81,64,10.0,115,98
+Montreal,June,2023,51,High,66,132,8.34,64,66
+Montreal,July,2023,84,High,23,135,5.89,114,66
+Montreal,August,2023,55,High,36,146,6.45,87,88
+Montreal,September,2023,77,Medium,22,49,8.03,92,68
+Montreal,October,2023,52,High,66,83,10.0,50,75
+Montreal,November,2023,75,Medium,74,51,8.45,97,86
+Montreal,December,2023,68,High,41,49,9.38,117,86
+New York,January,2014,59,Low,64,82,10.0,108,93
+New York,February,2014,68,Very High,66,48,10.0,116,64
+New York,March,2014,50,Medium,61,128,7.37,57,85
+New York,April,2014,47,High,29,145,7.07,130,93
+New York,May,2014,63,Medium,80,141,7.9,90,82
+New York,June,2014,45,High,77,108,10.0,101,88
+New York,July,2014,58,Very High,66,119,8.06,101,72
+New York,August,2014,64,Low,78,72,9.43,66,93
+New York,September,2014,79,Medium,21,95,6.73,116,81
+New York,October,2014,85,Low,13,143,6.0,125,76
+New York,November,2014,60,High,48,122,7.45,114,67
+New York,December,2014,48,High,43,110,8.1,65,63
+New York,January,2015,52,Medium,83,124,7.8,93,75
+New York,February,2015,82,Medium,78,138,8.19,94,79
+New York,March,2015,63,High,83,116,8.03,98,93
+New York,April,2015,60,Low,76,104,8.24,96,89
+New York,May,2015,51,Low,64,136,8.05,61,63
+New York,June,2015,72,Very High,70,57,9.34,97,93
+New York,July,2015,70,Medium,76,129,8.04,83,97
+New York,August,2015,76,High,66,118,9.29,112,86
+New York,September,2015,55,Low,26,92,8.18,66,92
+New York,October,2015,78,Low,37,88,7.3,70,95
+New York,November,2015,68,Very High,25,107,7.88,64,67
+New York,December,2015,68,Medium,15,96,5.6,97,79
+New York,January,2016,68,Medium,72,33,10.0,68,97
+New York,February,2016,71,Low,49,143,6.32,73,91
+New York,March,2016,45,Low,54,38,10.0,103,90
+New York,April,2016,81,Medium,67,145,6.86,98,90
+New York,May,2016,83,Low,27,94,7.12,107,88
+New York,June,2016,54,Very High,51,41,10.0,129,86
+New York,July,2016,69,Low,60,73,8.99,106,77
+New York,August,2016,50,Very High,13,103,7.35,89,95
+New York,September,2016,52,High,20,54,9.53,119,96
+New York,October,2016,48,Very High,76,54,10.0,114,61
+New York,November,2016,52,High,78,53,10.0,85,73
+New York,December,2016,60,High,84,86,8.59,118,98
+New York,January,2017,65,Medium,15,92,7.9,52,81
+New York,February,2017,72,Low,13,140,5.64,98,76
+New York,March,2017,50,Low,22,99,6.4,68,71
+New York,April,2017,61,High,29,69,9.31,71,63
+New York,May,2017,84,Very High,33,33,8.78,88,84
+New York,June,2017,51,Medium,62,144,7.54,98,67
+New York,July,2017,48,Low,85,60,10.0,114,84
+New York,August,2017,52,Medium,50,89,8.82,58,90
+New York,September,2017,46,Medium,39,146,8.42,84,95
+New York,October,2017,82,High,41,127,6.8,66,79
+New York,November,2017,81,Medium,20,138,6.02,76,69
+New York,December,2017,68,Medium,31,130,5.84,104,95
+New York,January,2018,73,Low,69,136,8.21,71,60
+New York,February,2018,48,Very High,71,64,10.0,98,82
+New York,March,2018,85,Low,75,66,7.77,118,96
+New York,April,2018,49,Medium,60,119,7.42,67,95
+New York,May,2018,62,Very High,36,108,7.43,90,81
+New York,June,2018,85,Medium,67,64,8.09,91,81
+New York,July,2018,58,Medium,52,32,10.0,67,60
+New York,August,2018,83,Medium,11,116,4.65,121,91
+New York,September,2018,70,Medium,19,98,5.29,106,67
+New York,October,2018,67,Very High,58,135,7.91,99,71
+New York,November,2018,45,Low,57,149,7.03,51,74
+New York,December,2018,46,High,55,54,8.51,128,100
+New York,January,2019,64,High,38,59,9.86,96,62
+New York,February,2019,62,Medium,36,30,8.07,100,67
+New York,March,2019,62,Medium,73,51,10.0,122,98
+New York,April,2019,81,Low,85,46,10.0,66,76
+New York,May,2019,81,Very High,76,123,9.0,74,61
+New York,June,2019,79,High,81,143,7.87,104,63
+New York,July,2019,65,Medium,62,65,8.1,116,89
+New York,August,2019,76,Medium,15,143,6.12,56,77
+New York,September,2019,71,Medium,50,30,8.95,92,65
+New York,October,2019,81,High,38,118,6.5,59,75
+New York,November,2019,57,Low,49,38,9.87,62,61
+New York,December,2019,75,Medium,13,105,7.06,92,76
+New York,January,2020,60,Low,40,73,9.34,92,93
+New York,February,2020,60,Very High,66,127,7.09,107,97
+New York,March,2020,52,Low,17,147,4.78,90,64
+New York,April,2020,53,Low,66,37,9.71,130,87
+New York,May,2020,49,Low,17,101,5.85,98,85
+New York,June,2020,51,High,62,59,10.0,129,60
+New York,July,2020,74,Medium,64,142,7.86,62,81
+New York,August,2020,46,Medium,52,105,7.68,63,60
+New York,September,2020,83,High,85,131,9.31,123,68
+New York,October,2020,85,Medium,55,83,7.93,129,88
+New York,November,2020,56,Low,15,37,7.06,124,87
+New York,December,2020,77,Very High,55,69,8.76,119,69
+New York,January,2021,54,Medium,53,67,8.77,51,93
+New York,February,2021,82,High,28,37,7.13,121,63
+New York,March,2021,72,Medium,35,111,8.25,58,81
+New York,April,2021,57,High,69,106,9.51,124,96
+New York,May,2021,66,High,63,72,8.09,108,62
+New York,June,2021,76,Low,10,111,5.07,79,89
+New York,July,2021,84,Low,71,124,8.65,92,84
+New York,August,2021,58,Medium,10,76,5.67,95,61
+New York,September,2021,80,Low,47,86,6.84,124,83
+New York,October,2021,47,Very High,35,55,8.24,78,76
+New York,November,2021,56,Medium,80,61,9.34,52,71
+New York,December,2021,61,Very High,12,136,6.46,98,67
+New York,January,2022,66,Very High,49,88,7.44,97,70
+New York,February,2022,78,Very High,65,142,8.05,65,69
+New York,March,2022,53,High,34,98,7.44,97,80
+New York,April,2022,83,Medium,41,147,4.85,128,97
+New York,May,2022,57,Very High,47,131,6.5,81,63
+New York,June,2022,85,High,26,138,5.75,124,91
+New York,July,2022,58,High,70,131,8.93,58,70
+New York,August,2022,77,Medium,75,77,9.15,109,71
+New York,September,2022,65,High,77,118,8.72,113,90
+New York,October,2022,62,Medium,84,113,7.85,78,72
+New York,November,2022,73,Very High,60,57,8.49,98,96
+New York,December,2022,55,Very High,57,62,9.54,67,65
+New York,January,2023,63,Medium,55,59,9.38,109,92
+New York,February,2023,84,Medium,67,89,8.18,97,91
+New York,March,2023,65,Medium,13,52,7.36,83,64
+New York,April,2023,67,Very High,47,137,7.14,119,65
+New York,May,2023,62,Very High,22,45,6.83,54,94
+New York,June,2023,57,Medium,52,62,8.54,85,72
+New York,July,2023,83,Very High,79,146,7.03,88,78
+New York,August,2023,67,High,61,81,9.78,51,90
+New York,September,2023,77,Very High,29,140,5.74,79,73
+New York,October,2023,75,Low,85,130,8.71,109,89
+New York,November,2023,66,High,50,138,6.32,103,73
+New York,December,2023,73,Medium,81,33,10.0,123,68
+Oslo,January,2014,64,Very High,11,93,7.59,95,81
+Oslo,February,2014,59,Medium,61,127,8.97,118,79
+Oslo,March,2014,65,Medium,82,130,7.33,67,69
+Oslo,April,2014,66,Medium,83,140,8.21,98,73
+Oslo,May,2014,70,Low,59,54,9.1,92,96
+Oslo,June,2014,73,High,48,41,7.92,120,71
+Oslo,July,2014,47,High,72,33,9.87,58,84
+Oslo,August,2014,63,Low,47,114,7.78,108,63
+Oslo,September,2014,68,Medium,31,71,8.86,102,85
+Oslo,October,2014,55,Very High,26,98,7.19,58,84
+Oslo,November,2014,58,Low,36,69,8.12,110,70
+Oslo,December,2014,83,Medium,49,105,6.48,108,77
+Oslo,January,2015,57,Low,28,87,6.36,101,98
+Oslo,February,2015,60,Medium,82,142,8.61,109,96
+Oslo,March,2015,47,High,46,112,9.33,108,82
+Oslo,April,2015,64,Medium,32,83,6.95,129,87
+Oslo,May,2015,74,Medium,33,119,6.93,100,62
+Oslo,June,2015,60,Very High,30,65,9.25,118,78
+Oslo,July,2015,49,High,37,146,7.07,120,67
+Oslo,August,2015,68,Low,23,94,7.8,91,86
+Oslo,September,2015,73,Low,36,94,6.0,53,64
+Oslo,October,2015,85,High,69,78,8.18,101,72
+Oslo,November,2015,70,Low,42,44,9.33,67,80
+Oslo,December,2015,74,Medium,18,40,7.85,81,88
+Oslo,January,2016,53,Medium,45,137,6.45,52,98
+Oslo,February,2016,51,Low,25,98,8.23,71,64
+Oslo,March,2016,45,High,29,86,7.66,77,62
+Oslo,April,2016,79,Low,16,137,5.93,116,66
+Oslo,May,2016,69,High,66,36,10.0,56,84
+Oslo,June,2016,57,Very High,57,146,6.87,61,61
+Oslo,July,2016,71,Low,11,73,7.81,58,74
+Oslo,August,2016,51,High,31,122,6.27,103,92
+Oslo,September,2016,51,High,51,101,8.87,129,73
+Oslo,October,2016,79,Medium,64,45,8.49,63,82
+Oslo,November,2016,65,Low,61,113,7.68,99,73
+Oslo,December,2016,74,Low,45,113,7.69,55,64
+Oslo,January,2017,58,Medium,73,43,10.0,122,70
+Oslo,February,2017,61,Very High,51,110,8.6,67,81
+Oslo,March,2017,56,High,50,138,8.06,58,81
+Oslo,April,2017,46,High,84,87,9.89,79,92
+Oslo,May,2017,82,High,11,59,5.36,65,79
+Oslo,June,2017,60,High,41,109,6.4,67,83
+Oslo,July,2017,76,Medium,29,78,6.43,54,75
+Oslo,August,2017,83,Very High,66,124,8.8,67,77
+Oslo,September,2017,65,High,15,96,7.61,103,78
+Oslo,October,2017,46,Low,52,73,8.47,119,63
+Oslo,November,2017,60,High,38,107,8.7,116,80
+Oslo,December,2017,56,Medium,10,38,9.07,58,72
+Oslo,January,2018,48,High,28,150,5.79,61,71
+Oslo,February,2018,82,Medium,36,60,7.8,104,89
+Oslo,March,2018,64,Low,35,61,8.03,127,75
+Oslo,April,2018,64,Medium,67,111,7.64,111,65
+Oslo,May,2018,68,Medium,31,90,7.22,114,99
+Oslo,June,2018,72,High,71,32,10.0,104,65
+Oslo,July,2018,64,Medium,29,100,7.92,82,84
+Oslo,August,2018,74,Medium,46,78,8.25,111,64
+Oslo,September,2018,66,Low,70,55,8.68,74,60
+Oslo,October,2018,45,Very High,57,92,8.8,103,85
+Oslo,November,2018,68,Medium,49,112,9.14,59,86
+Oslo,December,2018,47,Very High,25,79,9.31,70,72
+Oslo,January,2019,72,Very High,54,95,8.73,97,63
+Oslo,February,2019,69,Very High,41,61,8.28,96,100
+Oslo,March,2019,46,High,28,63,8.8,68,76
+Oslo,April,2019,60,High,30,31,7.63,61,84
+Oslo,May,2019,70,High,20,96,8.01,104,70
+Oslo,June,2019,72,Medium,48,94,9.28,98,97
+Oslo,July,2019,64,High,21,43,8.47,94,69
+Oslo,August,2019,62,High,60,119,7.58,71,91
+Oslo,September,2019,45,Low,63,97,8.98,86,87
+Oslo,October,2019,55,Low,33,120,6.17,112,71
+Oslo,November,2019,77,Very High,67,102,9.27,73,72
+Oslo,December,2019,48,High,34,63,10.0,102,88
+Oslo,January,2020,85,Very High,23,141,5.96,60,78
+Oslo,February,2020,50,Medium,45,38,9.07,124,75
+Oslo,March,2020,75,Medium,22,31,6.69,50,97
+Oslo,April,2020,47,Low,76,131,7.53,127,93
+Oslo,May,2020,62,Very High,70,126,7.93,104,81
+Oslo,June,2020,68,High,53,70,9.63,96,85
+Oslo,July,2020,69,High,55,141,6.8,62,60
+Oslo,August,2020,74,Very High,61,122,8.79,67,61
+Oslo,September,2020,83,Low,77,65,10.0,81,83
+Oslo,October,2020,73,High,70,95,8.45,74,60
+Oslo,November,2020,85,Very High,51,32,9.25,55,80
+Oslo,December,2020,73,Low,72,81,9.79,60,82
+Oslo,January,2021,72,Very High,70,114,9.43,62,84
+Oslo,February,2021,63,High,28,141,6.47,123,92
+Oslo,March,2021,47,Low,21,68,9.07,120,89
+Oslo,April,2021,55,Very High,24,91,7.98,80,75
+Oslo,May,2021,58,Low,21,43,8.04,53,70
+Oslo,June,2021,65,Very High,45,58,9.35,110,67
+Oslo,July,2021,53,Very High,72,41,10.0,92,74
+Oslo,August,2021,81,High,18,112,5.58,98,95
+Oslo,September,2021,72,High,38,63,6.95,61,67
+Oslo,October,2021,50,Medium,85,149,7.98,64,96
+Oslo,November,2021,68,Low,50,78,8.63,50,79
+Oslo,December,2021,48,Medium,34,138,6.82,104,80
+Oslo,January,2022,68,High,26,96,7.57,125,74
+Oslo,February,2022,51,Medium,78,139,8.69,68,78
+Oslo,March,2022,59,Medium,68,48,10.0,68,62
+Oslo,April,2022,83,Medium,74,118,6.98,123,90
+Oslo,May,2022,85,High,73,67,9.64,98,63
+Oslo,June,2022,66,Low,36,138,7.4,78,63
+Oslo,July,2022,56,Very High,60,68,10.0,70,61
+Oslo,August,2022,80,Medium,64,116,7.76,94,85
+Oslo,September,2022,70,Low,46,66,9.01,74,95
+Oslo,October,2022,70,Low,51,126,8.29,56,79
+Oslo,November,2022,74,High,83,47,9.99,111,78
+Oslo,December,2022,54,Low,35,124,7.75,96,96
+Oslo,January,2023,51,High,28,78,9.38,104,70
+Oslo,February,2023,48,Low,70,52,10.0,65,92
+Oslo,March,2023,66,Medium,29,110,7.65,81,62
+Oslo,April,2023,52,Low,72,68,10.0,72,84
+Oslo,May,2023,50,High,58,65,9.92,106,83
+Oslo,June,2023,45,Low,20,45,8.52,115,74
+Oslo,July,2023,46,Medium,83,91,9.44,62,97
+Oslo,August,2023,56,Medium,65,68,9.77,62,80
+Oslo,September,2023,49,High,78,53,10.0,52,85
+Oslo,October,2023,80,High,77,92,7.53,124,94
+Oslo,November,2023,52,High,36,114,8.79,73,98
+Oslo,December,2023,56,Low,67,132,7.8,55,68
+Paris,January,2014,81,Low,30,41,8.14,54,65
+Paris,February,2014,52,Medium,56,99,7.71,50,75
+Paris,March,2014,64,Low,76,145,9.07,118,88
+Paris,April,2014,53,Medium,50,96,9.72,95,98
+Paris,May,2014,79,Medium,22,114,7.19,80,62
+Paris,June,2014,57,Low,37,47,9.14,77,97
+Paris,July,2014,67,Medium,64,39,9.92,83,84
+Paris,August,2014,55,Medium,20,150,5.41,104,69
+Paris,September,2014,79,Low,44,111,7.76,74,83
+Paris,October,2014,81,High,75,107,7.42,69,80
+Paris,November,2014,72,Medium,41,39,8.01,118,67
+Paris,December,2014,80,Medium,52,111,6.23,92,77
+Paris,January,2015,54,Very High,38,65,7.13,98,74
+Paris,February,2015,69,Very High,25,52,7.97,89,97
+Paris,March,2015,76,Low,54,119,7.72,86,95
+Paris,April,2015,62,High,16,51,7.21,99,71
+Paris,May,2015,67,High,78,100,9.39,101,90
+Paris,June,2015,82,Low,11,117,5.68,69,68
+Paris,July,2015,54,Medium,44,36,10.0,97,75
+Paris,August,2015,83,Medium,68,53,8.99,95,89
+Paris,September,2015,77,Medium,64,96,9.66,79,79
+Paris,October,2015,85,Very High,49,82,8.58,61,100
+Paris,November,2015,50,Low,40,150,5.88,123,63
+Paris,December,2015,50,High,80,148,8.72,51,87
+Paris,January,2016,77,Very High,27,91,6.94,118,67
+Paris,February,2016,70,Low,34,146,7.33,50,87
+Paris,March,2016,79,High,41,124,7.27,117,98
+Paris,April,2016,47,High,31,116,8.8,117,74
+Paris,May,2016,56,Low,27,95,7.06,56,87
+Paris,June,2016,76,Medium,57,44,8.63,81,94
+Paris,July,2016,52,Medium,71,67,9.23,50,100
+Paris,August,2016,81,Medium,49,148,7.87,115,62
+Paris,September,2016,74,Very High,72,37,9.49,128,89
+Paris,October,2016,66,Medium,23,30,7.89,73,85
+Paris,November,2016,67,Low,65,92,7.84,117,92
+Paris,December,2016,54,Medium,72,30,9.63,82,74
+Paris,January,2017,75,Medium,48,76,7.94,73,94
+Paris,February,2017,62,Low,66,114,9.52,70,68
+Paris,March,2017,67,High,10,75,8.04,75,67
+Paris,April,2017,57,Medium,27,80,7.53,92,62
+Paris,May,2017,55,High,71,115,10.0,65,86
+Paris,June,2017,76,Medium,26,71,8.09,101,92
+Paris,July,2017,69,Low,23,131,4.79,69,82
+Paris,August,2017,77,Low,40,36,9.1,93,87
+Paris,September,2017,83,High,65,91,7.66,112,65
+Paris,October,2017,72,Low,29,123,6.57,81,77
+Paris,November,2017,52,Very High,41,115,8.74,75,90
+Paris,December,2017,51,High,74,108,8.31,125,100
+Paris,January,2018,85,Low,25,46,7.23,85,72
+Paris,February,2018,54,Medium,35,41,10.0,98,86
+Paris,March,2018,78,Medium,39,58,7.57,111,63
+Paris,April,2018,77,Medium,16,68,5.8,96,77
+Paris,May,2018,67,High,41,70,9.42,73,62
+Paris,June,2018,45,Low,51,57,8.91,85,98
+Paris,July,2018,51,Medium,42,92,7.9,88,67
+Paris,August,2018,51,High,80,128,10.0,92,83
+Paris,September,2018,68,High,85,97,9.73,80,77
+Paris,October,2018,58,Medium,21,143,5.06,130,98
+Paris,November,2018,52,Low,34,54,9.33,62,64
+Paris,December,2018,79,High,48,122,7.03,75,94
+Paris,January,2019,54,Low,34,83,8.23,82,95
+Paris,February,2019,67,Very High,67,110,9.12,105,64
+Paris,March,2019,75,Medium,74,131,6.66,126,77
+Paris,April,2019,53,Medium,82,37,10.0,74,85
+Paris,May,2019,76,High,75,39,8.94,115,84
+Paris,June,2019,80,High,61,107,7.21,73,60
+Paris,July,2019,55,Medium,85,119,7.9,115,89
+Paris,August,2019,77,High,77,63,8.92,78,78
+Paris,September,2019,62,Medium,31,58,6.86,80,78
+Paris,October,2019,47,High,45,148,6.33,56,75
+Paris,November,2019,58,Medium,10,113,5.94,127,83
+Paris,December,2019,65,Low,80,63,10.0,102,99
+Paris,January,2020,63,Medium,17,110,7.54,95,74
+Paris,February,2020,62,Low,12,98,7.13,124,66
+Paris,March,2020,69,Very High,42,141,7.17,127,95
+Paris,April,2020,58,High,38,71,7.67,124,100
+Paris,May,2020,70,Low,39,123,7.68,97,69
+Paris,June,2020,75,Low,33,88,6.37,72,72
+Paris,July,2020,81,Medium,33,112,6.0,89,70
+Paris,August,2020,56,High,34,38,7.85,104,75
+Paris,September,2020,74,Very High,61,42,10.0,67,60
+Paris,October,2020,83,Low,59,32,8.06,51,62
+Paris,November,2020,53,Low,20,64,6.86,130,98
+Paris,December,2020,45,High,11,131,5.29,93,65
+Paris,January,2021,57,Low,82,144,8.52,70,79
+Paris,February,2021,66,Medium,41,37,9.05,84,100
+Paris,March,2021,79,Low,15,43,7.5,63,92
+Paris,April,2021,71,Low,38,33,7.91,99,69
+Paris,May,2021,67,High,38,147,7.71,99,67
+Paris,June,2021,76,Low,24,58,6.33,86,82
+Paris,July,2021,49,High,25,76,9.28,60,62
+Paris,August,2021,83,Low,64,97,7.63,73,87
+Paris,September,2021,54,Very High,48,109,9.07,94,66
+Paris,October,2021,62,Very High,57,149,6.74,59,60
+Paris,November,2021,54,High,28,70,7.04,107,90
+Paris,December,2021,49,Low,64,123,7.97,61,80
+Paris,January,2022,53,Low,59,75,8.73,104,90
+Paris,February,2022,71,High,52,47,9.92,81,84
+Paris,March,2022,71,Medium,78,98,9.01,118,74
+Paris,April,2022,69,Low,63,97,8.74,78,65
+Paris,May,2022,60,Medium,36,138,5.43,121,90
+Paris,June,2022,53,Very High,17,146,5.72,67,78
+Paris,July,2022,74,Low,80,149,9.24,81,73
+Paris,August,2022,59,Low,27,45,9.8,68,84
+Paris,September,2022,46,High,64,77,8.3,63,97
+Paris,October,2022,49,Medium,30,33,8.01,68,65
+Paris,November,2022,60,Low,82,136,9.7,69,71
+Paris,December,2022,75,High,77,119,9.8,110,86
+Paris,January,2023,66,Medium,11,66,5.97,57,62
+Paris,February,2023,83,High,74,50,8.0,104,89
+Paris,March,2023,80,High,43,147,6.6,89,74
+Paris,April,2023,72,Very High,44,41,8.84,66,73
+Paris,May,2023,70,High,38,80,6.87,121,98
+Paris,June,2023,49,High,69,91,8.91,101,84
+Paris,July,2023,55,Low,57,112,8.16,84,66
+Paris,August,2023,51,Low,52,33,9.11,70,94
+Paris,September,2023,51,Low,11,126,7.62,74,95
+Paris,October,2023,57,High,14,60,6.96,122,96
+Paris,November,2023,47,Medium,71,35,9.37,61,79
+Paris,December,2023,45,Very High,46,80,8.89,90,85
+Prague,January,2014,67,Very High,22,72,7.15,114,66
+Prague,February,2014,77,High,29,33,8.45,98,90
+Prague,March,2014,82,Very High,14,67,5.74,109,65
+Prague,April,2014,85,Low,39,143,5.3,68,70
+Prague,May,2014,77,Medium,76,149,8.56,107,68
+Prague,June,2014,66,Medium,65,35,10.0,99,75
+Prague,July,2014,58,Very High,19,49,8.24,113,66
+Prague,August,2014,45,Low,49,100,9.71,61,91
+Prague,September,2014,51,Medium,31,149,6.12,58,77
+Prague,October,2014,81,Medium,21,39,6.67,108,76
+Prague,November,2014,75,Very High,66,113,9.4,65,96
+Prague,December,2014,76,Low,46,81,7.67,129,68
+Prague,January,2015,73,Medium,50,77,7.02,102,92
+Prague,February,2015,73,Medium,15,109,7.66,57,75
+Prague,March,2015,80,Low,23,67,6.81,122,85
+Prague,April,2015,49,Low,69,115,7.77,109,89
+Prague,May,2015,79,Very High,69,43,8.29,63,85
+Prague,June,2015,72,Low,52,38,8.61,127,91
+Prague,July,2015,58,High,70,44,9.52,54,94
+Prague,August,2015,54,Very High,28,111,6.42,122,62
+Prague,September,2015,83,High,17,149,6.14,105,90
+Prague,October,2015,58,Low,12,127,6.75,84,76
+Prague,November,2015,85,Low,28,38,7.13,60,79
+Prague,December,2015,73,Very High,77,57,10.0,83,71
+Prague,January,2016,48,Low,64,73,10.0,88,70
+Prague,February,2016,57,Medium,63,91,8.92,70,87
+Prague,March,2016,67,Very High,83,79,10.0,121,98
+Prague,April,2016,57,Low,84,108,8.42,90,60
+Prague,May,2016,54,Very High,28,93,8.73,64,86
+Prague,June,2016,61,Medium,10,87,8.16,66,100
+Prague,July,2016,73,High,84,42,8.94,74,86
+Prague,August,2016,79,High,58,57,8.35,74,96
+Prague,September,2016,45,Medium,56,32,9.66,89,92
+Prague,October,2016,52,High,68,82,9.25,95,94
+Prague,November,2016,72,Medium,52,44,10.0,108,87
+Prague,December,2016,68,Low,30,99,6.99,86,87
+Prague,January,2017,85,Medium,22,41,8.43,63,65
+Prague,February,2017,46,High,62,43,10.0,129,94
+Prague,March,2017,51,High,74,104,10.0,87,86
+Prague,April,2017,58,Low,68,100,8.62,75,90
+Prague,May,2017,52,Medium,69,82,10.0,100,60
+Prague,June,2017,68,High,74,66,8.9,83,79
+Prague,July,2017,71,High,10,145,6.6,54,60
+Prague,August,2017,46,Low,57,137,9.11,126,80
+Prague,September,2017,66,Low,83,85,8.87,100,72
+Prague,October,2017,84,High,16,132,6.78,104,68
+Prague,November,2017,85,Medium,32,81,8.32,116,70
+Prague,December,2017,72,Low,26,94,5.86,123,85
+Prague,January,2018,85,Very High,80,50,10.0,76,65
+Prague,February,2018,50,Low,11,110,7.55,69,61
+Prague,March,2018,84,High,20,103,5.87,66,89
+Prague,April,2018,85,High,55,53,7.81,78,79
+Prague,May,2018,57,Medium,41,122,8.33,98,76
+Prague,June,2018,48,Medium,28,110,6.05,124,66
+Prague,July,2018,52,Medium,25,43,7.51,83,71
+Prague,August,2018,50,Low,56,146,8.83,100,66
+Prague,September,2018,76,High,62,39,9.38,130,64
+Prague,October,2018,58,High,58,143,7.16,107,70
+Prague,November,2018,56,Medium,32,114,7.52,127,62
+Prague,December,2018,52,Very High,54,91,10.0,126,94
+Prague,January,2019,45,Low,42,148,6.23,127,61
+Prague,February,2019,79,Low,75,127,7.05,96,67
+Prague,March,2019,58,Low,27,58,6.93,66,77
+Prague,April,2019,62,Medium,21,74,8.12,87,89
+Prague,May,2019,76,Medium,61,148,6.28,72,72
+Prague,June,2019,62,Very High,23,104,7.86,125,79
+Prague,July,2019,55,High,72,85,10.0,104,98
+Prague,August,2019,62,High,23,107,6.57,75,96
+Prague,September,2019,67,Medium,18,87,5.97,54,92
+Prague,October,2019,61,Medium,47,107,8.89,117,82
+Prague,November,2019,70,Low,33,133,6.03,73,82
+Prague,December,2019,60,Low,57,77,7.88,90,67
+Prague,January,2020,45,Medium,11,121,6.16,109,96
+Prague,February,2020,65,Very High,81,38,10.0,127,73
+Prague,March,2020,78,Low,81,65,10.0,59,96
+Prague,April,2020,71,High,65,70,10.0,75,72
+Prague,May,2020,48,High,73,35,10.0,103,67
+Prague,June,2020,52,Medium,51,105,8.03,123,61
+Prague,July,2020,63,Low,83,30,10.0,86,68
+Prague,August,2020,70,Low,78,147,8.16,93,61
+Prague,September,2020,49,Medium,63,122,8.01,90,82
+Prague,October,2020,70,Low,50,93,8.38,100,79
+Prague,November,2020,74,Medium,25,137,5.66,129,66
+Prague,December,2020,46,Low,11,47,6.94,91,87
+Prague,January,2021,59,Low,34,122,8.36,97,94
+Prague,February,2021,45,Very High,16,63,9.18,55,67
+Prague,March,2021,48,Very High,19,63,7.55,128,84
+Prague,April,2021,62,High,27,104,7.02,66,80
+Prague,May,2021,54,High,62,111,8.48,65,93
+Prague,June,2021,78,Low,71,114,8.19,85,80
+Prague,July,2021,75,Low,43,128,6.3,60,82
+Prague,August,2021,80,High,41,114,7.4,76,64
+Prague,September,2021,49,Very High,17,57,6.61,77,89
+Prague,October,2021,69,Low,23,73,6.52,125,93
+Prague,November,2021,77,Very High,49,120,7.11,69,92
+Prague,December,2021,51,Very High,38,147,6.64,107,99
+Prague,January,2022,77,Low,61,54,7.76,104,70
+Prague,February,2022,64,Very High,83,112,7.97,109,66
+Prague,March,2022,52,Low,68,53,9.4,110,93
+Prague,April,2022,73,Medium,25,148,6.0,95,87
+Prague,May,2022,58,Low,74,85,9.54,56,88
+Prague,June,2022,62,Medium,16,113,6.17,104,72
+Prague,July,2022,63,Low,32,106,6.6,127,91
+Prague,August,2022,78,Medium,16,112,5.31,64,74
+Prague,September,2022,52,Low,14,103,6.24,58,94
+Prague,October,2022,51,Medium,61,80,8.99,78,77
+Prague,November,2022,76,Low,36,74,8.09,126,78
+Prague,December,2022,45,Low,74,146,9.29,111,79
+Prague,January,2023,60,Low,18,51,6.96,108,69
+Prague,February,2023,45,High,64,72,8.33,83,64
+Prague,March,2023,55,High,11,106,6.23,110,97
+Prague,April,2023,45,Medium,41,90,7.32,52,96
+Prague,May,2023,63,High,77,94,8.31,68,66
+Prague,June,2023,51,Medium,52,87,8.78,94,94
+Prague,July,2023,61,High,42,76,8.21,95,79
+Prague,August,2023,66,Very High,71,44,9.29,116,100
+Prague,September,2023,46,Low,62,139,7.48,68,82
+Prague,October,2023,76,Low,83,124,9.15,105,83
+Prague,November,2023,58,High,34,147,8.04,63,77
+Prague,December,2023,85,High,67,142,7.37,83,82
+Rome,January,2014,66,Medium,63,150,9.02,89,72
+Rome,February,2014,47,Medium,53,136,8.33,105,89
+Rome,March,2014,81,Very High,54,66,7.24,51,91
+Rome,April,2014,54,Medium,29,96,9.02,129,95
+Rome,May,2014,55,Medium,46,38,10.0,51,89
+Rome,June,2014,47,Low,85,45,9.75,89,60
+Rome,July,2014,72,Medium,10,36,6.77,94,78
+Rome,August,2014,77,High,81,49,10.0,84,69
+Rome,September,2014,57,Medium,20,67,6.91,110,82
+Rome,October,2014,60,High,59,84,8.58,62,76
+Rome,November,2014,64,Medium,32,102,7.13,91,97
+Rome,December,2014,53,High,35,62,7.48,120,72
+Rome,January,2015,64,Medium,48,102,9.24,109,94
+Rome,February,2015,56,Medium,65,42,9.0,106,80
+Rome,March,2015,77,Very High,55,89,7.67,109,86
+Rome,April,2015,71,Medium,81,33,10.0,103,65
+Rome,May,2015,53,High,48,130,6.96,115,83
+Rome,June,2015,53,High,82,142,8.23,100,68
+Rome,July,2015,70,High,69,133,8.79,116,89
+Rome,August,2015,48,Low,44,136,9.06,63,81
+Rome,September,2015,83,Low,47,102,7.29,92,63
+Rome,October,2015,52,High,75,124,9.61,76,93
+Rome,November,2015,54,Medium,73,47,9.53,69,79
+Rome,December,2015,85,Medium,10,133,5.14,75,67
+Rome,January,2016,49,Low,25,96,6.4,76,66
+Rome,February,2016,75,Low,74,86,8.66,65,79
+Rome,March,2016,70,Medium,33,134,5.74,119,76
+Rome,April,2016,84,High,25,85,5.72,52,71
+Rome,May,2016,54,High,40,51,8.99,119,72
+Rome,June,2016,75,Medium,47,115,6.13,125,91
+Rome,July,2016,68,High,60,79,9.37,63,89
+Rome,August,2016,71,High,28,33,7.68,65,96
+Rome,September,2016,69,Low,48,34,9.61,129,88
+Rome,October,2016,47,Very High,55,47,9.75,108,77
+Rome,November,2016,45,Very High,55,94,10.0,114,73
+Rome,December,2016,67,Very High,77,79,9.53,72,69
+Rome,January,2017,67,High,82,73,9.69,67,77
+Rome,February,2017,64,Very High,18,147,6.88,111,84
+Rome,March,2017,75,High,33,103,7.64,114,93
+Rome,April,2017,61,Low,51,105,9.48,94,97
+Rome,May,2017,84,High,18,35,6.09,70,74
+Rome,June,2017,51,High,73,149,8.95,91,74
+Rome,July,2017,60,Low,32,123,8.2,103,64
+Rome,August,2017,48,High,24,34,9.88,59,88
+Rome,September,2017,68,High,13,148,4.54,63,88
+Rome,October,2017,69,Low,83,101,8.33,82,91
+Rome,November,2017,73,High,38,55,8.96,105,93
+Rome,December,2017,57,Low,13,110,7.99,62,73
+Rome,January,2018,47,High,10,76,8.29,122,94
+Rome,February,2018,49,Medium,77,93,8.82,76,96
+Rome,March,2018,75,Medium,55,109,8.97,67,64
+Rome,April,2018,73,Medium,58,141,6.02,60,68
+Rome,May,2018,78,Medium,25,93,5.99,126,94
+Rome,June,2018,66,Low,47,148,7.92,99,82
+Rome,July,2018,49,Very High,30,66,7.13,123,75
+Rome,August,2018,78,Very High,74,69,8.94,57,94
+Rome,September,2018,52,Medium,43,113,6.49,93,86
+Rome,October,2018,61,Low,17,47,7.02,92,63
+Rome,November,2018,60,Medium,82,145,8.91,54,82
+Rome,December,2018,49,Very High,20,143,6.62,66,77
+Rome,January,2019,47,Low,73,94,8.81,94,87
+Rome,February,2019,75,Medium,39,32,9.96,53,72
+Rome,March,2019,79,High,58,117,8.16,52,95
+Rome,April,2019,75,Low,58,119,6.57,104,95
+Rome,May,2019,53,Low,25,144,6.88,97,82
+Rome,June,2019,57,Medium,17,60,6.97,125,60
+Rome,July,2019,59,Medium,78,102,7.95,51,75
+Rome,August,2019,48,Low,26,86,6.92,55,80
+Rome,September,2019,67,High,41,67,7.18,100,90
+Rome,October,2019,52,High,19,62,9.28,76,91
+Rome,November,2019,67,Very High,38,86,8.43,96,95
+Rome,December,2019,63,Very High,41,97,8.99,90,94
+Rome,January,2020,77,Low,54,145,6.68,129,91
+Rome,February,2020,62,Low,27,137,7.91,79,79
+Rome,March,2020,80,Low,57,122,8.39,68,62
+Rome,April,2020,60,High,68,44,8.6,54,77
+Rome,May,2020,62,Medium,48,135,8.76,57,77
+Rome,June,2020,84,Medium,12,140,4.81,106,62
+Rome,July,2020,59,Low,33,114,7.06,56,79
+Rome,August,2020,47,Medium,54,149,6.35,127,81
+Rome,September,2020,61,High,85,57,10.0,93,99
+Rome,October,2020,72,Very High,17,133,4.69,99,78
+Rome,November,2020,79,Medium,83,122,8.71,116,76
+Rome,December,2020,55,Very High,69,125,10.0,80,68
+Rome,January,2021,45,Medium,45,40,10.0,119,78
+Rome,February,2021,66,Medium,14,108,5.74,84,76
+Rome,March,2021,83,Low,49,102,7.91,83,71
+Rome,April,2021,73,Medium,66,31,9.73,95,90
+Rome,May,2021,85,High,37,82,5.97,60,77
+Rome,June,2021,84,Medium,18,86,5.52,85,76
+Rome,July,2021,76,Low,32,48,9.15,56,74
+Rome,August,2021,52,High,33,117,7.44,106,97
+Rome,September,2021,65,Low,39,37,10.0,83,76
+Rome,October,2021,46,High,55,99,9.49,126,75
+Rome,November,2021,67,Low,74,86,8.07,59,75
+Rome,December,2021,58,Medium,57,136,8.79,103,64
+Rome,January,2022,72,Very High,28,33,7.78,96,81
+Rome,February,2022,71,Very High,57,90,9.68,87,99
+Rome,March,2022,46,Low,15,67,9.17,125,61
+Rome,April,2022,51,High,50,95,9.22,115,97
+Rome,May,2022,67,Very High,58,136,7.84,69,84
+Rome,June,2022,50,Very High,38,102,7.99,123,100
+Rome,July,2022,80,High,78,123,7.12,117,63
+Rome,August,2022,83,Medium,77,96,8.49,84,72
+Rome,September,2022,81,Medium,41,72,7.0,96,74
+Rome,October,2022,74,Medium,24,118,5.6,102,83
+Rome,November,2022,50,Medium,74,39,10.0,111,98
+Rome,December,2022,59,Medium,63,59,9.78,66,94
+Rome,January,2023,60,High,62,116,8.61,67,98
+Rome,February,2023,61,High,53,70,7.74,102,86
+Rome,March,2023,77,Very High,83,93,9.55,75,71
+Rome,April,2023,74,Low,25,83,6.41,120,90
+Rome,May,2023,51,Low,14,136,6.1,71,64
+Rome,June,2023,53,Medium,77,147,8.21,104,82
+Rome,July,2023,53,Medium,81,60,10.0,65,81
+Rome,August,2023,66,Medium,23,122,5.14,95,88
+Rome,September,2023,71,High,65,67,9.9,67,71
+Rome,October,2023,82,Very High,75,40,8.7,50,97
+Rome,November,2023,82,Medium,68,78,8.16,72,92
+Rome,December,2023,82,Medium,22,59,6.63,93,63
+San Francisco,January,2014,81,Medium,77,104,8.59,104,78
+San Francisco,February,2014,65,Medium,32,48,7.0,76,87
+San Francisco,March,2014,78,Medium,50,42,8.36,71,67
+San Francisco,April,2014,63,Medium,66,58,10.0,86,76
+San Francisco,May,2014,83,High,39,115,6.11,62,73
+San Francisco,June,2014,80,High,31,33,8.48,55,94
+San Francisco,July,2014,79,High,10,92,7.19,53,83
+San Francisco,August,2014,58,Medium,83,84,10.0,116,68
+San Francisco,September,2014,74,Medium,24,121,6.94,65,88
+San Francisco,October,2014,72,Medium,21,140,4.79,85,67
+San Francisco,November,2014,67,High,38,123,5.77,70,92
+San Francisco,December,2014,66,Medium,75,116,9.53,90,62
+San Francisco,January,2015,72,Low,76,70,8.55,121,100
+San Francisco,February,2015,47,Very High,11,61,6.72,98,74
+San Francisco,March,2015,57,Medium,29,92,8.55,113,78
+San Francisco,April,2015,53,Low,21,96,8.4,77,60
+San Francisco,May,2015,72,Low,81,108,8.05,72,62
+San Francisco,June,2015,71,High,58,110,8.24,94,90
+San Francisco,July,2015,78,High,33,142,5.54,79,78
+San Francisco,August,2015,76,Medium,60,106,7.57,111,78
+San Francisco,September,2015,51,Low,46,83,10.0,91,75
+San Francisco,October,2015,72,Low,69,70,9.68,94,85
+San Francisco,November,2015,53,High,71,137,9.42,112,98
+San Francisco,December,2015,71,High,13,67,6.35,77,86
+San Francisco,January,2016,48,Medium,51,63,9.86,102,85
+San Francisco,February,2016,73,Medium,43,146,5.27,112,74
+San Francisco,March,2016,66,High,15,69,7.08,78,96
+San Francisco,April,2016,55,Medium,24,108,7.48,66,98
+San Francisco,May,2016,79,Low,12,132,5.11,92,82
+San Francisco,June,2016,80,Low,16,96,5.45,118,72
+San Francisco,July,2016,55,High,60,140,8.6,87,70
+San Francisco,August,2016,68,Medium,37,100,8.14,51,62
+San Francisco,September,2016,46,High,77,43,10.0,112,62
+San Francisco,October,2016,55,Medium,13,59,8.08,81,62
+San Francisco,November,2016,62,High,58,113,7.9,84,65
+San Francisco,December,2016,49,Low,63,32,8.95,119,98
+San Francisco,January,2017,54,Low,85,131,8.83,127,79
+San Francisco,February,2017,65,Medium,12,68,6.49,75,66
+San Francisco,March,2017,61,Very High,83,90,9.32,104,65
+San Francisco,April,2017,59,Very High,81,65,10.0,118,92
+San Francisco,May,2017,60,Medium,73,123,8.34,97,94
+San Francisco,June,2017,51,Medium,83,33,10.0,79,88
+San Francisco,July,2017,68,Medium,23,112,6.07,68,100
+San Francisco,August,2017,50,Low,31,56,9.71,112,97
+San Francisco,September,2017,60,Low,61,108,9.49,116,96
+San Francisco,October,2017,59,Low,73,62,9.65,93,69
+San Francisco,November,2017,47,Medium,82,106,9.47,50,77
+San Francisco,December,2017,58,High,72,99,9.16,80,80
+San Francisco,January,2018,74,High,75,101,9.84,60,66
+San Francisco,February,2018,72,High,58,46,10.0,70,93
+San Francisco,March,2018,52,Low,66,141,9.68,54,87
+San Francisco,April,2018,76,Low,77,92,7.88,120,86
+San Francisco,May,2018,70,Low,25,85,8.69,84,93
+San Francisco,June,2018,65,High,57,102,8.74,68,78
+San Francisco,July,2018,78,High,57,96,8.33,110,89
+San Francisco,August,2018,58,Very High,27,51,8.39,110,60
+San Francisco,September,2018,65,Medium,29,90,6.11,50,79
+San Francisco,October,2018,57,Low,22,98,7.09,62,63
+San Francisco,November,2018,84,Medium,30,38,7.47,121,74
+San Francisco,December,2018,67,High,34,65,7.4,104,97
+San Francisco,January,2019,64,Medium,61,149,6.8,119,72
+San Francisco,February,2019,49,Medium,23,123,6.14,72,76
+San Francisco,March,2019,81,Low,76,105,8.94,99,81
+San Francisco,April,2019,81,High,85,107,8.16,128,90
+San Francisco,May,2019,58,Low,39,57,7.45,128,69
+San Francisco,June,2019,54,Low,10,71,6.09,56,68
+San Francisco,July,2019,77,High,64,115,7.87,88,92
+San Francisco,August,2019,52,Low,60,78,10.0,110,82
+San Francisco,September,2019,64,High,50,97,6.87,127,73
+San Francisco,October,2019,55,Very High,45,121,6.66,105,95
+San Francisco,November,2019,73,Medium,42,117,6.01,105,82
+San Francisco,December,2019,56,Low,56,139,7.68,94,87
+San Francisco,January,2020,58,High,34,78,7.68,51,72
+San Francisco,February,2020,73,Medium,34,30,8.83,92,66
+San Francisco,March,2020,68,Very High,74,147,6.52,84,62
+San Francisco,April,2020,62,High,60,35,10.0,82,77
+San Francisco,May,2020,85,Low,83,135,6.66,110,98
+San Francisco,June,2020,85,Medium,32,90,7.68,119,66
+San Francisco,July,2020,47,Medium,29,120,8.06,66,65
+San Francisco,August,2020,71,High,25,37,7.96,57,80
+San Francisco,September,2020,51,Very High,45,139,6.57,128,61
+San Francisco,October,2020,66,High,50,144,7.77,125,83
+San Francisco,November,2020,78,Low,61,83,9.45,57,64
+San Francisco,December,2020,57,High,74,48,10.0,60,71
+San Francisco,January,2021,73,Low,35,118,6.87,72,100
+San Francisco,February,2021,45,Medium,81,74,9.26,109,96
+San Francisco,March,2021,50,Medium,69,41,9.29,61,71
+San Francisco,April,2021,50,Low,85,110,10.0,71,60
+San Francisco,May,2021,58,High,68,40,10.0,81,79
+San Francisco,June,2021,57,High,26,69,6.61,86,71
+San Francisco,July,2021,62,Low,50,82,7.68,74,77
+San Francisco,August,2021,57,Low,47,63,9.5,83,65
+San Francisco,September,2021,76,Medium,56,74,9.3,116,88
+San Francisco,October,2021,85,High,31,34,9.36,124,84
+San Francisco,November,2021,54,Medium,36,119,7.24,86,73
+San Francisco,December,2021,66,High,74,100,9.97,84,65
+San Francisco,January,2022,77,High,43,57,8.17,54,67
+San Francisco,February,2022,78,High,33,90,6.1,125,80
+San Francisco,March,2022,68,Medium,85,145,7.06,63,100
+San Francisco,April,2022,67,Very High,11,50,7.19,92,81
+San Francisco,May,2022,51,Low,55,69,8.28,119,71
+San Francisco,June,2022,46,Medium,68,105,9.47,105,85
+San Francisco,July,2022,75,High,42,122,6.61,93,90
+San Francisco,August,2022,70,Medium,39,127,8.22,114,66
+San Francisco,September,2022,71,Medium,44,103,7.27,53,70
+San Francisco,October,2022,77,Low,48,143,7.04,117,72
+San Francisco,November,2022,81,High,26,114,5.83,56,65
+San Francisco,December,2022,64,High,28,132,6.1,100,70
+San Francisco,January,2023,74,Low,28,55,8.95,88,79
+San Francisco,February,2023,50,Low,36,85,7.01,81,69
+San Francisco,March,2023,80,High,57,30,9.21,94,66
+San Francisco,April,2023,75,Medium,60,119,6.91,110,84
+San Francisco,May,2023,74,High,22,79,5.97,67,85
+San Francisco,June,2023,65,Very High,64,106,8.17,59,82
+San Francisco,July,2023,76,High,85,33,9.63,127,71
+San Francisco,August,2023,60,Medium,53,94,9.41,128,98
+San Francisco,September,2023,70,Very High,39,47,8.52,55,73
+San Francisco,October,2023,64,Medium,53,79,9.08,104,69
+San Francisco,November,2023,63,Medium,71,34,9.55,103,71
+San Francisco,December,2023,55,Medium,76,136,7.49,60,82
+Stockholm,January,2014,51,High,61,132,9.19,70,80
+Stockholm,February,2014,53,Medium,59,117,8.29,112,85
+Stockholm,March,2014,72,High,48,84,7.36,64,98
+Stockholm,April,2014,73,Medium,70,121,7.7,118,83
+Stockholm,May,2014,52,High,64,98,9.82,60,69
+Stockholm,June,2014,45,Medium,85,63,9.88,128,89
+Stockholm,July,2014,72,Low,46,35,7.84,112,89
+Stockholm,August,2014,68,Low,57,62,8.78,87,61
+Stockholm,September,2014,79,Medium,47,75,7.76,107,80
+Stockholm,October,2014,64,High,24,75,8.24,118,85
+Stockholm,November,2014,60,Low,78,42,9.36,68,100
+Stockholm,December,2014,76,Medium,45,74,9.46,129,75
+Stockholm,January,2015,78,Medium,15,39,6.96,54,69
+Stockholm,February,2015,83,Very High,22,78,6.87,60,81
+Stockholm,March,2015,85,High,64,81,6.96,82,65
+Stockholm,April,2015,72,Very High,34,103,6.42,88,99
+Stockholm,May,2015,77,Medium,41,118,7.87,97,96
+Stockholm,June,2015,75,Low,65,65,9.79,73,77
+Stockholm,July,2015,77,High,61,146,6.25,86,77
+Stockholm,August,2015,45,Medium,12,130,6.27,66,77
+Stockholm,September,2015,62,Medium,50,42,8.46,52,80
+Stockholm,October,2015,59,Low,46,123,8.25,108,97
+Stockholm,November,2015,71,High,52,99,7.64,121,60
+Stockholm,December,2015,66,Medium,54,135,7.31,109,91
+Stockholm,January,2016,58,Medium,31,116,6.85,101,62
+Stockholm,February,2016,81,Very High,72,101,9.88,60,73
+Stockholm,March,2016,78,Medium,47,126,6.47,109,61
+Stockholm,April,2016,54,High,31,109,6.99,105,86
+Stockholm,May,2016,46,High,46,101,9.17,80,84
+Stockholm,June,2016,79,Low,25,42,7.48,77,67
+Stockholm,July,2016,81,Medium,30,128,7.04,101,95
+Stockholm,August,2016,71,Medium,37,83,8.89,85,80
+Stockholm,September,2016,68,High,50,94,8.19,100,74
+Stockholm,October,2016,70,Medium,69,66,10.0,107,70
+Stockholm,November,2016,56,Medium,10,98,7.75,109,71
+Stockholm,December,2016,51,Medium,63,83,9.06,53,99
+Stockholm,January,2017,59,Low,74,40,10.0,102,61
+Stockholm,February,2017,65,High,31,102,7.63,61,83
+Stockholm,March,2017,46,High,59,100,9.01,74,70
+Stockholm,April,2017,74,Medium,40,52,8.26,75,80
+Stockholm,May,2017,53,Medium,13,56,8.04,108,75
+Stockholm,June,2017,83,Medium,40,131,5.52,109,92
+Stockholm,July,2017,52,High,52,141,8.96,70,75
+Stockholm,August,2017,74,High,18,30,8.65,102,93
+Stockholm,September,2017,75,Very High,19,130,5.66,83,94
+Stockholm,October,2017,52,High,78,121,7.71,111,63
+Stockholm,November,2017,63,High,15,76,6.89,115,100
+Stockholm,December,2017,73,Medium,25,43,6.89,83,97
+Stockholm,January,2018,52,High,56,82,9.51,68,75
+Stockholm,February,2018,75,Low,22,72,7.62,59,89
+Stockholm,March,2018,76,High,43,73,7.37,106,81
+Stockholm,April,2018,73,High,82,65,10.0,67,69
+Stockholm,May,2018,78,Medium,38,142,5.95,96,78
+Stockholm,June,2018,64,Very High,30,102,7.64,110,88
+Stockholm,July,2018,63,Low,26,48,8.51,99,76
+Stockholm,August,2018,85,Low,37,104,6.26,124,60
+Stockholm,September,2018,61,Medium,75,125,9.78,116,85
+Stockholm,October,2018,75,High,31,74,7.94,125,92
+Stockholm,November,2018,65,Medium,58,140,8.85,71,93
+Stockholm,December,2018,75,Low,58,31,9.96,58,81
+Stockholm,January,2019,59,Medium,38,49,8.1,65,72
+Stockholm,February,2019,67,Medium,82,146,8.77,51,93
+Stockholm,March,2019,59,High,56,115,6.77,130,66
+Stockholm,April,2019,66,Medium,44,100,9.16,118,65
+Stockholm,May,2019,48,Medium,76,61,9.61,73,75
+Stockholm,June,2019,59,High,68,52,8.53,127,77
+Stockholm,July,2019,80,Medium,34,123,7.49,58,68
+Stockholm,August,2019,78,Medium,36,59,7.15,124,90
+Stockholm,September,2019,74,Low,16,70,7.89,59,72
+Stockholm,October,2019,75,Low,20,90,5.84,119,97
+Stockholm,November,2019,58,Medium,48,102,6.67,105,67
+Stockholm,December,2019,73,High,34,105,7.99,128,89
+Stockholm,January,2020,45,Medium,62,106,8.32,130,71
+Stockholm,February,2020,66,Medium,75,66,10.0,88,76
+Stockholm,March,2020,79,Low,45,116,7.29,89,100
+Stockholm,April,2020,73,Low,33,92,5.81,115,90
+Stockholm,May,2020,76,Low,18,127,5.7,88,66
+Stockholm,June,2020,73,Medium,78,135,7.28,63,74
+Stockholm,July,2020,58,Medium,49,70,9.62,110,66
+Stockholm,August,2020,64,Very High,36,103,7.98,91,70
+Stockholm,September,2020,57,High,31,139,5.72,70,80
+Stockholm,October,2020,78,Very High,63,129,8.28,79,76
+Stockholm,November,2020,75,Very High,48,77,7.06,92,82
+Stockholm,December,2020,65,Medium,64,102,8.25,103,60
+Stockholm,January,2021,70,Low,62,75,9.32,67,89
+Stockholm,February,2021,62,Low,35,56,8.91,82,78
+Stockholm,March,2021,68,Low,64,131,7.55,121,95
+Stockholm,April,2021,57,High,74,86,10.0,63,64
+Stockholm,May,2021,60,Low,71,150,8.7,110,62
+Stockholm,June,2021,69,High,72,61,8.93,127,97
+Stockholm,July,2021,69,Low,17,111,5.92,118,83
+Stockholm,August,2021,73,Very High,24,90,5.87,59,80
+Stockholm,September,2021,71,High,29,105,6.33,75,95
+Stockholm,October,2021,50,Medium,51,103,8.62,83,95
+Stockholm,November,2021,78,High,12,47,8.02,58,80
+Stockholm,December,2021,68,Very High,67,125,9.29,73,80
+Stockholm,January,2022,74,Low,56,72,7.68,83,76
+Stockholm,February,2022,83,High,12,47,5.91,102,87
+Stockholm,March,2022,70,High,16,136,5.91,115,83
+Stockholm,April,2022,46,Medium,14,94,8.42,91,94
+Stockholm,May,2022,76,Medium,52,111,6.28,59,96
+Stockholm,June,2022,50,Very High,24,98,6.47,115,65
+Stockholm,July,2022,81,Very High,34,126,5.13,105,77
+Stockholm,August,2022,74,Medium,29,113,6.17,73,96
+Stockholm,September,2022,66,Medium,65,143,6.32,123,78
+Stockholm,October,2022,45,High,59,32,8.9,91,87
+Stockholm,November,2022,54,Medium,38,104,8.34,91,94
+Stockholm,December,2022,74,High,35,128,7.58,95,96
+Stockholm,January,2023,54,Low,28,56,7.81,62,61
+Stockholm,February,2023,79,High,15,129,4.53,94,64
+Stockholm,March,2023,65,Very High,39,114,6.46,88,70
+Stockholm,April,2023,72,Very High,39,149,7.68,95,61
+Stockholm,May,2023,53,Very High,66,45,10.0,98,61
+Stockholm,June,2023,73,Very High,36,78,6.34,106,85
+Stockholm,July,2023,57,Low,58,105,9.45,61,71
+Stockholm,August,2023,77,Very High,76,45,8.82,76,67
+Stockholm,September,2023,76,High,55,125,8.91,103,72
+Stockholm,October,2023,58,Very High,74,76,9.63,115,67
+Stockholm,November,2023,74,Low,58,132,7.22,62,82
+Stockholm,December,2023,68,Very High,18,85,8.32,88,74
+Sydney,January,2014,50,High,59,142,7.93,85,80
+Sydney,February,2014,47,Low,41,52,9.38,66,93
+Sydney,March,2014,54,Low,70,127,7.26,126,73
+Sydney,April,2014,63,Medium,63,135,6.9,72,71
+Sydney,May,2014,78,Very High,33,76,8.6,64,70
+Sydney,June,2014,46,Medium,49,81,9.34,83,99
+Sydney,July,2014,65,Low,13,72,5.72,110,62
+Sydney,August,2014,54,Very High,15,99,6.63,126,93
+Sydney,September,2014,55,Low,11,74,8.5,61,86
+Sydney,October,2014,49,Low,70,89,10.0,118,88
+Sydney,November,2014,53,Very High,10,69,7.36,82,68
+Sydney,December,2014,65,High,56,108,8.64,62,90
+Sydney,January,2015,76,High,83,55,8.82,115,68
+Sydney,February,2015,54,Low,20,125,5.46,101,78
+Sydney,March,2015,84,Low,38,62,6.81,88,81
+Sydney,April,2015,74,High,76,96,9.13,84,68
+Sydney,May,2015,65,Medium,28,104,7.8,54,84
+Sydney,June,2015,85,Low,35,53,6.33,54,75
+Sydney,July,2015,55,Medium,11,103,6.67,94,72
+Sydney,August,2015,85,Very High,83,81,9.01,77,89
+Sydney,September,2015,84,Medium,66,45,9.95,115,81
+Sydney,October,2015,66,Very High,33,62,7.62,112,95
+Sydney,November,2015,74,High,53,127,7.42,58,83
+Sydney,December,2015,72,High,79,46,8.86,108,67
+Sydney,January,2016,52,Medium,47,46,10.0,89,88
+Sydney,February,2016,72,Medium,20,140,7.26,73,85
+Sydney,March,2016,77,Low,38,129,5.18,95,93
+Sydney,April,2016,83,High,82,140,8.08,56,94
+Sydney,May,2016,68,Medium,77,51,9.64,62,70
+Sydney,June,2016,85,High,38,137,7.52,69,94
+Sydney,July,2016,84,Medium,35,65,6.23,101,78
+Sydney,August,2016,69,Very High,63,144,7.5,91,68
+Sydney,September,2016,64,Low,42,120,7.53,89,73
+Sydney,October,2016,84,Medium,18,37,8.23,67,69
+Sydney,November,2016,75,High,41,80,8.65,103,85
+Sydney,December,2016,82,Low,54,39,8.1,85,68
+Sydney,January,2017,70,Low,84,150,8.78,76,88
+Sydney,February,2017,54,High,51,31,10.0,116,79
+Sydney,March,2017,78,Low,70,59,9.76,88,67
+Sydney,April,2017,79,High,68,49,8.08,93,77
+Sydney,May,2017,47,Medium,42,44,9.77,104,97
+Sydney,June,2017,55,Very High,72,127,8.06,116,66
+Sydney,July,2017,50,Very High,56,60,10.0,113,87
+Sydney,August,2017,71,Low,23,140,6.8,85,76
+Sydney,September,2017,85,Medium,63,115,8.68,95,65
+Sydney,October,2017,45,Low,72,61,10.0,78,97
+Sydney,November,2017,72,High,23,129,7.16,112,95
+Sydney,December,2017,83,High,58,107,7.75,98,62
+Sydney,January,2018,83,Low,22,103,5.11,80,83
+Sydney,February,2018,82,High,63,134,7.06,55,82
+Sydney,March,2018,73,Very High,83,140,8.4,101,100
+Sydney,April,2018,72,High,13,57,7.42,53,100
+Sydney,May,2018,66,Low,62,132,6.45,108,76
+Sydney,June,2018,67,High,54,75,10.0,81,77
+Sydney,July,2018,73,High,51,88,8.69,83,70
+Sydney,August,2018,58,Medium,80,112,8.69,101,82
+Sydney,September,2018,56,High,21,72,7.28,118,74
+Sydney,October,2018,65,High,22,147,6.66,101,80
+Sydney,November,2018,84,Medium,33,126,5.93,83,91
+Sydney,December,2018,67,Medium,66,144,7.33,70,70
+Sydney,January,2019,65,Low,34,104,6.76,114,95
+Sydney,February,2019,63,High,78,52,9.88,59,72
+Sydney,March,2019,50,Low,61,139,7.45,93,94
+Sydney,April,2019,67,Medium,59,43,10.0,87,99
+Sydney,May,2019,81,Very High,51,58,8.28,55,75
+Sydney,June,2019,80,Low,45,33,8.72,78,75
+Sydney,July,2019,59,Medium,37,48,7.29,81,61
+Sydney,August,2019,84,Medium,66,83,8.63,122,72
+Sydney,September,2019,71,Low,76,104,8.53,123,84
+Sydney,October,2019,61,High,56,132,8.68,105,83
+Sydney,November,2019,68,Very High,40,70,8.28,59,68
+Sydney,December,2019,65,Very High,41,131,7.18,66,66
+Sydney,January,2020,77,High,78,70,8.22,127,74
+Sydney,February,2020,67,High,80,135,9.95,109,77
+Sydney,March,2020,81,High,68,109,7.92,125,87
+Sydney,April,2020,49,Very High,31,32,9.31,121,63
+Sydney,May,2020,67,Medium,28,38,8.9,58,77
+Sydney,June,2020,81,Medium,13,121,5.96,105,68
+Sydney,July,2020,70,Low,67,69,9.32,88,81
+Sydney,August,2020,59,Medium,75,82,8.52,119,97
+Sydney,September,2020,65,Very High,16,121,7.03,125,67
+Sydney,October,2020,49,High,77,82,10.0,74,75
+Sydney,November,2020,83,High,32,136,5.11,113,67
+Sydney,December,2020,66,Low,61,103,9.0,99,86
+Sydney,January,2021,69,High,27,138,5.78,62,79
+Sydney,February,2021,67,Low,65,142,7.01,61,71
+Sydney,March,2021,61,Medium,39,74,9.71,60,81
+Sydney,April,2021,73,High,77,62,8.21,127,63
+Sydney,May,2021,80,Low,57,42,8.05,117,60
+Sydney,June,2021,45,Medium,49,33,10.0,122,96
+Sydney,July,2021,68,Very High,32,54,8.57,113,71
+Sydney,August,2021,79,Low,54,42,10.0,69,98
+Sydney,September,2021,68,Medium,66,120,9.24,72,92
+Sydney,October,2021,54,High,66,33,10.0,118,67
+Sydney,November,2021,64,Very High,23,74,8.07,125,93
+Sydney,December,2021,55,Very High,73,54,10.0,128,81
+Sydney,January,2022,74,Very High,80,136,7.93,107,67
+Sydney,February,2022,80,Low,41,76,6.64,112,72
+Sydney,March,2022,70,Low,17,147,7.09,111,97
+Sydney,April,2022,51,High,21,114,7.49,117,96
+Sydney,May,2022,81,High,76,80,9.78,75,78
+Sydney,June,2022,65,Low,35,67,9.44,104,85
+Sydney,July,2022,72,Medium,72,33,10.0,91,95
+Sydney,August,2022,75,High,49,93,9.33,86,63
+Sydney,September,2022,78,High,34,41,7.62,125,96
+Sydney,October,2022,79,Low,50,124,5.79,53,63
+Sydney,November,2022,64,Medium,55,98,6.98,105,92
+Sydney,December,2022,78,High,75,77,9.66,55,73
+Sydney,January,2023,51,Medium,33,144,6.07,90,64
+Sydney,February,2023,58,Medium,83,111,9.7,55,84
+Sydney,March,2023,58,Very High,24,148,5.63,80,81
+Sydney,April,2023,56,Very High,39,77,9.59,101,62
+Sydney,May,2023,54,Low,41,109,8.35,104,96
+Sydney,June,2023,85,Medium,44,82,8.14,103,86
+Sydney,July,2023,69,Medium,34,134,7.45,82,98
+Sydney,August,2023,45,High,60,35,10.0,107,68
+Sydney,September,2023,59,Low,24,44,7.29,112,64
+Sydney,October,2023,56,Medium,31,150,7.28,100,78
+Sydney,November,2023,79,Medium,82,63,8.48,65,85
+Sydney,December,2023,57,Very High,81,138,8.76,66,93
+Tokyo,January,2014,47,Medium,23,44,7.82,99,71
+Tokyo,February,2014,50,High,18,60,7.83,97,88
+Tokyo,March,2014,54,Medium,15,114,8.0,74,73
+Tokyo,April,2014,65,Low,11,49,7.03,82,71
+Tokyo,May,2014,67,Medium,17,80,6.71,87,92
+Tokyo,June,2014,49,Low,34,72,8.92,106,61
+Tokyo,July,2014,73,Low,41,107,7.4,121,70
+Tokyo,August,2014,54,Medium,50,37,8.47,58,86
+Tokyo,September,2014,78,Medium,31,122,7.76,97,62
+Tokyo,October,2014,54,Very High,39,30,8.98,122,63
+Tokyo,November,2014,69,High,25,139,5.32,130,62
+Tokyo,December,2014,81,Medium,12,113,6.76,110,96
+Tokyo,January,2015,69,Medium,59,87,9.78,80,91
+Tokyo,February,2015,84,Medium,68,91,9.64,69,89
+Tokyo,March,2015,79,Very High,38,48,7.55,72,84
+Tokyo,April,2015,61,Very High,57,124,6.53,88,69
+Tokyo,May,2015,47,Medium,79,139,8.15,101,68
+Tokyo,June,2015,85,Medium,61,83,9.38,108,88
+Tokyo,July,2015,73,Very High,69,76,8.56,101,68
+Tokyo,August,2015,78,Low,37,121,5.79,74,99
+Tokyo,September,2015,68,Very High,80,140,9.15,102,83
+Tokyo,October,2015,64,Low,28,90,6.23,107,79
+Tokyo,November,2015,84,Medium,35,57,7.25,70,84
+Tokyo,December,2015,78,Medium,66,33,10.0,99,96
+Tokyo,January,2016,56,Medium,82,128,8.01,101,96
+Tokyo,February,2016,57,Low,50,89,7.75,66,91
+Tokyo,March,2016,65,High,77,124,9.03,54,66
+Tokyo,April,2016,49,Low,11,147,7.12,56,81
+Tokyo,May,2016,50,Medium,55,55,10.0,77,79
+Tokyo,June,2016,49,Medium,50,104,9.66,107,90
+Tokyo,July,2016,66,High,47,68,7.34,121,70
+Tokyo,August,2016,54,Low,25,98,8.65,102,70
+Tokyo,September,2016,80,Medium,70,119,9.47,81,67
+Tokyo,October,2016,54,Very High,22,126,5.36,98,90
+Tokyo,November,2016,69,Medium,12,105,6.87,96,88
+Tokyo,December,2016,82,Medium,67,144,5.9,112,96
+Tokyo,January,2017,67,Very High,20,143,5.54,72,68
+Tokyo,February,2017,84,Medium,60,147,5.89,75,100
+Tokyo,March,2017,65,Medium,20,75,7.66,113,61
+Tokyo,April,2017,84,Very High,63,51,8.58,82,72
+Tokyo,May,2017,77,Medium,76,145,9.08,112,80
+Tokyo,June,2017,55,Low,40,119,6.99,107,87
+Tokyo,July,2017,66,Low,68,114,7.2,120,62
+Tokyo,August,2017,53,Very High,11,124,6.59,88,84
+Tokyo,September,2017,57,Very High,58,79,7.64,84,84
+Tokyo,October,2017,66,Medium,75,139,9.72,104,86
+Tokyo,November,2017,66,Low,54,122,7.02,74,91
+Tokyo,December,2017,63,Medium,67,147,8.37,90,92
+Tokyo,January,2018,52,Low,26,133,7.61,81,64
+Tokyo,February,2018,56,Medium,29,103,8.32,61,64
+Tokyo,March,2018,45,High,53,141,9.18,59,69
+Tokyo,April,2018,82,High,68,110,9.18,63,99
+Tokyo,May,2018,52,Low,27,55,9.67,60,71
+Tokyo,June,2018,50,High,21,30,8.54,79,73
+Tokyo,July,2018,48,High,59,71,9.88,74,90
+Tokyo,August,2018,57,High,73,107,9.69,110,78
+Tokyo,September,2018,82,Very High,17,86,5.55,50,65
+Tokyo,October,2018,56,Very High,43,48,10.0,123,72
+Tokyo,November,2018,52,High,19,54,7.18,91,74
+Tokyo,December,2018,55,Medium,85,67,10.0,114,100
+Tokyo,January,2019,63,Low,42,135,6.62,80,93
+Tokyo,February,2019,45,High,42,66,9.77,58,63
+Tokyo,March,2019,49,Medium,17,109,7.8,105,65
+Tokyo,April,2019,73,Low,21,70,7.51,96,98
+Tokyo,May,2019,49,Medium,50,87,8.36,111,83
+Tokyo,June,2019,76,Medium,72,70,9.34,74,74
+Tokyo,July,2019,82,Low,55,82,7.99,109,80
+Tokyo,August,2019,70,Medium,69,87,7.88,99,86
+Tokyo,September,2019,46,Very High,50,78,10.0,130,69
+Tokyo,October,2019,70,Medium,65,131,8.83,72,69
+Tokyo,November,2019,82,Very High,37,42,6.73,110,69
+Tokyo,December,2019,62,Medium,12,93,6.44,88,95
+Tokyo,January,2020,62,Low,72,107,9.55,105,87
+Tokyo,February,2020,55,Medium,17,75,8.91,58,80
+Tokyo,March,2020,75,High,28,60,7.73,113,73
+Tokyo,April,2020,71,Medium,49,110,6.61,130,79
+Tokyo,May,2020,84,Medium,25,106,5.25,86,81
+Tokyo,June,2020,68,High,26,77,7.66,110,64
+Tokyo,July,2020,46,Medium,63,61,9.05,91,74
+Tokyo,August,2020,65,High,70,130,7.59,93,96
+Tokyo,September,2020,66,High,26,71,8.48,123,74
+Tokyo,October,2020,82,High,41,92,7.53,52,80
+Tokyo,November,2020,77,Very High,59,126,6.48,91,65
+Tokyo,December,2020,78,Medium,44,38,8.51,74,77
+Tokyo,January,2021,54,Medium,17,90,6.5,50,80
+Tokyo,February,2021,67,High,71,101,7.75,84,80
+Tokyo,March,2021,76,Very High,78,55,10.0,74,98
+Tokyo,April,2021,83,Low,17,124,6.86,117,92
+Tokyo,May,2021,63,Low,58,84,9.35,51,79
+Tokyo,June,2021,61,Low,47,33,7.98,103,65
+Tokyo,July,2021,68,Medium,28,87,7.72,121,70
+Tokyo,August,2021,83,Medium,50,43,9.96,108,77
+Tokyo,September,2021,57,High,68,66,8.68,66,80
+Tokyo,October,2021,46,Low,51,100,8.59,68,80
+Tokyo,November,2021,69,Medium,65,112,7.76,72,80
+Tokyo,December,2021,84,High,14,112,5.15,122,96
+Tokyo,January,2022,47,Very High,17,122,7.48,66,91
+Tokyo,February,2022,49,Very High,27,49,7.44,70,75
+Tokyo,March,2022,50,High,55,73,7.98,93,64
+Tokyo,April,2022,76,Medium,17,97,6.21,100,69
+Tokyo,May,2022,80,High,36,87,6.28,83,74
+Tokyo,June,2022,60,Low,81,33,9.44,78,90
+Tokyo,July,2022,47,Low,39,49,10.0,67,92
+Tokyo,August,2022,65,Medium,60,32,9.84,87,91
+Tokyo,September,2022,46,High,63,100,7.84,75,97
+Tokyo,October,2022,47,Low,84,92,8.63,60,97
+Tokyo,November,2022,68,Medium,31,80,6.74,118,60
+Tokyo,December,2022,85,High,46,64,8.18,115,84
+Tokyo,January,2023,55,High,42,72,7.68,83,85
+Tokyo,February,2023,52,High,67,33,10.0,115,85
+Tokyo,March,2023,58,Low,15,79,8.19,76,72
+Tokyo,April,2023,81,High,48,136,7.34,77,97
+Tokyo,May,2023,64,Medium,16,112,6.86,122,76
+Tokyo,June,2023,58,Medium,49,31,8.75,73,81
+Tokyo,July,2023,58,Medium,59,122,7.66,100,98
+Tokyo,August,2023,55,Very High,71,101,9.46,81,64
+Tokyo,September,2023,84,Low,10,139,3.69,56,60
+Tokyo,October,2023,62,Very High,48,86,7.98,122,70
+Tokyo,November,2023,51,Low,37,112,6.78,104,83
+Tokyo,December,2023,49,Medium,12,68,8.46,65,79
+Toronto,January,2014,54,Medium,36,45,10.0,53,90
+Toronto,February,2014,56,Low,21,122,5.92,124,95
+Toronto,March,2014,62,Medium,82,91,8.29,69,73
+Toronto,April,2014,49,Medium,58,33,8.8,105,89
+Toronto,May,2014,71,Low,11,103,7.44,58,77
+Toronto,June,2014,63,High,35,132,6.17,84,72
+Toronto,July,2014,60,High,10,113,4.97,122,87
+Toronto,August,2014,80,Very High,72,131,7.05,56,78
+Toronto,September,2014,68,Low,57,88,9.44,119,70
+Toronto,October,2014,68,High,57,122,7.95,68,80
+Toronto,November,2014,85,Medium,32,104,6.36,109,82
+Toronto,December,2014,63,Low,73,116,8.84,96,87
+Toronto,January,2015,50,High,27,72,9.41,109,88
+Toronto,February,2015,79,Very High,31,143,4.64,114,100
+Toronto,March,2015,54,Medium,79,110,10.0,70,96
+Toronto,April,2015,53,Very High,36,135,7.73,60,86
+Toronto,May,2015,52,Very High,79,35,10.0,123,60
+Toronto,June,2015,61,Very High,31,124,6.11,92,91
+Toronto,July,2015,52,Medium,57,100,10.0,116,85
+Toronto,August,2015,59,Medium,62,118,9.1,63,74
+Toronto,September,2015,85,High,29,136,6.47,74,60
+Toronto,October,2015,77,High,73,48,10.0,89,75
+Toronto,November,2015,70,Medium,36,99,7.77,74,61
+Toronto,December,2015,46,Low,25,56,7.56,59,64
+Toronto,January,2016,61,Medium,25,84,8.82,101,60
+Toronto,February,2016,83,Medium,59,77,7.46,104,99
+Toronto,March,2016,82,Very High,85,35,10.0,54,91
+Toronto,April,2016,65,Medium,42,119,7.27,99,94
+Toronto,May,2016,51,Medium,85,109,10.0,112,61
+Toronto,June,2016,69,Low,72,127,9.49,110,76
+Toronto,July,2016,79,Low,41,122,7.82,130,66
+Toronto,August,2016,74,Medium,53,60,9.01,110,62
+Toronto,September,2016,65,Medium,67,57,9.93,62,60
+Toronto,October,2016,53,Medium,13,149,5.97,58,92
+Toronto,November,2016,56,Medium,82,79,10.0,118,63
+Toronto,December,2016,61,Medium,76,92,8.39,107,78
+Toronto,January,2017,55,Low,52,84,7.58,69,64
+Toronto,February,2017,57,Medium,41,30,8.99,72,84
+Toronto,March,2017,47,Medium,38,73,9.75,124,91
+Toronto,April,2017,59,High,24,42,7.34,66,98
+Toronto,May,2017,81,Low,73,76,9.85,105,61
+Toronto,June,2017,78,Very High,57,111,7.85,103,90
+Toronto,July,2017,47,Medium,81,119,9.22,58,65
+Toronto,August,2017,61,Very High,55,90,8.27,81,68
+Toronto,September,2017,52,Low,21,103,6.28,75,88
+Toronto,October,2017,79,Medium,43,91,6.23,73,97
+Toronto,November,2017,71,Low,15,59,6.4,88,68
+Toronto,December,2017,70,Low,17,95,7.54,64,93
+Toronto,January,2018,62,Medium,11,68,8.36,67,80
+Toronto,February,2018,60,Very High,37,54,9.09,111,90
+Toronto,March,2018,58,Low,59,100,9.02,119,64
+Toronto,April,2018,54,High,75,48,10.0,58,90
+Toronto,May,2018,77,Very High,19,102,5.4,130,86
+Toronto,June,2018,85,Medium,38,135,5.56,57,87
+Toronto,July,2018,47,Very High,60,33,9.41,97,85
+Toronto,August,2018,73,High,38,125,8.05,111,99
+Toronto,September,2018,77,Very High,30,60,7.99,86,91
+Toronto,October,2018,49,Medium,13,83,6.09,60,69
+Toronto,November,2018,47,Medium,60,65,9.58,93,79
+Toronto,December,2018,79,High,49,139,8.16,115,91
+Toronto,January,2019,69,High,85,118,9.15,127,98
+Toronto,February,2019,81,Low,53,41,9.44,93,94
+Toronto,March,2019,78,High,18,62,7.53,84,78
+Toronto,April,2019,83,Medium,50,148,7.77,80,96
+Toronto,May,2019,57,Medium,49,54,10.0,116,86
+Toronto,June,2019,62,Medium,64,115,8.88,128,68
+Toronto,July,2019,63,Low,56,121,8.06,91,73
+Toronto,August,2019,74,Medium,32,45,8.83,87,100
+Toronto,September,2019,60,Low,53,53,10.0,113,83
+Toronto,October,2019,60,Medium,44,149,7.18,118,81
+Toronto,November,2019,54,Medium,19,62,6.77,98,95
+Toronto,December,2019,70,Low,34,133,7.9,113,89
+Toronto,January,2020,80,Medium,45,95,7.7,75,77
+Toronto,February,2020,48,Very High,72,106,8.14,105,84
+Toronto,March,2020,65,Low,33,45,8.05,56,62
+Toronto,April,2020,49,Medium,80,98,9.08,62,87
+Toronto,May,2020,58,Low,82,37,9.33,93,99
+Toronto,June,2020,62,Medium,40,59,7.72,127,96
+Toronto,July,2020,62,Very High,55,137,6.81,52,95
+Toronto,August,2020,82,Medium,38,51,8.96,99,73
+Toronto,September,2020,79,High,30,41,8.22,128,77
+Toronto,October,2020,76,Low,41,138,6.32,80,89
+Toronto,November,2020,84,Low,32,147,4.98,63,60
+Toronto,December,2020,60,High,65,104,9.8,99,88
+Toronto,January,2021,58,Low,20,82,8.06,106,69
+Toronto,February,2021,69,Very High,58,32,9.73,84,73
+Toronto,March,2021,76,Medium,77,73,8.81,113,92
+Toronto,April,2021,84,Medium,66,107,7.1,68,64
+Toronto,May,2021,83,High,58,51,9.67,76,73
+Toronto,June,2021,65,Medium,45,61,9.27,79,84
+Toronto,July,2021,83,Very High,13,117,7.0,81,64
+Toronto,August,2021,73,High,12,79,6.92,96,84
+Toronto,September,2021,46,Medium,67,146,8.15,105,76
+Toronto,October,2021,67,Low,56,146,8.8,111,70
+Toronto,November,2021,55,Low,84,112,9.52,117,72
+Toronto,December,2021,47,Very High,56,36,10.0,61,70
+Toronto,January,2022,50,High,80,36,10.0,117,76
+Toronto,February,2022,73,Low,28,139,5.96,73,74
+Toronto,March,2022,71,Medium,76,38,9.35,61,99
+Toronto,April,2022,48,Medium,32,66,8.66,104,70
+Toronto,May,2022,60,Low,35,107,8.1,58,66
+Toronto,June,2022,62,High,32,98,6.33,109,95
+Toronto,July,2022,68,High,29,98,8.46,81,60
+Toronto,August,2022,65,Very High,44,95,8.85,114,92
+Toronto,September,2022,48,Medium,31,36,8.99,66,75
+Toronto,October,2022,83,High,83,130,7.57,81,89
+Toronto,November,2022,56,High,41,50,9.38,55,64
+Toronto,December,2022,69,Low,46,88,8.1,112,85
+Toronto,January,2023,80,Medium,61,143,7.26,116,82
+Toronto,February,2023,83,Medium,61,126,6.68,102,70
+Toronto,March,2023,77,Very High,26,133,4.68,59,98
+Toronto,April,2023,68,High,24,107,7.99,98,84
+Toronto,May,2023,64,Medium,50,92,7.34,52,73
+Toronto,June,2023,72,High,28,87,8.32,67,79
+Toronto,July,2023,70,Low,12,145,4.66,106,76
+Toronto,August,2023,76,Medium,69,77,10.0,109,68
+Toronto,September,2023,71,Very High,41,48,9.74,62,78
+Toronto,October,2023,68,Low,69,146,7.46,105,64
+Toronto,November,2023,83,Medium,75,100,8.44,111,64
+Toronto,December,2023,67,Medium,49,148,7.01,51,66
+Vienna,January,2014,54,High,81,64,9.02,115,73
+Vienna,February,2014,85,Medium,13,87,5.94,128,89
+Vienna,March,2014,67,High,46,77,6.94,116,97
+Vienna,April,2014,52,Very High,72,85,10.0,54,95
+Vienna,May,2014,81,Medium,29,149,6.72,92,88
+Vienna,June,2014,85,Medium,28,127,7.27,61,99
+Vienna,July,2014,69,Medium,38,35,7.38,51,68
+Vienna,August,2014,57,Medium,34,83,8.89,69,87
+Vienna,September,2014,80,Medium,36,30,9.91,70,62
+Vienna,October,2014,61,High,18,58,7.63,71,91
+Vienna,November,2014,52,Low,68,133,9.7,128,83
+Vienna,December,2014,75,Very High,43,103,7.59,92,100
+Vienna,January,2015,65,Medium,85,96,10.0,126,75
+Vienna,February,2015,59,High,65,91,8.33,115,79
+Vienna,March,2015,76,Very High,61,36,10.0,88,76
+Vienna,April,2015,51,High,81,58,10.0,78,75
+Vienna,May,2015,74,Very High,22,119,6.41,96,86
+Vienna,June,2015,70,Medium,52,68,7.36,70,99
+Vienna,July,2015,75,Very High,18,129,5.33,57,87
+Vienna,August,2015,70,High,29,83,7.32,53,81
+Vienna,September,2015,68,Low,40,92,8.86,112,85
+Vienna,October,2015,82,Low,65,138,6.59,81,99
+Vienna,November,2015,55,Medium,51,105,7.92,60,66
+Vienna,December,2015,50,Low,11,49,8.08,113,65
+Vienna,January,2016,54,Very High,10,90,6.01,67,78
+Vienna,February,2016,68,High,55,115,8.08,55,70
+Vienna,March,2016,64,Medium,14,104,5.31,55,99
+Vienna,April,2016,45,High,34,131,6.4,100,91
+Vienna,May,2016,51,Medium,47,108,9.2,59,99
+Vienna,June,2016,63,Low,69,107,9.79,70,92
+Vienna,July,2016,51,Medium,38,118,6.98,100,81
+Vienna,August,2016,55,High,67,75,10.0,89,78
+Vienna,September,2016,70,Medium,40,131,8.33,89,80
+Vienna,October,2016,58,Low,29,120,5.99,60,63
+Vienna,November,2016,82,Very High,28,43,9.29,66,69
+Vienna,December,2016,49,Medium,52,118,7.71,80,90
+Vienna,January,2017,72,Medium,80,123,8.84,76,90
+Vienna,February,2017,47,Medium,60,54,9.45,56,62
+Vienna,March,2017,61,Medium,73,89,9.78,100,80
+Vienna,April,2017,73,Low,51,125,8.75,104,80
+Vienna,May,2017,81,Very High,33,30,9.4,71,76
+Vienna,June,2017,71,Low,52,48,7.62,67,75
+Vienna,July,2017,77,High,45,146,5.68,73,86
+Vienna,August,2017,47,High,56,121,7.94,128,83
+Vienna,September,2017,66,Low,71,128,9.27,114,72
+Vienna,October,2017,58,Low,74,65,10.0,117,97
+Vienna,November,2017,84,Very High,35,85,7.99,55,89
+Vienna,December,2017,82,Medium,78,126,8.01,86,81
+Vienna,January,2018,46,Medium,18,90,8.53,103,89
+Vienna,February,2018,83,Medium,50,136,7.06,107,76
+Vienna,March,2018,64,Very High,14,134,5.15,124,76
+Vienna,April,2018,70,Medium,77,59,8.42,107,75
+Vienna,May,2018,70,Low,16,39,8.67,85,94
+Vienna,June,2018,79,Very High,12,94,7.34,89,98
+Vienna,July,2018,48,Medium,84,57,10.0,120,78
+Vienna,August,2018,52,Very High,59,101,9.46,72,94
+Vienna,September,2018,57,Low,64,40,9.54,81,90
+Vienna,October,2018,46,Low,43,51,9.79,82,86
+Vienna,November,2018,55,Very High,36,123,6.32,62,78
+Vienna,December,2018,64,Very High,80,111,7.77,69,67
+Vienna,January,2019,45,Very High,18,129,7.6,84,71
+Vienna,February,2019,52,High,53,45,9.66,118,89
+Vienna,March,2019,77,Low,45,130,5.64,61,82
+Vienna,April,2019,56,Medium,34,99,9.03,52,99
+Vienna,May,2019,50,Very High,30,48,8.27,116,94
+Vienna,June,2019,57,Medium,54,33,9.31,99,87
+Vienna,July,2019,51,High,61,57,8.77,129,100
+Vienna,August,2019,75,High,18,125,5.15,113,95
+Vienna,September,2019,74,Medium,57,55,10.0,54,88
+Vienna,October,2019,57,Low,55,32,10.0,97,81
+Vienna,November,2019,71,High,10,70,7.96,60,68
+Vienna,December,2019,51,Medium,81,128,8.0,67,90
+Vienna,January,2020,76,Medium,80,122,9.26,65,99
+Vienna,February,2020,47,High,50,61,8.81,104,78
+Vienna,March,2020,47,Very High,17,150,5.67,67,76
+Vienna,April,2020,69,Very High,45,73,9.32,59,93
+Vienna,May,2020,68,Low,49,124,6.84,52,61
+Vienna,June,2020,63,Medium,21,141,5.04,117,98
+Vienna,July,2020,83,Very High,56,44,7.66,83,81
+Vienna,August,2020,65,Very High,33,103,6.45,60,74
+Vienna,September,2020,48,Medium,80,126,9.36,60,95
+Vienna,October,2020,81,Very High,79,68,10.0,88,66
+Vienna,November,2020,70,High,15,69,8.38,103,65
+Vienna,December,2020,66,Medium,16,47,6.43,125,60
+Vienna,January,2021,51,Very High,15,90,8.2,101,94
+Vienna,February,2021,51,Medium,85,150,9.05,81,65
+Vienna,March,2021,66,Low,82,119,10.0,130,61
+Vienna,April,2021,75,Low,26,51,8.48,115,75
+Vienna,May,2021,71,Low,76,142,7.39,74,91
+Vienna,June,2021,80,Low,65,57,9.4,99,72
+Vienna,July,2021,78,Medium,27,81,8.54,102,97
+Vienna,August,2021,63,Medium,25,120,6.47,127,91
+Vienna,September,2021,45,Very High,61,105,8.06,82,68
+Vienna,October,2021,81,Low,84,45,10.0,81,68
+Vienna,November,2021,47,Low,41,125,6.37,59,85
+Vienna,December,2021,53,Very High,45,44,9.55,76,67
+Vienna,January,2022,45,Medium,53,56,9.49,68,67
+Vienna,February,2022,68,Medium,62,78,9.36,85,88
+Vienna,March,2022,57,Very High,28,56,7.96,74,75
+Vienna,April,2022,76,Medium,45,85,6.47,50,87
+Vienna,May,2022,74,Low,17,125,5.84,87,73
+Vienna,June,2022,71,Low,46,48,8.1,72,87
+Vienna,July,2022,45,Medium,77,38,10.0,94,79
+Vienna,August,2022,59,Medium,45,137,7.22,99,77
+Vienna,September,2022,55,Medium,66,145,6.99,80,91
+Vienna,October,2022,69,Low,80,95,9.66,68,67
+Vienna,November,2022,62,High,76,62,10.0,84,93
+Vienna,December,2022,64,High,12,38,8.0,63,75
+Vienna,January,2023,63,Medium,41,126,8.6,121,99
+Vienna,February,2023,81,High,77,147,6.76,113,93
+Vienna,March,2023,45,Low,12,71,8.52,120,86
+Vienna,April,2023,81,Medium,71,54,8.39,89,87
+Vienna,May,2023,61,High,44,105,6.93,101,98
+Vienna,June,2023,81,Medium,22,78,6.81,75,75
+Vienna,July,2023,65,Low,53,75,8.58,80,94
+Vienna,August,2023,66,Medium,65,101,7.15,59,66
+Vienna,September,2023,81,Very High,39,82,8.59,76,89
+Vienna,October,2023,71,Medium,19,43,8.31,120,88
+Vienna,November,2023,53,Low,37,57,8.36,54,76
+Vienna,December,2023,45,Very High,62,45,10.0,125,88
+Warsaw,January,2014,58,Low,40,108,6.56,82,98
+Warsaw,February,2014,79,High,40,35,8.46,85,94
+Warsaw,March,2014,55,High,10,148,6.82,77,86
+Warsaw,April,2014,66,Low,74,104,8.09,123,77
+Warsaw,May,2014,45,Medium,54,149,7.4,107,95
+Warsaw,June,2014,55,Low,22,110,7.25,85,72
+Warsaw,July,2014,56,High,39,124,6.04,72,72
+Warsaw,August,2014,58,Low,47,88,7.06,107,74
+Warsaw,September,2014,84,Low,25,122,7.28,76,83
+Warsaw,October,2014,85,High,48,136,7.21,69,64
+Warsaw,November,2014,55,Medium,10,51,7.35,118,71
+Warsaw,December,2014,71,Low,30,57,6.65,103,66
+Warsaw,January,2015,72,Low,31,64,8.44,121,93
+Warsaw,February,2015,82,Very High,84,72,10.0,70,98
+Warsaw,March,2015,79,High,37,87,7.14,128,88
+Warsaw,April,2015,62,Medium,37,148,7.36,52,72
+Warsaw,May,2015,70,Medium,78,89,10.0,124,67
+Warsaw,June,2015,53,Very High,39,124,8.09,64,95
+Warsaw,July,2015,75,Medium,84,121,9.4,67,63
+Warsaw,August,2015,78,Low,39,132,5.46,56,92
+Warsaw,September,2015,83,Medium,19,60,7.19,60,81
+Warsaw,October,2015,78,Medium,43,63,7.62,67,71
+Warsaw,November,2015,47,Medium,36,47,10.0,78,100
+Warsaw,December,2015,50,Medium,66,39,10.0,119,65
+Warsaw,January,2016,65,Medium,45,138,6.6,54,60
+Warsaw,February,2016,46,High,13,140,7.27,53,65
+Warsaw,March,2016,65,Low,84,40,9.36,74,90
+Warsaw,April,2016,51,Medium,78,112,8.96,130,98
+Warsaw,May,2016,46,High,55,70,9.06,64,92
+Warsaw,June,2016,63,High,43,50,7.59,68,98
+Warsaw,July,2016,81,Medium,46,92,7.64,59,69
+Warsaw,August,2016,56,High,46,94,8.64,55,80
+Warsaw,September,2016,69,Medium,74,85,9.09,55,98
+Warsaw,October,2016,48,Low,43,143,6.66,94,100
+Warsaw,November,2016,66,Low,76,65,9.85,101,84
+Warsaw,December,2016,81,Low,62,49,9.96,115,74
+Warsaw,January,2017,65,Medium,16,76,6.6,71,96
+Warsaw,February,2017,69,High,80,121,7.33,110,63
+Warsaw,March,2017,71,Low,62,107,9.28,121,89
+Warsaw,April,2017,84,Medium,12,128,5.77,117,71
+Warsaw,May,2017,53,Low,44,132,6.17,65,85
+Warsaw,June,2017,61,High,25,143,6.48,117,60
+Warsaw,July,2017,61,High,43,139,7.54,120,90
+Warsaw,August,2017,76,Very High,41,96,6.52,74,93
+Warsaw,September,2017,49,Medium,41,49,9.71,68,85
+Warsaw,October,2017,84,High,31,96,7.01,89,86
+Warsaw,November,2017,64,Low,41,142,6.64,66,83
+Warsaw,December,2017,78,Medium,23,69,8.58,82,65
+Warsaw,January,2018,74,Very High,59,67,10.0,130,84
+Warsaw,February,2018,55,Medium,57,126,7.48,55,71
+Warsaw,March,2018,70,High,57,73,8.85,73,78
+Warsaw,April,2018,57,Very High,12,115,5.22,98,79
+Warsaw,May,2018,71,High,47,95,8.08,117,92
+Warsaw,June,2018,46,High,23,77,7.22,114,93
+Warsaw,July,2018,56,High,45,72,9.36,67,89
+Warsaw,August,2018,84,High,17,116,6.4,54,78
+Warsaw,September,2018,85,Low,47,60,7.24,77,73
+Warsaw,October,2018,67,Low,77,62,10.0,65,85
+Warsaw,November,2018,59,High,23,41,7.11,126,89
+Warsaw,December,2018,78,Medium,25,99,5.32,75,75
+Warsaw,January,2019,82,Low,35,93,6.23,101,80
+Warsaw,February,2019,59,Low,62,139,6.53,59,65
+Warsaw,March,2019,84,High,73,127,9.25,99,66
+Warsaw,April,2019,74,Very High,62,129,7.84,117,60
+Warsaw,May,2019,45,Very High,36,135,5.97,53,97
+Warsaw,June,2019,51,Medium,63,44,10.0,126,93
+Warsaw,July,2019,45,Low,58,72,9.45,113,76
+Warsaw,August,2019,63,High,25,122,7.89,50,99
+Warsaw,September,2019,58,Medium,54,47,10.0,59,79
+Warsaw,October,2019,83,Low,25,141,5.77,123,78
+Warsaw,November,2019,51,Medium,38,59,8.5,111,81
+Warsaw,December,2019,46,Medium,62,54,9.03,70,73
+Warsaw,January,2020,83,High,28,39,7.07,85,81
+Warsaw,February,2020,66,Medium,21,62,8.92,87,68
+Warsaw,March,2020,78,Medium,15,136,5.14,52,81
+Warsaw,April,2020,60,Medium,60,84,8.73,55,93
+Warsaw,May,2020,51,Low,26,84,8.67,52,62
+Warsaw,June,2020,57,Very High,17,96,8.2,96,84
+Warsaw,July,2020,70,Very High,21,134,7.17,53,84
+Warsaw,August,2020,54,High,19,71,9.04,77,66
+Warsaw,September,2020,56,High,42,144,6.64,56,87
+Warsaw,October,2020,77,Medium,65,103,7.06,130,91
+Warsaw,November,2020,72,High,28,109,5.91,117,76
+Warsaw,December,2020,63,High,15,44,7.06,120,60
+Warsaw,January,2021,78,Very High,34,73,6.96,111,95
+Warsaw,February,2021,78,Low,15,57,6.32,97,99
+Warsaw,March,2021,52,Low,57,87,9.55,52,98
+Warsaw,April,2021,48,Medium,82,104,10.0,87,78
+Warsaw,May,2021,81,Low,12,121,7.12,82,97
+Warsaw,June,2021,55,Medium,83,109,10.0,103,99
+Warsaw,July,2021,81,High,47,136,6.89,127,98
+Warsaw,August,2021,74,Low,76,67,8.42,96,97
+Warsaw,September,2021,69,High,82,61,8.93,122,66
+Warsaw,October,2021,63,Low,74,143,7.64,129,72
+Warsaw,November,2021,56,Very High,23,53,9.2,78,78
+Warsaw,December,2021,54,High,65,81,9.55,57,86
+Warsaw,January,2022,84,High,81,90,7.89,65,89
+Warsaw,February,2022,71,Very High,13,112,5.98,77,79
+Warsaw,March,2022,80,Very High,39,96,7.56,91,98
+Warsaw,April,2022,68,High,76,47,10.0,121,61
+Warsaw,May,2022,63,High,54,82,9.79,65,69
+Warsaw,June,2022,81,High,53,33,9.18,68,85
+Warsaw,July,2022,82,High,79,116,7.32,84,65
+Warsaw,August,2022,80,Medium,58,74,8.16,59,73
+Warsaw,September,2022,45,Medium,64,42,10.0,68,72
+Warsaw,October,2022,78,Medium,53,148,7.57,82,72
+Warsaw,November,2022,62,Medium,29,60,8.36,89,92
+Warsaw,December,2022,62,High,15,139,4.55,71,90
+Warsaw,January,2023,59,Low,75,85,9.83,99,64
+Warsaw,February,2023,48,Low,59,94,8.15,60,72
+Warsaw,March,2023,84,Medium,13,36,8.62,98,93
+Warsaw,April,2023,48,High,45,40,8.94,127,64
+Warsaw,May,2023,65,Low,62,129,6.98,130,93
+Warsaw,June,2023,57,Very High,66,112,8.42,68,63
+Warsaw,July,2023,68,Low,45,64,7.03,113,88
+Warsaw,August,2023,73,Medium,60,50,7.88,107,68
+Warsaw,September,2023,70,High,62,115,6.97,67,82
+Warsaw,October,2023,46,Medium,21,125,8.08,130,90
+Warsaw,November,2023,69,Very High,30,102,7.69,127,64
+Warsaw,December,2023,61,Low,77,116,9.03,58,72
+Zurich,January,2014,57,Low,39,41,10.0,90,82
+Zurich,February,2014,55,Low,61,43,9.83,60,89
+Zurich,March,2014,45,Low,31,116,6.37,127,70
+Zurich,April,2014,45,Medium,38,126,7.42,115,80
+Zurich,May,2014,53,Medium,79,103,10.0,98,67
+Zurich,June,2014,57,Low,19,144,6.67,87,79
+Zurich,July,2014,61,Medium,31,140,6.85,56,69
+Zurich,August,2014,70,Medium,15,134,4.6,85,78
+Zurich,September,2014,48,Low,36,117,6.91,63,85
+Zurich,October,2014,75,Medium,28,145,5.86,113,92
+Zurich,November,2014,55,Very High,19,31,9.49,61,91
+Zurich,December,2014,82,Medium,33,43,8.38,83,93
+Zurich,January,2015,71,Low,79,73,10.0,112,98
+Zurich,February,2015,73,Low,64,140,8.55,119,75
+Zurich,March,2015,52,High,32,99,8.28,90,86
+Zurich,April,2015,46,Medium,83,126,9.27,52,91
+Zurich,May,2015,82,Medium,64,81,9.02,65,89
+Zurich,June,2015,75,High,61,140,8.7,80,85
+Zurich,July,2015,78,High,28,140,6.86,96,60
+Zurich,August,2015,69,Medium,20,114,7.47,73,74
+Zurich,September,2015,85,Medium,30,41,9.31,96,60
+Zurich,October,2015,66,Medium,67,149,6.53,83,85
+Zurich,November,2015,81,Low,19,96,6.86,72,64
+Zurich,December,2015,81,Low,82,80,10.0,126,62
+Zurich,January,2016,80,Medium,44,60,7.95,127,94
+Zurich,February,2016,63,High,12,50,6.47,54,81
+Zurich,March,2016,47,Very High,39,114,8.9,105,98
+Zurich,April,2016,61,Medium,47,112,6.7,127,81
+Zurich,May,2016,84,Medium,18,112,4.71,94,88
+Zurich,June,2016,85,Medium,68,133,8.26,54,88
+Zurich,July,2016,50,Medium,32,60,9.77,101,88
+Zurich,August,2016,69,Medium,79,128,9.95,73,61
+Zurich,September,2016,84,Medium,58,129,5.95,128,64
+Zurich,October,2016,85,High,69,93,8.68,113,84
+Zurich,November,2016,79,Low,83,147,7.82,113,69
+Zurich,December,2016,53,Medium,83,55,10.0,54,94
+Zurich,January,2017,65,High,10,81,7.26,130,75
+Zurich,February,2017,68,Low,44,143,5.45,96,84
+Zurich,March,2017,69,High,52,117,7.54,54,61
+Zurich,April,2017,52,Low,79,52,10.0,93,83
+Zurich,May,2017,62,Medium,77,80,9.5,100,72
+Zurich,June,2017,53,Medium,47,53,9.64,67,94
+Zurich,July,2017,81,High,60,136,8.35,74,94
+Zurich,August,2017,81,Very High,53,81,7.06,60,80
+Zurich,September,2017,56,Medium,53,122,9.47,111,71
+Zurich,October,2017,66,Medium,83,51,10.0,125,74
+Zurich,November,2017,59,Medium,57,43,8.82,114,66
+Zurich,December,2017,80,High,57,76,6.94,112,93
+Zurich,January,2018,61,Very High,81,71,8.54,91,91
+Zurich,February,2018,63,High,38,30,8.11,130,99
+Zurich,March,2018,52,Very High,75,135,8.97,64,90
+Zurich,April,2018,83,Medium,16,55,7.11,92,97
+Zurich,May,2018,60,Medium,14,41,8.96,76,85
+Zurich,June,2018,64,Low,47,88,7.02,91,72
+Zurich,July,2018,51,Low,32,76,8.59,77,86
+Zurich,August,2018,75,High,77,42,9.2,104,88
+Zurich,September,2018,65,Low,44,138,6.0,63,78
+Zurich,October,2018,50,Low,55,52,9.53,128,93
+Zurich,November,2018,52,High,77,90,9.9,127,68
+Zurich,December,2018,75,Low,56,46,8.28,115,93
+Zurich,January,2019,80,Very High,54,81,7.13,67,81
+Zurich,February,2019,80,High,64,83,7.18,91,97
+Zurich,March,2019,77,Medium,67,98,8.24,88,70
+Zurich,April,2019,53,Medium,53,95,8.14,85,94
+Zurich,May,2019,85,Medium,85,84,10.0,90,99
+Zurich,June,2019,63,Low,26,68,9.16,65,65
+Zurich,July,2019,72,Very High,13,47,8.72,50,62
+Zurich,August,2019,47,Low,49,77,9.43,125,74
+Zurich,September,2019,49,Very High,26,112,8.46,64,80
+Zurich,October,2019,65,Low,10,71,6.55,54,93
+Zurich,November,2019,58,High,64,101,9.51,62,78
+Zurich,December,2019,64,Medium,76,97,9.53,99,97
+Zurich,January,2020,84,Very High,72,48,9.4,78,87
+Zurich,February,2020,73,Very High,66,122,9.36,102,69
+Zurich,March,2020,45,Low,75,124,9.78,97,78
+Zurich,April,2020,58,Very High,18,97,6.2,72,94
+Zurich,May,2020,51,High,34,137,5.78,75,98
+Zurich,June,2020,54,Very High,10,110,5.99,61,63
+Zurich,July,2020,69,High,21,96,6.08,83,91
+Zurich,August,2020,55,Low,80,89,9.31,118,70
+Zurich,September,2020,75,Medium,21,115,6.16,73,82
+Zurich,October,2020,75,Medium,43,125,8.39,121,100
+Zurich,November,2020,62,Medium,58,49,10.0,54,80
+Zurich,December,2020,54,High,75,134,9.53,108,84
+Zurich,January,2021,80,Low,23,80,5.58,73,88
+Zurich,February,2021,52,High,32,38,8.83,77,72
+Zurich,March,2021,73,High,37,148,6.52,124,71
+Zurich,April,2021,46,Medium,32,49,9.15,122,99
+Zurich,May,2021,58,High,31,42,9.36,91,97
+Zurich,June,2021,49,High,40,100,8.28,80,70
+Zurich,July,2021,65,High,41,131,7.3,119,73
+Zurich,August,2021,65,Medium,49,64,8.48,112,89
+Zurich,September,2021,76,Low,60,67,8.02,52,96
+Zurich,October,2021,66,Medium,42,103,8.57,113,99
+Zurich,November,2021,52,Low,67,107,9.95,124,88
+Zurich,December,2021,45,Low,32,86,6.92,57,81
+Zurich,January,2022,60,High,69,127,8.5,113,67
+Zurich,February,2022,58,Medium,51,47,9.6,121,93
+Zurich,March,2022,60,Low,13,133,6.59,62,68
+Zurich,April,2022,68,Medium,16,100,5.67,54,62
+Zurich,May,2022,61,High,72,107,9.84,109,93
+Zurich,June,2022,77,Medium,82,86,8.8,76,83
+Zurich,July,2022,77,Medium,40,111,7.17,57,62
+Zurich,August,2022,57,Low,48,60,10.0,60,96
+Zurich,September,2022,81,Medium,68,38,9.07,70,73
+Zurich,October,2022,81,Very High,21,32,8.61,123,70
+Zurich,November,2022,82,High,13,41,6.65,111,77
+Zurich,December,2022,77,Low,35,146,4.68,103,90
+Zurich,January,2023,50,Low,85,93,8.82,64,69
+Zurich,February,2023,70,Low,29,123,5.56,76,70
+Zurich,March,2023,52,Very High,68,82,9.42,67,63
+Zurich,April,2023,52,High,21,44,7.24,101,66
+Zurich,May,2023,53,Very High,15,45,8.46,54,88
+Zurich,June,2023,53,High,77,127,8.76,81,72
+Zurich,July,2023,84,High,37,34,7.66,74,87
+Zurich,August,2023,69,Medium,78,31,10.0,108,79
+Zurich,September,2023,78,Low,46,52,7.26,86,61
+Zurich,October,2023,80,High,77,47,10.0,51,96
+Zurich,November,2023,65,Very High,29,106,6.45,66,61
+Zurich,December,2023,82,Low,56,74,8.96,58,60
