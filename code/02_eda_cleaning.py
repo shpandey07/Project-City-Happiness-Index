@@ -694,6 +694,16 @@ def run_multiple_regression_analysis(df, outcome='happiness_score', output_dir='
     """
     print("\n--- Regression Analysis ---")
 
+     # Create output directory for regression plots
+    output_dir = 'regression_output'
+    print(f"\nOutput directory for KPI plots: {output_dir}")
+    # Create output directory if it doesn't exist   
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"Created output directory: {output_dir}")
+    else:
+        print(f"Output directory already exists: {output_dir}")
+
     traffic_mapping = {
     "Very Low": 20,
     "Low": 40,
@@ -705,12 +715,12 @@ def run_multiple_regression_analysis(df, outcome='happiness_score', output_dir='
     df['traffic_density_numeric'] = df['traffic_density'].map(traffic_mapping).astype(float)
 
     regression_pairs = [
-    ("green_space", "Green Space"),
-    ("air_quality", "Air Quality"),
+    ("green_space_area", "Green Space Area"),
+    ("air_quality_index", "Air Quality Index"),
     ("traffic_density_numeric", "Traffic Density"),
-    ("noise_level", "Noise Level"),
-    ("healthcare_score", "Healthcare Score"),
-    ("cost_of_living", "Cost of Living"),
+    ("decibel_level", "Decibel Level"),
+    ("healthcare_index", "Healthcare Index"),
+    ("cost_of_living_index", "Cost of Living Index"),
     ]
 
     for predictor, label in regression_pairs:
@@ -729,7 +739,7 @@ def run_multiple_regression_analysis(df, outcome='happiness_score', output_dir='
             plt.title(f"Regression Analysis: {outcome.replace('_', ' ').title()} vs {label}")
             plt.xlabel(label)
             plt.ylabel(outcome.replace('_', ' ').title())
-            plt.xticks(rotation=30)
+            # plt.xticks(rotation=30)
             plt.tight_layout()
 
             filename = f"{output_dir}/regression_{outcome}_vs_{predictor}.png"
@@ -794,11 +804,6 @@ def feature_engineering(df):
 
 # Analysis of business questions based on the dataset
 
-import os
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.linear_model import LinearRegression
-
 def generate_business_question_plots(df, output_dir="business_output"):
     """
     Generate plots to answer business questions based on the dataset.
@@ -815,6 +820,8 @@ def generate_business_question_plots(df, output_dir="business_output"):
     df = df.copy()
 
     # Create output directory for Business Analysis plots
+    output_dir = 'business_output'
+    # Create output directory if it doesn't exist
     print(f"\nOutput directory for Business Analysis plots: {output_dir}")
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -915,14 +922,14 @@ def generate_business_question_plots(df, output_dir="business_output"):
         plot_regression('environment_score', 'Environment Score', 'q4')
 
     # Q5: Cost vs Happiness
-    plot_regression('cost_of_living', 'Cost of Living', 'q5')
+    plot_regression('cost_of_living_index', 'Cost of Living Index', 'q5')
 
     # Q6: Traffic & Noise Impact - use numeric traffic density
     plot_regression('traffic_density_numeric', 'Traffic Density', 'q6')
-    plot_regression('noise_level', 'Noise Level', 'q6')
+    plot_regression('decibel_level', 'Decibel Level', 'q6')
 
     # Q7: Healthcare
-    plot_regression('healthcare_score', 'Healthcare Score', 'q7')
+    plot_regression('healthcare_index', 'Healthcare Index', 'q7')
 
     # Q8: Best & Worst Cities
     if 'city' in df.columns:
