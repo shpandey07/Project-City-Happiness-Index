@@ -41,31 +41,31 @@ def generate_urban_happiness_data(cities, years, months):
                     month_val = month
 
                 # Inject typos or casing issues in traffic
-                traffic = random.choices(traffic_levels, weights=[0.25, 0.35, 0.25, 0.15])[0]
+                traffic = random.choices(traffic_levels, weights=[0.25, 0.35, 0.25, 0.15])[0] # Randomly select traffic level
                 if random.random() < 0.05:
                     traffic = traffic.lower()
                 elif random.random() < 0.02:
                     traffic = traffic.replace("High", "Hgh")  # typo
 
                 # Introduce nulls in some columns
-                green_space = random.randint(10, 85)
+                green_space = random.randint(10, 85) # Percent of city area that is green space
                 if random.random() < 0.03:
                     green_space = np.nan
 
-                air_quality = random.randint(30, 150)
+                air_quality = random.randint(30, 150) # Air Quality Index (AQI)
                 if random.random() < 0.02:
                     air_quality = np.nan
 
                 # Add outliers
-                decibel = random.randint(45, 85)
+                decibel = random.randint(45, 85) # Normal noise level in dB
                 if random.random() < 0.01:
                     decibel = random.randint(90, 120)  # extreme noise
 
-                cost_living = random.randint(50, 130)
+                cost_living = random.randint(50, 130) # Index, where 100 = average global cost of living
                 if random.random() < 0.01:
                     cost_living = random.randint(200, 300)  # extreme cost
 
-                healthcare = random.randint(60, 100)
+                healthcare = random.randint(60, 100) # Healthcare Index (where 100 = best healthcare)
                 if random.random() < 0.02:
                     healthcare = np.nan
 
