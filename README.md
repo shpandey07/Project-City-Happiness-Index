@@ -91,10 +91,10 @@ Using comprehensive data cleaning, exploratory data analysis (EDA), feature engi
 ---
 
 ## Contact
-Shweta Pandey
-shwetapnd732@gmail.com  
-www.linkedin.com/in/shweta--pandey
-shpandey07 
+Name: Shweta Pandey<br />
+Email: shwetapnd732@gmail.com<br />
+LinkedIn: www.linkedin.com/in/shweta--pandey<br />
+GitHub: shpandey07 
 
 ---
 
