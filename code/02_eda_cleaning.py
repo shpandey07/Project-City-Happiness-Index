@@ -366,7 +366,8 @@ def eda_pipeline(df):
     
     df = df.copy() 
     # Create output directory for EDA plots
-    output_dir = 'eda_output'
+    parent_dir = 'output'
+    output_dir = os.path.join(parent_dir, 'eda_output')
     print(f"\nOutput directory for EDA plots: {output_dir}")
     # Create output directory if it doesn't exist   
     if not os.path.exists(output_dir):
@@ -589,7 +590,8 @@ def run_kpi_analysis(df):
     """
 
     # Create output directory for kpi plots
-    output_dir = 'kpi_output'
+    parent_dir = 'output'
+    output_dir = os.path.join(parent_dir, 'kpi_output')
     print(f"\nOutput directory for KPI plots: {output_dir}")
     # Create output directory if it doesn't exist   
     if not os.path.exists(output_dir):
@@ -695,7 +697,8 @@ def run_multiple_regression_analysis(df, outcome='happiness_score', output_dir='
     print("\n--- Regression Analysis ---")
 
      # Create output directory for regression plots
-    output_dir = 'regression_output'
+    parent_dir = 'output'
+    output_dir = os.path.join(parent_dir, 'regression_output')
     print(f"\nOutput directory for KPI plots: {output_dir}")
     # Create output directory if it doesn't exist   
     if not os.path.exists(output_dir):
@@ -819,8 +822,9 @@ def generate_business_question_plots(df, output_dir="business_output"):
     # Ensure the DataFrame is a copy to avoid modifying the original
     df = df.copy()
 
-    # Create output directory for Business Analysis plots
-    output_dir = 'business_output'
+    # Create output directory for Business Analysis plots#
+    parent_dir = 'output'
+    output_dir = os.path.join(parent_dir, 'business_output')
     # Create output directory if it doesn't exist
     print(f"\nOutput directory for Business Analysis plots: {output_dir}")
     if not os.path.exists(output_dir):
@@ -871,10 +875,10 @@ def generate_business_question_plots(df, output_dir="business_output"):
             print(f"⚠️ Column '{x_var}' not found for regression plot.")
 
     # Q1 continued: Regression Plots - use numeric traffic density column
-    for col, label in [('green_space', 'Green Space'),
-                       ('air_quality', 'Air Quality'),
+    for col, label in [('green_space_area', 'Green Space Area'),
+                       ('air_quality_index', 'Air Quality Index'),
                        ('traffic_density_numeric', 'Traffic Density'),  # <-- use numeric here
-                       ('noise_level', 'Noise Level')]:
+                       ('decibel_level', 'Decibel Level')]:
         plot_regression(col, label, 'q1')
 
     # Q2: Infrastructure Score vs Happiness (Scatter + Residual)
