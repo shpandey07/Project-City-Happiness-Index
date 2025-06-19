@@ -53,7 +53,7 @@ Using comprehensive data cleaning, exploratory data analysis (EDA), feature engi
 ## Visualization
 
 **1. Happiness Score Over Time**
-![Happiness Over Time](kpi_output/happiness_distribution_per_year.png)
+![Happiness Over Time](eda_output/happiness_distribution_per_year.png)
 
 **2. Correlation Heatmap**
 ![Correlation Heatmap](kpi_output/correlation_matrix.png)
