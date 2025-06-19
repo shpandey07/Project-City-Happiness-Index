@@ -53,13 +53,13 @@ Using comprehensive data cleaning, exploratory data analysis (EDA), feature engi
 ## Visualization
 
 **1. Happiness Score Over Time**
-![Happiness Over Time](kpi_output/happiness_distribution_per_year.png)
+![Happiness Over Time](output/kpi_output/happiness_distribution_per_year.png)
 
 **2. Correlation Heatmap**
-![Correlation Heatmap](eda_output/correlation_matrix.png)
+![Correlation Heatmap](output/eda_output/correlation_matrix.png)
 
 **3. Regression: Green Space vs Happiness**
-![Regression Green Space](regression_output/regression_happiness_score_vs_air_quality_index.png)
+![Regression Green Space](output/regression_output/regression_happiness_score_vs_air_quality_index.png)
 
 ---
 
