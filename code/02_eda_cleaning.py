@@ -681,77 +681,6 @@ def run_kpi_analysis(df):
         'top_5_years': top_5_years
     }
 
-# Function to run regression analysis on the DataFrame
-def run_multiple_regression_analysis(df, outcome='happiness_score', output_dir='eda_output'):
-    """
-    Run regression plots for multiple predictors against the outcome variable.
-
-    Args:
-        df (pd.DataFrame): Input data.
-        outcome (str): The outcome (Y-axis) column name. Default is 'happiness_score'.
-        output_dir (str): Directory to save the plots. Default is 'eda_output'.
-
-    Returns:
-        None
-    """
-    print("\n--- Regression Analysis ---")
-
-     # Create output directory for regression plots
-    parent_dir = 'output'
-    output_dir = os.path.join(parent_dir, 'regression_output')
-    print(f"\nOutput directory for KPI plots: {output_dir}")
-    # Create output directory if it doesn't exist   
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        print(f"Created output directory: {output_dir}")
-    else:
-        print(f"Output directory already exists: {output_dir}")
-
-    traffic_mapping = {
-    "Very Low": 20,
-    "Low": 40,
-    "Medium": 60,
-    "High": 80,
-    "Very High": 100
-    }
-
-    df['traffic_density_numeric'] = df['traffic_density'].map(traffic_mapping).astype(float)
-
-    regression_pairs = [
-    ("green_space_area", "Green Space Area"),
-    ("air_quality_index", "Air Quality Index"),
-    ("traffic_density_numeric", "Traffic Density"),
-    ("decibel_level", "Decibel Level"),
-    ("healthcare_index", "Healthcare Index"),
-    ("cost_of_living_index", "Cost of Living Index"),
-    ]
-
-    for predictor, label in regression_pairs:
-        if predictor in df.columns and outcome in df.columns:
-            print(f"Running regression analysis: {label} vs {outcome.replace('_', ' ').title()}")
-
-            sns.lmplot(
-                x=predictor,
-                y=outcome,
-                hue='region' if 'region' in df.columns else None,
-                data=df,
-                aspect=2,
-                height=6
-            )
-
-            plt.title(f"Regression Analysis: {outcome.replace('_', ' ').title()} vs {label}")
-            plt.xlabel(label)
-            plt.ylabel(outcome.replace('_', ' ').title())
-            # plt.xticks(rotation=30)
-            plt.tight_layout()
-
-            filename = f"{output_dir}/regression_{outcome}_vs_{predictor}.png"
-            plt.savefig(filename, dpi=300)
-            plt.close()
-        else:
-            print(f"⚠️ Skipping: Missing '{predictor}' or '{outcome}'")
-    print("✅ Regression analysis completed. Plots saved to:", output_dir)
-
 
 # FEATURE ENGINEERING AND DATA TRANSFORMATION
 
@@ -803,29 +732,108 @@ def feature_engineering(df):
 
     return df
 
+
+# Function to run regression analysis on the DataFrame
+
+def run_multiple_regression_analysis(df, outcome='happiness_score', output_dir='eda_output'):
+    """
+    Run regression plots for multiple predictors against the outcome variable.
+
+    Args:
+        df (pd.DataFrame): Input data.
+        outcome (str): The outcome (Y-axis) column name. Default is 'happiness_score'.
+        output_dir (str): Directory to save the plots. Default is 'eda_output'.
+
+    Returns:
+        None
+    """
+    print("\n--- Regression Analysis ---")
+
+    # Create output directory for regression plots
+    parent_dir = 'output'
+    output_dir = os.path.join(parent_dir, 'regression_output')
+    print(f"\n📁 Output directory for regression plots: {output_dir}")
+    
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"✅ Created output directory: {output_dir}")
+    else:
+        print(f"ℹ️ Output directory already exists: {output_dir}")
+
+    # Map traffic density to numeric values if needed
+    if 'traffic_density' in df.columns:
+        traffic_mapping = {
+            "Very Low": 20,
+            "Low": 40,
+            "Medium": 60,
+            "High": 80,
+            "Very High": 100
+        }
+        df['traffic_density_numeric'] = df['traffic_density'].map(traffic_mapping).astype(float)
+
+    # Define pairs for regression
+    regression_pairs = [
+        ("green_space_area", "Green Space Area"),
+        ("air_quality_index", "Air Quality Index"),
+        ("traffic_density_numeric", "Traffic Density"),
+        ("decibel_level", "Decibel Level"),
+        ("healthcare_index", "Healthcare Index"),
+        ("cost_of_living_index", "Cost of Living Index"),
+    ]
+
+    for predictor, label in regression_pairs:
+        if predictor in df.columns and outcome in df.columns:
+            print(f"Regression: {label} vs {outcome.replace('_', ' ').title()}")
+
+            sns.set(style="whitegrid")
+            plot = sns.lmplot(
+                x=predictor,
+                y=outcome,
+                hue='region' if 'region' in df.columns else None,
+                data=df,
+                height=6,
+                aspect=2,
+                palette='Set2',
+                scatter_kws={'alpha': 0.5, 's': 30},
+                line_kws={'color': 'black'}
+            )
+
+            plot.set_axis_labels(label, outcome.replace('_', ' ').title())
+            plt.title(f"Regression: {label} vs {outcome.replace('_', ' ').title()}", fontsize=14)
+            plt.tight_layout()
+
+            # Save plot
+            filename = f"{output_dir}/regression_{outcome}_vs_{predictor}.png"
+            plt.savefig(filename, dpi=300)
+            plt.close()
+        else:
+            print(f"⚠️ Skipping: Missing '{predictor}' or '{outcome}'")
+
+    print("✅ All regression plots saved in:", output_dir)
+
+
+
+
 # BUSINESS QUESTION ANALYSIS
 
 # Analysis of business questions based on the dataset
-
 def generate_business_question_plots(df, output_dir="business_output"):
     """
-    Generate plots to answer business questions based on the dataset.
-    This function creates visualizations to explore relationships between various features and the happiness score.
+    Generate visual plots to answer business questions based on the dataset.
+    Delegates regression analysis to a separate function to avoid duplication.
 
     Args:
         df (pd.DataFrame): Input DataFrame with necessary columns.
         output_dir (str): Directory to save the generated plots.
 
     Returns:
-        None: The function saves plots to the specified directory.
+        None
     """
-    # Ensure the DataFrame is a copy to avoid modifying the original
     df = df.copy()
-
-    # Create output directory for Business Analysis plots#
+    
     parent_dir = 'output'
     output_dir = os.path.join(parent_dir, 'business_output')
-    # Create output directory if it doesn't exist
+
     print(f"\nOutput directory for Business Analysis plots: {output_dir}")
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -835,53 +843,31 @@ def generate_business_question_plots(df, output_dir="business_output"):
 
     print("\nGenerating Business Question Plots...")
 
-    # Map categorical traffic density to numeric values
-    traffic_mapping = {
-        "Very Low": 20,
-        "Low": 40,
-        "Medium": 60,
-        "High": 80,
-        "Very High": 100
-    }
-    df['traffic_density_numeric'] = df['traffic_density'].map(traffic_mapping).astype(float)
 
-    # Drop rows with missing values in the numeric traffic density for regression
+    # Map traffic density to numeric if exists
+    traffic_mapping = {
+        "Very Low": 20, "Low": 40, "Medium": 60, "High": 80, "Very High": 100
+    }
+    if 'traffic_density' in df.columns:
+        df['traffic_density_numeric'] = df['traffic_density'].map(traffic_mapping).astype(float)
+
+    # Drop rows with missing mapped traffic
     df = df.dropna(subset=['traffic_density_numeric'])
 
     # Q1: Correlation Matrix - Drivers of Happiness
     plt.figure(figsize=(10, 8))
     corr = df.corr(numeric_only=True)
-    sns.heatmap(corr[['happiness_score']].sort_values(by='happiness_score', ascending=False),
-                annot=True, cmap='coolwarm')
-    plt.title('Correlation with Happiness Score')
+    sns.heatmap(
+        corr[['happiness_score']].sort_values(by='happiness_score', ascending=False),
+        annot=True, cmap='coolwarm'
+    )
+    plt.title('Q1: Correlation with Happiness Score')
     plt.tight_layout()
     plt.savefig(f"{output_dir}/q1_correlation_matrix.png", dpi=300)
     plt.close()
+    print("✅ Q1 answered with correlation heatmap. Regression plots handled separately.")
 
-    # Regression helper function
-    def plot_regression(x_var, label, q_name):
-        if x_var in df.columns:
-            sns.lmplot(x=x_var, y='happiness_score',
-                       hue='region' if 'region' in df.columns else None,
-                       data=df, aspect=2, height=6)
-            plt.title(f'Happiness vs. {label}')
-            plt.xlabel(label)
-            plt.ylabel("Happiness Score")
-            plt.xticks(rotation=30)
-            plt.tight_layout()
-            plt.savefig(f"{output_dir}/{q_name}_{x_var}_regression.png", dpi=300)
-            plt.close()
-        else:
-            print(f"⚠️ Column '{x_var}' not found for regression plot.")
-
-    # Q1 continued: Regression Plots - use numeric traffic density column
-    for col, label in [('green_space_area', 'Green Space Area'),
-                       ('air_quality_index', 'Air Quality Index'),
-                       ('traffic_density_numeric', 'Traffic Density'),  # <-- use numeric here
-                       ('decibel_level', 'Decibel Level')]:
-        plot_regression(col, label, 'q1')
-
-    # Q2: Infrastructure Score vs Happiness (Scatter + Residual)
+    # Q2: Infrastructure Score vs Happiness (Scatter + Residuals)
     if 'infrastructure_score' in df.columns:
         sns.scatterplot(data=df, x='infrastructure_score', y='happiness_score',
                         hue='region' if 'region' in df.columns else None)
@@ -895,8 +881,7 @@ def generate_business_question_plots(df, output_dir="business_output"):
         X = df[['infrastructure_score']].dropna()
         y = df.loc[X.index, 'happiness_score']
         model.fit(X, y)
-        df.loc[X.index, 'predicted_happiness'] = model.predict(X)
-        df.loc[X.index, 'residual'] = df.loc[X.index, 'happiness_score'] - df.loc[X.index, 'predicted_happiness']
+        df.loc[X.index, 'residual'] = y - model.predict(X)
 
         sns.scatterplot(data=df.loc[X.index], x='infrastructure_score', y='residual',
                         hue='region' if 'region' in df.columns else None)
@@ -905,39 +890,35 @@ def generate_business_question_plots(df, output_dir="business_output"):
         plt.tight_layout()
         plt.savefig(f"{output_dir}/q2_residuals.png", dpi=300)
         plt.close()
+        print("✅ Q2 answered with scatter and residual analysis.")
 
     # Q3: Happiness over Time
     if 'year' in df.columns:
         plt.figure(figsize=(12, 6))
-        sns.lineplot(data=df, x='year', y='happiness_score', hue='city' if 'city' in df.columns else None, legend=False)
+        sns.lineplot(data=df, x='year', y='happiness_score',
+                     hue='city' if 'city' in df.columns else None, legend=False)
         plt.title("Q3: Happiness Trends Over Time (by City)")
         plt.tight_layout()
         plt.savefig(f"{output_dir}/q3_happiness_trends.png", dpi=300)
         plt.close()
+        print("✅ Q3 answered with time series line plot.")
 
-    # Q4: Green & Clean Impact
+    # Q4: Green & Clean Impact - Environment Score Boxplot
     if 'region' in df.columns and 'environment_score' in df.columns:
         sns.boxplot(data=df, x='region', y='environment_score')
         plt.title("Q4: Environment Score Distribution by Region")
         plt.tight_layout()
         plt.savefig(f"{output_dir}/q4_environment_boxplot.png", dpi=300)
         plt.close()
+        print("✅ Q4 partially answered with boxplot. Regression covered separately.")
 
-        plot_regression('environment_score', 'Environment Score', 'q4')
+    # Q5, Q6, Q7: Cost, Traffic, Noise, Healthcare
+    print("ℹ️ Q5 (Cost), Q6 (Traffic & Noise), and Q7 (Healthcare) are answered in regression plots.")
 
-    # Q5: Cost vs Happiness
-    plot_regression('cost_of_living_index', 'Cost of Living Index', 'q5')
-
-    # Q6: Traffic & Noise Impact - use numeric traffic density
-    plot_regression('traffic_density_numeric', 'Traffic Density', 'q6')
-    plot_regression('decibel_level', 'Decibel Level', 'q6')
-
-    # Q7: Healthcare
-    plot_regression('healthcare_index', 'Healthcare Index', 'q7')
-
-    # Q8: Best & Worst Cities
+    # Q8: Best & Worst Cities by Happiness Score
     if 'city' in df.columns:
         city_avg = df.groupby('city')['happiness_score'].mean().sort_values()
+
         plt.figure(figsize=(10, 6))
         city_avg.head(5).plot(kind='barh', color='crimson')
         plt.title("Q8: Bottom 5 Happiest Cities")
@@ -953,8 +934,11 @@ def generate_business_question_plots(df, output_dir="business_output"):
         plt.tight_layout()
         plt.savefig(f"{output_dir}/q8_top5_cities.png", dpi=300)
         plt.close()
+        print("✅ Q8 answered with bar plots for best and worst cities.")
 
-    print("✅ Business question plots generated and saved to:", output_dir)
+    print("✅ All business question plots generated. Relevant regression plots handled in `run_multiple_regression_analysis()`.")
+
+
 
 
 # Main function to execute the data loading and initial inspection
@@ -1065,6 +1049,7 @@ def main():
     print("\nEND OF EXPLORATORY DATA ANALYSIS (EDA)!\n" +
           "#" * 88)
     
+    # Run KPI analysis and regression analysis
     run_kpi_analysis(df)    
     run_multiple_regression_analysis(df)
     feature_engineering(df)
