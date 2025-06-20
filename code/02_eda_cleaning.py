@@ -1,40 +1,4 @@
 
-# # Import necessary libraries
-# import warnings
-# warnings.filterwarnings("ignore")  # Ignore warnings for cleaner output
-# # Standard libraries
-# import sys
-# if not sys.warnoptions:
-#     import warnings
-#     warnings.simplefilter("ignore")  # Ignore all warnings
-# # Data manipulation and analysis libraries
-# import pandas as pd
-# import numpy as np
-# # Visualization libraries
-# import seaborn as sns
-# import matplotlib.pyplot as plt
-# import matplotlib.dates as mdates
-# import plotly.express as px
-# # Fuzzy matching library for typo correction
-# from rapidfuzz import process, fuzz
-# # Time measurement library
-# import time
-# # File and directory management library
-# import os
-# # Set default plot style
-# sns.set(style="whitegrid")  # Set seaborn style for plots
-# # Set default matplotlib parameters for better readability
-# plt.rcParams.update({
-#     'figure.figsize': (10, 6),  # Default figure size
-#     'axes.titlesize': 'large',   # Title size for axes
-#     'axes.labelsize': 'medium',   # Label size for axes
-#     'xtick.labelsize': 'small',   # X-tick label size
-#     'ytick.labelsize': 'small',   # Y-tick label size
-#     'legend.fontsize': 'medium',  # Legend font size
-#     'grid.linestyle': '--'         # Grid line style
-# })
-
-
 # -*- coding: utf-8 -*-
 """
 This script performs data loading, initial inspection, cleaning, and exploratory data analysis (EDA) on a dataset.
@@ -43,7 +7,7 @@ removing duplicates, detecting and visualizing outliers, and performing EDA with
 It also includes a main function to execute the data loading and initial inspection.
 """
 
-
+# Import necessary libraries
 import os
 import time
 import pandas as pd
@@ -1059,7 +1023,7 @@ def main():
 
     print("\nRunning multiple regression analysis...")
     run_multiple_regression_analysis(df)
-    
+
     print("\nRunning business question analysis...")
     generate_business_question_plots(df)
 
