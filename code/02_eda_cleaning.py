@@ -1049,10 +1049,18 @@ def main():
     print("\nEND OF EXPLORATORY DATA ANALYSIS (EDA)!\n" +
           "#" * 88)
     
-    # Run KPI analysis and regression analysis
-    run_kpi_analysis(df)    
-    run_multiple_regression_analysis(df)
+    # Run all the analyses     
+
+    print("\nRunning regression analysis...")
+    run_kpi_analysis(df) 
+
+    print("\nRunning feature engineering...")
     feature_engineering(df)
+
+    print("\nRunning multiple regression analysis...")
+    run_multiple_regression_analysis(df)
+    
+    print("\nRunning business question analysis...")
     generate_business_question_plots(df)
 
     # Print final DataFrame info
