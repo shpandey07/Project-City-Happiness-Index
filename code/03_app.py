@@ -161,7 +161,7 @@ def display_responsive_image(img_path, caption=""):
     html_code = f"""
     <div style="text-align:center; margin-bottom: 2em;">
         <img src="{img_base64}"
-             style="max-width: 90vw; width: 1000px; height: auto; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);">
+             style="max-width: 100%; width: 1000px; height: auto; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);">
         <div style="font-size: 0.9rem; color: #666; margin-top: 0.5em;">{caption}</div>
     </div>
     """
