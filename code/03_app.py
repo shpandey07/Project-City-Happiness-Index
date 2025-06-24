@@ -9,8 +9,10 @@
 
 # Import necessary libraries
 import os
+import base64
 import streamlit as st
 from PIL import Image
+import streamlit.components.v1 as components
 
 # Mapping business questions to their plot files and descriptions
 BUSINESS_QUESTIONS = {
@@ -142,6 +144,31 @@ def load_image(img_name):
     else:
         return None
 
+# Function to display a responsive image with caption
+def display_responsive_image(img_path, caption=""):
+    if not os.path.exists(img_path):
+        st.warning(f"Image not found: {img_path}")
+        return
+
+    # Read and encode the image
+    with open(img_path, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read()).decode()
+
+    # Create base64 URI
+    img_base64 = f"data:image/png;base64,{encoded_string}"
+
+    # Inject responsive HTML
+    html_code = f"""
+    <div style="text-align:center; margin-bottom: 2em;">
+        <img src="{img_base64}"
+             style="max-width: 90vw; width: 1000px; height: auto; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);">
+        <div style="font-size: 0.9rem; color: #666; margin-top: 0.5em;">{caption}</div>
+    </div>
+    """
+    components.html(html_code, height=600)
+
+
+
 # Main function to run the Streamlit app
 def main():
     st.set_page_config(page_title="Urban Happiness Dashboard", layout="wide")
@@ -166,7 +193,9 @@ def main():
         img = load_image(plot_file)
         if img:
             # st.image(img, caption=caption, use_container_width=True)
-            st.image(img, caption=caption, width=700)
+            img_path = os.path.join(BASE_OUTPUT_DIR, plot_file)
+            display_responsive_image(img_path, caption)
+
 
         else:
             st.warning(f"Plot not found: {plot_file}")
