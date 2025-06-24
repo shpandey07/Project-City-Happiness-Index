@@ -167,8 +167,8 @@ def main():
     for plot_file, caption in q_data["plots"]:
         img = load_image(plot_file)
         if img:
-            # st.image(img, caption=caption, use_container_width=True)
-            st.image(img, caption=caption, width=700)
+            st.image(img, caption=caption, use_container_width=True)
+            # st.image(img, caption=caption, width=700)
 
         else:
             st.warning(f"Plot not found: {plot_file}")
