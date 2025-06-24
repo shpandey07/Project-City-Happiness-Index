@@ -123,7 +123,7 @@ BUSINESS_QUESTIONS = {
 }
 
 # Define the folder paths for different plot types
-BASE_OUTPUT_DIR = ""
+BASE_OUTPUT_DIR = "output"
 
 # Function to load images from the selected folder
 def load_image(img_name):
