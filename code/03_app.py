@@ -144,9 +144,7 @@ def load_image(img_name):
 
 # Main function to run the Streamlit app
 def main():
-    # st.set_page_config(page_title="Urban Happiness Dashboard", layout="wide")
-    st.set_page_config(page_title="Urban Happiness Dashboard", layout="centered")
-
+    st.set_page_config(page_title="Urban Happiness Dashboard", layout="wide")
 
     st.title("🌆 Urban Happiness Index Dashboard")
     st.markdown(
@@ -167,8 +165,8 @@ def main():
     for plot_file, caption in q_data["plots"]:
         img = load_image(plot_file)
         if img:
-            st.image(img, caption=caption, use_container_width=True)
-            # st.image(img, caption=caption, width=700)
+            # st.image(img, caption=caption, use_container_width=True)
+            st.image(img, caption=caption, width=700)
 
         else:
             st.warning(f"Plot not found: {plot_file}")
