@@ -1,7 +1,7 @@
 
 # -*- coding: utf-8 -*-
 """
-This script performs data loading, initial inspection, cleaning, and exploratory data analysis (EDA) on a dataset.
+This script performs data loading, initial inspection, cleaning, and exploratory data analysis (EDA) on the 'Urban Hapiness Index' dataset.
 It includes functions for loading data, inspecting columns, cleaning categorical columns, handling missing values,
 removing duplicates, detecting and visualizing outliers, and performing EDA with visualizations.
 It also includes a main function to execute the data loading and initial inspection.
@@ -776,8 +776,6 @@ def run_multiple_regression_analysis(df, outcome='happiness_score', output_dir='
     print("✅ All regression plots saved in:", output_dir)
 
 
-
-
 # BUSINESS QUESTION ANALYSIS
 
 # Analysis of business questions based on the dataset
@@ -829,55 +827,134 @@ def generate_business_question_plots(df, output_dir="business_output"):
     plt.tight_layout()
     plt.savefig(f"{output_dir}/q1_correlation_matrix.png", dpi=300)
     plt.close()
-    print("✅ Q1 answered with correlation heatmap. Regression plots handled separately.")
+    print("Q1 answered with correlation heatmap. Regression plots handled separately.")
 
-    # Q2: Infrastructure Score vs Happiness (Scatter + Residuals)
-    if 'infrastructure_score' in df.columns:
-        sns.scatterplot(data=df, x='infrastructure_score', y='happiness_score',
-                        hue='region' if 'region' in df.columns else None)
-        plt.title("Q2: Happiness vs. Infrastructure Score")
-        plt.tight_layout()
-        plt.savefig(f"{output_dir}/q2_infrastructure_vs_happiness.png", dpi=300)
-        plt.close()
+    
+    # Q2: Infrastructure Score vs Happiness (Regression + Residuals)
+    print("\nQ2: Infrastructure vs Happiness - Regression & Residual Analysis")
 
-        # Residuals
-        model = LinearRegression()
-        X = df[['infrastructure_score']].dropna()
-        y = df.loc[X.index, 'happiness_score']
-        model.fit(X, y)
-        df.loc[X.index, 'residual'] = y - model.predict(X)
+    # Filter only relevant columns and drop missing
+    df_q2 = df[['city', 'infrastructure_score', 'happiness_score']].dropna()
 
-        sns.scatterplot(data=df.loc[X.index], x='infrastructure_score', y='residual',
-                        hue='region' if 'region' in df.columns else None)
-        plt.axhline(0, linestyle='--', color='gray')
-        plt.title("Q2: Residuals (Underperformers in Happiness)")
-        plt.tight_layout()
-        plt.savefig(f"{output_dir}/q2_residuals.png", dpi=300)
-        plt.close()
-        print("✅ Q2 answered with scatter and residual analysis.")
+    # Fit linear regression model
+    X = df_q2[['infrastructure_score']]
+    y = df_q2['happiness_score']
+    model = LinearRegression()
+    model.fit(X, y)
+
+    # Predict and calculate residuals
+    df_q2['predicted_happiness'] = model.predict(X)
+    df_q2['residual'] = df_q2['happiness_score'] - df_q2['predicted_happiness']
+
+    # 1. Regression Plot
+
+    plt.figure(figsize=(10, 6))
+    sns.regplot(data=df_q2, x='infrastructure_score', y='happiness_score', scatter_kws={'alpha': 0.6})
+    plt.title("Q2: Happiness vs Infrastructure Score (Regression)")
+    plt.xlabel("Infrastructure Score")
+    plt.ylabel("Happiness Score")
+    plt.tight_layout()
+    plt.savefig(f"{output_dir}/q2_infra_vs_happiness_regression.png", dpi=300)
+    plt.close()
+    print("✅ Regression plot saved.")
+
+
+    # 2. Top 10 Underperformers
+
+
+    underperformers = df_q2.sort_values('residual').head(10)
+
+    plt.figure(figsize=(12, 6))
+    sns.barplot(data=underperformers, x='residual', y='city', order=underperformers.sort_values('residual')['city'], color='#d73027')
+    plt.axvline(0, color='gray', linestyle='--')
+    plt.title("Q2: Top 10 Underperforming Cities (Low Happiness vs Infrastructure)")
+    plt.xlabel("Residual (Actual - Predicted Happiness)")
+    plt.ylabel("City")
+    plt.tight_layout()
+    plt.savefig(f"{output_dir}/q2_residual_underperformers.png", dpi=300)
+    plt.close()
+    print("✅ Underperformers plot saved.")
+
+  
+    # 3. Top 10 Overperformers (Optional)
+
+    overperformers = df_q2.sort_values('residual', ascending=False).head(10)
+
+    plt.figure(figsize=(12, 6))
+    sns.barplot(data=overperformers, x='residual', y='city',order=overperformers.sort_values('residual', ascending=False)['city'], color='#1a9850')
+    plt.axvline(0, color='gray', linestyle='--')
+    plt.title("Q2: Top 10 Overperforming Cities (High Happiness vs Infrastructure)")
+    plt.xlabel("Residual (Actual - Predicted Happiness)")
+    plt.ylabel("City")
+    plt.tight_layout()
+    plt.savefig(f"{output_dir}/q2_residual_overperformers.png", dpi=300)
+    plt.close()
+    print("✅ Overperformers plot saved.")
+
 
     # Q3: Happiness over Time
-    if 'year' in df.columns:
-        plt.figure(figsize=(12, 6))
-        sns.lineplot(data=df, x='year', y='happiness_score',
-                     hue='city' if 'city' in df.columns else None, legend=False)
-        plt.title("Q3: Happiness Trends Over Time (by City)")
-        plt.tight_layout()
-        plt.savefig(f"{output_dir}/q3_happiness_trends.png", dpi=300)
-        plt.close()
-        print("✅ Q3 answered with time series line plot.")
+
+    if 'year' in df.columns and 'city' in df.columns:
+    # Group by city and year to calculate average happiness
+        city_year_avg = (
+            df.groupby(['city', 'year'])['happiness_score']
+            .mean()
+            .reset_index()
+            .sort_values(by='year')  # Ensure chronological order
+        )
+
+    # Plot
+    plt.figure(figsize=(14, 7))
+    sns.lineplot(data=city_year_avg, x='year', y='happiness_score', hue='city', marker='o')
+    plt.title("Q3: Average Happiness Score Over Time by City")
+    plt.xlabel("Year")
+    plt.ylabel("Average Happiness Score")
+    plt.legend(bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0)
+    plt.tight_layout()
+    plt.savefig(f"{output_dir}/q3_happiness_trends_by_city.png", dpi=300)
+    plt.close()
+
+    print("Q3 answered with average happiness by city over time.")
+
+    # Get top 5 happiest cities (on average)
+    top_cities = df.groupby('city')['happiness_score'].mean().nlargest(5).index
+    filtered_df = df[df['city'].isin(top_cities)]
+
+    plt.figure(figsize=(12, 6))
+    sns.lineplot(data=filtered_df, x='year', y='happiness_score', estimator='mean', hue='city', marker='o')
+    plt.title("Q3: Happiness Trends Over Time (Top 5 Cities)")
+    plt.xlabel("Year")
+    plt.ylabel("Happiness Score")
+    plt.legend(bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0)
+    plt.tight_layout()
+    plt.savefig(f"{output_dir}/q3_happiness_trends_top5.png", dpi=300)
+    plt.close()
+    print("Q3 answered with top 5 city trends over time.")
+
 
     # Q4: Green & Clean Impact - Environment Score Boxplot
-    if 'region' in df.columns and 'environment_score' in df.columns:
-        sns.boxplot(data=df, x='region', y='environment_score')
-        plt.title("Q4: Environment Score Distribution by Region")
+    if 'city' in df.columns and 'environment_score' in df.columns:
+        plt.figure(figsize=(10, 6))
+        sns.boxplot(data=df, x="city", y="environment_score")
+        plt.title("Environment Score Distribution by City")
+        plt.xlabel("City")
+        plt.ylabel("Environment Score")
+        plt.xticks(rotation=45)
         plt.tight_layout()
-        plt.savefig(f"{output_dir}/q4_environment_boxplot.png", dpi=300)
-        plt.close()
-        print("✅ Q4 partially answered with boxplot. Regression covered separately.")
+        plt.savefig("output/business_output/q4_environment_boxplot.png")
+        # plt.show()
+        
+        plt.figure(figsize=(8, 6))
+        sns.regplot(data=df, x="environment_score", y="happiness_score", scatter_kws={'alpha':0.5})
+        plt.title("Happiness vs Environment Score")
+        plt.xlabel("Environment Score (normalized avg of green space & air quality)")
+        plt.ylabel("Happiness Score")
+        plt.tight_layout()
+        plt.savefig("output/business_output/q4_environment_score_regression.png")
+        # plt.show()
 
     # Q5, Q6, Q7: Cost, Traffic, Noise, Healthcare
-    print("ℹ️ Q5 (Cost), Q6 (Traffic & Noise), and Q7 (Healthcare) are answered in regression plots.")
+    print("Q5 (Cost), Q6 (Traffic & Noise), and Q7 (Healthcare) are answered in regression plots.")
 
     # Q8: Best & Worst Cities by Happiness Score
     if 'city' in df.columns:
@@ -898,11 +975,10 @@ def generate_business_question_plots(df, output_dir="business_output"):
         plt.tight_layout()
         plt.savefig(f"{output_dir}/q8_top5_cities.png", dpi=300)
         plt.close()
-        print("✅ Q8 answered with bar plots for best and worst cities.")
+        print("Q8 answered with bar plots for best and worst cities.")
 
-    print("✅ All business question plots generated. Relevant regression plots handled in `run_multiple_regression_analysis()`.")
-
-
+  
+    print("All business question plots generated. Relevant regression plots handled in `run_multiple_regression_analysis()`.")
 
 
 # Main function to execute the data loading and initial inspection
@@ -1039,8 +1115,6 @@ def main():
     print(f"Duplicate rows: {df.duplicated().sum()}")
     print(f"Outliers: {df.isna().sum().sum()}")
     print(f"Memory usage:\n{df.memory_usage(deep=True)}")
-    print("\nEND OF DATA CLEANING, EDA, Fe!\n" +
-          "#" * 88)
 
     print("\nEND OF DATA CLEANING, EDA, FEATURE ENGINEERING, REGRESSION ANALYSIS AND BUSINESS QUESTIONS!\n" +
           "#" * 88)
