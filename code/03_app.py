@@ -8,8 +8,8 @@
 
 
 # Import necessary libraries
-import streamlit as st
 import os
+import streamlit as st
 from PIL import Image
 
 # Mapping business questions to their plot files and descriptions
@@ -22,6 +22,7 @@ BUSINESS_QUESTIONS = {
             ("regression_output/regression_happiness_score_vs_air_quality_index.png", "Regression: Happiness vs Air Quality"),
             ("regression_output/regression_happiness_score_vs_traffic_density_numeric.png", "Regression: Happiness vs Traffic Density"),
             ("regression_output/regression_happiness_score_vs_decibel_level.png", "Regression: Happiness vs Decibel Level"),
+
         ],
         "conclusion": """
     - Environment score (green space area + air quality index), green space show the **strongest positive correlation** with happiness.
@@ -49,6 +50,7 @@ BUSINESS_QUESTIONS = {
         "desc": "How happiness evolved over time in each city.",
         "plots": [
             ("business_output/q3_happiness_trends_by_city.png", "Time-Series: Happiness Trends Over Time by City"),
+
         ],
         "conclusion": """
     - Most cities show a **stable or slightly upward trend** in happiness over time, suggesting gradual improvement.
@@ -62,6 +64,7 @@ BUSINESS_QUESTIONS = {
         "plots": [
             ("business_output/q4_environment_boxplot.png", "Boxplot: Environment Score Distribution by Region"),
             ("business_output/q4_environment_score_regression.png", "Regression: Happiness vs Environment Score"),
+
         ],
         "conclusion": """
     - Cities with **higher environment scores (air quality + green space)** consistently report **higher happiness scores**.
@@ -74,6 +77,7 @@ BUSINESS_QUESTIONS = {
         "desc": "Is there a tradeoff between cost of living and happiness?",
         "plots": [
             ("regression_output/regression_happiness_score_vs_cost_of_living_index.png", "Regression: Happiness vs Cost of Living"),
+
         ],
         "conclusion": """
     - There is a **moderate negative correlation** between cost of living and happiness: **higher cost cities tend to have lower happiness**.
@@ -87,6 +91,7 @@ BUSINESS_QUESTIONS = {
         "plots": [
             ("regression_output/regression_happiness_score_vs_traffic_density_numeric.png", "Regression: Happiness vs Traffic Density"),
             ("regression_output/regression_happiness_score_vs_decibel_level.png", "Regression: Happiness vs Decibel Level"),
+
         ],
         "conclusion": """
     - Both **traffic density and noise pollution** show **clear negative impacts on happiness**.
@@ -99,6 +104,7 @@ BUSINESS_QUESTIONS = {
         "desc": "How important is healthcare quality to happiness?",
         "plots": [
             ("regression_output/regression_happiness_score_vs_healthcare_index.png", "Regression: Happiness vs Healthcare Quality"),
+
         ],
         "conclusion": """
     - Healthcare quality has a **strong positive relationship** with happiness.
@@ -123,7 +129,8 @@ BUSINESS_QUESTIONS = {
 }
 
 # Define the folder paths for different plot types
-BASE_OUTPUT_DIR = "output"
+BASE_OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+
 
 # Function to load images from the selected folder
 def load_image(img_name):

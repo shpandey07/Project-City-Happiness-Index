@@ -330,7 +330,7 @@ def eda_pipeline(df):
     
     df = df.copy() 
     # Create output directory for EDA plots
-    parent_dir = 'output'
+    parent_dir = 'code/output'
     output_dir = os.path.join(parent_dir, 'eda_output')
     print(f"\nOutput directory for EDA plots: {output_dir}")
     # Create output directory if it doesn't exist   
@@ -554,7 +554,7 @@ def run_kpi_analysis(df):
     """
 
     # Create output directory for kpi plots
-    parent_dir = 'output'
+    parent_dir = 'code/output'    
     output_dir = os.path.join(parent_dir, 'kpi_output')
     print(f"\nOutput directory for KPI plots: {output_dir}")
     # Create output directory if it doesn't exist   
@@ -714,7 +714,7 @@ def run_multiple_regression_analysis(df, outcome='happiness_score', output_dir='
     print("\n--- Regression Analysis ---")
 
     # Create output directory for regression plots
-    parent_dir = 'output'
+    parent_dir = 'code/output'    
     output_dir = os.path.join(parent_dir, 'regression_output')
     print(f"\n📁 Output directory for regression plots: {output_dir}")
     
@@ -793,7 +793,7 @@ def generate_business_question_plots(df, output_dir="business_output"):
     """
     df = df.copy()
     
-    parent_dir = 'output'
+    parent_dir = 'code/output'    
     output_dir = os.path.join(parent_dir, 'business_output')
 
     print(f"\nOutput directory for Business Analysis plots: {output_dir}")
@@ -941,7 +941,7 @@ def generate_business_question_plots(df, output_dir="business_output"):
         plt.ylabel("Environment Score")
         plt.xticks(rotation=45)
         plt.tight_layout()
-        plt.savefig("output/business_output/q4_environment_boxplot.png")
+        plt.savefig(f"{output_dir}/q4_environment_boxplot.png", dpi=300)
         # plt.show()
         
         plt.figure(figsize=(8, 6))
@@ -950,7 +950,7 @@ def generate_business_question_plots(df, output_dir="business_output"):
         plt.xlabel("Environment Score (normalized avg of green space & air quality)")
         plt.ylabel("Happiness Score")
         plt.tight_layout()
-        plt.savefig("output/business_output/q4_environment_score_regression.png")
+        plt.savefig(f"{output_dir}/q4_environment_score_regression.png", dpi=300)
         # plt.show()
 
     # Q5, Q6, Q7: Cost, Traffic, Noise, Healthcare
