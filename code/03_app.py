@@ -42,7 +42,7 @@ BUSINESS_QUESTIONS = {
 
         ],
         "conclusion": """
-    - Some cities like *CityX* and *CityY* have **strong infrastructure but low happiness**, indicating a mismatch.
+    - Some cities have **strong infrastructure but low happiness**, indicating a mismatch.
     - Potential causes could be non-infrastructure-related: high cost of living, poor air quality, or noise levels.
     - These outliers may need deeper qualitative study to understand why infrastructure alone isn’t enough.
     """,
@@ -55,9 +55,10 @@ BUSINESS_QUESTIONS = {
 
         ],
         "conclusion": """
-    - Most cities show a **stable or slightly upward trend** in happiness over time, suggesting gradual improvement.
-    - A few cities (e.g., *CityZ*) show **sharp dips or fluctuations**, which may correlate with events like policy changes or environmental shifts.
-    - Continuous monitoring over time can help evaluate the **impact of interventions** like traffic control or green space development.
+    - **Consistent Range**: Most cities maintain happiness scores between **7.5 and 8.5**, indicating overall stability in urban satisfaction.
+    - **Notable Outliers**: Cities like **Barcelona (2021)** and **Copenhagen (2023)** show sharp **positive spikes**, while **Auckland (2023)** experiences a major **drop**, signaling impactful local events.
+    - **Rising Cities**: **Berlin, Lisbon,** and **Vienna** show **a steady upward trend** in happiness over time.
+    - **Volatile Patterns**: Cities such as **Melbourne, Tokyo**, and **San Francisco** display **year-to-year fluctuations**, possibly due to economic or policy shifts.
     """,
 
     },
