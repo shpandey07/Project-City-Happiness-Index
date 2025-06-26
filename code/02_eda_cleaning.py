@@ -861,11 +861,11 @@ def generate_business_question_plots(df, output_dir="business_output"):
 
     # 2. Top 10 Underperformers
 
-
-    underperformers = df_q2.sort_values('residual').head(10)
+    underperformers = df_q2.sort_values('residual').head(5)
 
     plt.figure(figsize=(12, 6))
-    sns.barplot(data=underperformers, x='residual', y='city', order=underperformers.sort_values('residual')['city'], color='#d73027')
+    sns.barplot(data=underperformers, x='residual', y='city', order=underperformers.sort_values('residual',ascending=True)['city'], color='#d73027')
+
     plt.axvline(0, color='gray', linestyle='--')
     plt.title("Q2: Top 10 Underperforming Cities (Low Happiness vs Infrastructure)")
     plt.xlabel("Residual (Actual - Predicted Happiness)")
@@ -878,10 +878,11 @@ def generate_business_question_plots(df, output_dir="business_output"):
   
     # 3. Top 10 Overperformers (Optional)
 
-    overperformers = df_q2.sort_values('residual', ascending=False).head(10)
+    overperformers = df_q2.sort_values('residual', ascending=False).head(5)
 
     plt.figure(figsize=(12, 6))
     sns.barplot(data=overperformers, x='residual', y='city',order=overperformers.sort_values('residual', ascending=False)['city'], color='#1a9850')
+
     plt.axvline(0, color='gray', linestyle='--')
     plt.title("Q2: Top 10 Overperforming Cities (High Happiness vs Infrastructure)")
     plt.xlabel("Residual (Actual - Predicted Happiness)")
