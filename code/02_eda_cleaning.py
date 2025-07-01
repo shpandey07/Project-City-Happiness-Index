@@ -34,7 +34,7 @@ def load_data(filepath: str) -> pd.DataFrame:
     print(f"Dataset loaded in: {elapsed:.3f} mins")
     return df
 
-# Function for nitial inspection of the DataFrame
+# Function for initial inspection of the DataFrame
 def initial_inspection(df: pd.DataFrame) -> None:
     """
     Performs initial inspection of the DataFrame and prints summary information.
