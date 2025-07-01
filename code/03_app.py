@@ -5,8 +5,6 @@
 # Run this app using the command in the terminal:
 # streamlit run C:/Users/julia/OneDrive/Desktop/Projects/Project-City-Happiness-Index/code/03_app.py
 
-
-
 # Import necessary libraries
 import os
 import base64
